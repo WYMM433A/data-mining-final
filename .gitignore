@@ -1,0 +1,18 @@
+# Local-only project docs — keep out of git (per-user working notes, not meant for the shared repo)
+PROJECT_LOG.md
+PROJECT_MEMORY.md
+OUTPUTS_BY_STEP.md
+Copilot_Build_Spec_IT_Job_Market.md
+
+# Large, fully-regenerable intermediate pipeline outputs (Steps 1-4).
+# Not needed for RQ1-4 analysis work — regenerate locally by rerunning
+# scripts 01-04 against data/raw/ if you need to inspect/rebuild them.
+# (jobs_listing.csv/jobs_desc.csv alone exceed GitHub's 100MB hard limit.)
+outputs/00_source_profile/
+outputs/02_quality_filters/
+outputs/03_job_family/
+outputs/04_text_cleaning_and_groups/
+
+# Python bytecode cache
+__pycache__/
+*.pyc

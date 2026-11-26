@@ -1,0 +1,12 @@
+﻿Read Me
+Skill dictionary v3 - audit and refinement of the claude decisions workbook.
+"Source: skill_dictionary_claude_decisions_updated (2).xlsx, sheet 'All Extracted Terms' (1,608 terms)."
+Method: each term is checked against a rule table (alias / normalize / remove / needs review).
+Alias merged = term is a synonym of a canonical skill; the canonical skill's category is used.
+Normalized / reclassified = canonical name and/or category changed.
+"Removed - not a skill = generic word, company, location, fragment, or other non-skill."
+Retained - needs review = ambiguous or compound term; not confidently classifiable from the evidence.
+Retained = original category kept (no rule matched).
+Categories: the 10 fixed top-level categories only (see prompt).
+Limitations: decisions are rule-based from term meaning; job-description context was not re-read per term.
+Every row keeps its original term so each normalization is traceable to the source.

@@ -1,0 +1,965 @@
+﻿master_id,canonical_skill,category,source_terms,n_source_terms,total_doc_freq
+1,AZ-104,Certifications,AZ-104,1,36
+2,AZ-305,Certifications,AZ-305,1,16
+3,AZ-400,Certifications,AZ-400,1,9
+4,AZ-500,Certifications,AZ-500,1,22
+5,AZ-700,Certifications,AZ-700,1,11
+6,AZ-900,Certifications,AZ-900,1,10
+7,CASP+,Certifications,CASP+,1,28
+8,CCIE,Certifications,CCIE,1,56
+9,CCNA,Certifications,CCNA,1,112
+10,CCNA/CCNP,Certifications,CCNA/CCNP,1,8
+11,CCNP,Certifications,CCNP,1,124
+12,CCSP,Certifications,CCSP,1,44
+13,CEH,Certifications,CEH,1,74
+14,CGRC,Certifications,CGRC,1,6
+15,CISA,Certifications,CISA,1,39
+16,CISM,Certifications,CISM,1,46
+17,CISSP,Certifications,CISSP,1,242
+18,CKAD,Certifications,CKAD,1,12
+19,CSSLP,Certifications,CSSLP,1,7
+20,CompTIA,Certifications,CompTIA,1,17
+21,CompTIA A+,Certifications,A+,1,10
+22,CompTIA Cloud+,Certifications,Cloud+,1,17
+23,CompTIA CySA+,Certifications,CompTIA CySA+,1,16
+24,CompTIA Network+,Certifications,Network+,1,42
+25,CySA,Certifications,CySA,1,5
+26,CySA+,Certifications,CySA+,1,106
+27,DP-600,Certifications,DP-600,1,10
+28,DP-700,Certifications,DP-700,1,6
+29,GCFA,Certifications,GCFA,1,21
+30,GCFE,Certifications,GCFE,1,5
+31,GCIH,Certifications,GCIH,1,76
+32,GIAC,Certifications,GIAC,1,91
+33,GPEN,Certifications,GPEN,1,11
+34,GSEC,Certifications,GSEC,1,76
+35,GWAPT,Certifications,GWAPT,1,7
+36,ISC2 SSCP,Certifications,ISC2 SSCP,1,6
+37,ITIL,Certifications,ITIL,1,62
+38,JNCIE,Certifications,JNCIE,1,6
+39,Licensure/Certification,Certifications,Licensure/Certification,1,6
+40,Linux+,Certifications,Linux+,1,7
+41,MCSE,Certifications,MCSE,1,17
+42,MD-102,Certifications,MD-102,1,6
+43,MS-102,Certifications,MS-102,1,5
+44,OSCP,Certifications,OSCP,1,27
+45,PCNSA,Certifications,PCNSA,1,7
+46,PCNSE,Certifications,PCNSE,1,14
+47,PL-300,Certifications,PL-300,1,23
+48,PenTest+,Certifications,PenTest+,1,9
+49,RHCSA,Certifications,RHCSA,1,16
+50,SC-100,Certifications,SC-100,1,8
+51,SC-200,Certifications,SC-200,1,34
+52,SC-300,Certifications,SC-300,1,18
+53,SC-900,Certifications,SC-900,1,7
+54,Security+,Certifications,Sec+; Security+,2,359
+55,VMware Certified Professional (VCP),Certifications,VCP,1,25
+56,.NET,Frameworks & Libraries,.NET,1,154
+57,.html,Frameworks & Libraries,.html,1,8
+58,ADO.NET,Frameworks & Libraries,ADO.NET,1,5
+59,ASP.NET,Frameworks & Libraries,ASP.NET,1,26
+60,Airflow,Frameworks & Libraries,Airflow,1,101
+61,Angular,Frameworks & Libraries,Angular,1,134
+62,AngularJS,Frameworks & Libraries,AngularJS,1,5
+63,Appium,Frameworks & Libraries,Appium,1,40
+64,Astro,Frameworks & Libraries,Astro,1,5
+65,AutoGen,Frameworks & Libraries,AutoGen,1,17
+66,Babel,Frameworks & Libraries,Babel,1,7
+67,Bootstrap,Frameworks & Libraries,Bootstrap,1,19
+68,Boto3,Frameworks & Libraries,Boto3,1,6
+69,CUDA,Frameworks & Libraries,CUDA,1,82
+70,CesiumJS,Frameworks & Libraries,Cesium,1,8
+71,Compose,Frameworks & Libraries,Compose,1,8
+72,CrewAI,Frameworks & Libraries,CrewAI,1,20
+73,Cypress,Frameworks & Libraries,Cypress,1,121
+74,D3.js,Frameworks & Libraries,D3.js,1,10
+75,Dapper,Frameworks & Libraries,Dapper,1,8
+76,Dask,Frameworks & Libraries,Dask,1,5
+77,DeepSpeed,Frameworks & Libraries,DeepSpeed,1,6
+78,Detectron2,Frameworks & Libraries,Detectron2,1,5
+79,Django,Frameworks & Libraries,Django,1,49
+80,Eigen,Frameworks & Libraries,Eigen,1,5
+81,Electron,Frameworks & Libraries,Electron,1,6
+82,Expo,Frameworks & Libraries,Expo,1,9
+83,Express,Frameworks & Libraries,Express,1,8
+84,FAISS,Frameworks & Libraries,FAISS,1,19
+85,FastAPI,Frameworks & Libraries,FastAPI,1,56
+86,Flask,Frameworks & Libraries,Flask,1,35
+87,Flutter,Frameworks & Libraries,Flutter,1,25
+88,GDAL,Frameworks & Libraries,GDAL,1,5
+89,H2O.ai,Frameworks & Libraries,H2O,1,13
+90,Hadoop,Frameworks & Libraries,Hadoop,1,115
+91,Hibernate,Frameworks & Libraries,Hibernate,1,11
+92,Hilt,Frameworks & Libraries,Hilt,1,10
+93,Hugging Face,Frameworks & Libraries,Huggingface,1,13
+94,J2EE,Frameworks & Libraries,J2EE,1,6
+95,JAX,Frameworks & Libraries,JAX,1,25
+96,JDBC,Frameworks & Libraries,JDBC,1,7
+97,JUnit,Frameworks & Libraries,JUnit,1,64
+98,Karma,Frameworks & Libraries,Karma,1,13
+99,Keras,Frameworks & Libraries,Keras,1,27
+100,Kotlin Coroutines,Frameworks & Libraries,Kotlin Coroutines,1,8
+101,LWC,Frameworks & Libraries,LWC; LWCs,2,106
+102,LangChain,Frameworks & Libraries,LangChain,1,112
+103,LangGraph,Frameworks & Libraries,LangGraph,1,69
+104,LlamaIndex,Frameworks & Libraries,LlamaIndex,1,51
+105,MONAI,Frameworks & Libraries,MONAI,1,5
+106,MUI,Frameworks & Libraries,MUI,1,8
+107,Mapbox,Frameworks & Libraries,Mapbox,1,5
+108,Matplotlib,Frameworks & Libraries,Matplotlib,1,25
+109,Mockito,Frameworks & Libraries,Mockito,1,5
+110,NLTK,Frameworks & Libraries,NLTK,1,10
+111,NUnit,Frameworks & Libraries,NUnit,1,11
+112,NestJS,Frameworks & Libraries,NestJS,1,5
+113,Next.js,Frameworks & Libraries,Next.js,1,69
+114,NgRx,Frameworks & Libraries,NgRx,1,9
+115,Node.js,Frameworks & Libraries,Node; Node.js; NodeJS,3,181
+116,NumPy,Frameworks & Libraries,NumPy,1,72
+117,ODBC,Frameworks & Libraries,ODBC,1,7
+118,ONNX,Frameworks & Libraries,ONNX,1,47
+119,Open3D,Frameworks & Libraries,Open3D,1,6
+120,OpenCV,Frameworks & Libraries,OpenCV,1,6
+121,OpenGL,Frameworks & Libraries,OpenGL,1,5
+122,OpenVINO,Frameworks & Libraries,OpenVINO,1,5
+123,Pandas,Frameworks & Libraries,Pandas,1,80
+124,Playwright,Frameworks & Libraries,Playwright,1,212
+125,PySpark,Frameworks & Libraries,PySpark,1,85
+126,PyTorch,Frameworks & Libraries,PyTorch,1,318
+127,RAGAS,Frameworks & Libraries,RAGAS,1,6
+128,REST Assured,Frameworks & Libraries,RestAssured,1,14
+129,ROS 2,Frameworks & Libraries,ROS2,1,8
+130,RSpec,Frameworks & Libraries,RSpec,1,7
+131,Ray,Frameworks & Libraries,Ray,1,32
+132,React,Frameworks & Libraries,React; React.js; ReactJS,3,446
+133,Redux,Frameworks & Libraries,Redux,1,39
+134,Retrofit,Frameworks & Libraries,Retrofit,1,11
+135,RxJS,Frameworks & Libraries,RxJS,1,14
+136,SASS,Frameworks & Libraries,SASS,1,10
+137,SQLAlchemy,Frameworks & Libraries,SQLAlchemy,1,10
+138,STATA,Frameworks & Libraries,STATA,1,6
+139,SciPy,Frameworks & Libraries,SciPy,1,11
+140,Scikit-learn,Frameworks & Libraries,Scikit-learn,1,83
+141,Seaborn,Frameworks & Libraries,Seaborn,1,7
+142,Selenium,Frameworks & Libraries,Selenium; Selenium WebDriver,2,236
+143,SignalR,Frameworks & Libraries,SignalR,1,7
+144,Spark,Frameworks & Libraries,Spark,1,241
+145,SpecFlow,Frameworks & Libraries,SpecFlow,1,8
+146,Spring,Frameworks & Libraries,Spring,1,20
+147,Streamlit,Frameworks & Libraries,Streamlit,1,10
+148,Supertest,Frameworks & Libraries,Supertest,1,5
+149,Svelte,Frameworks & Libraries,Svelte,1,9
+150,SwiftUI,Frameworks & Libraries,SwiftUI,1,16
+151,Tailwind CSS,Frameworks & Libraries,Tailwind,1,9
+152,TensorFlow,Frameworks & Libraries,TensorFlow,1,217
+153,TensorRT,Frameworks & Libraries,TensorRT,1,27
+154,TestNG,Frameworks & Libraries,TestNG,1,39
+155,Transformers,Frameworks & Libraries,Transformers,1,56
+156,UIKit,Frameworks & Libraries,UIKit,1,23
+157,Vitest,Frameworks & Libraries,Vitest,1,15
+158,Vue,Frameworks & Libraries,Vue; Vue.js,2,75
+159,WebDriverIO,Frameworks & Libraries,WebDriverIO,1,6
+160,WebGL,Frameworks & Libraries,WebGL,1,9
+161,XCTest,Frameworks & Libraries,XCTest,1,10
+162,XCUITest,Frameworks & Libraries,XCUITest,1,12
+163,XGBoost,Frameworks & Libraries,XGBoost,1,12
+164,Zustand,Frameworks & Libraries,Zustand,1,16
+165,dbt,Frameworks & Libraries,dbt,1,202
+166,ggplot2,Frameworks & Libraries,ggplot2,1,20
+167,llama.cpp,Frameworks & Libraries,llama.cpp,1,6
+168,pytest,Frameworks & Libraries,PyTest,1,19
+169,scikit-learn,Frameworks & Libraries,scikit,1,5
+170,vLLM,Frameworks & Libraries,vLLM,1,17
+171,12c,Platforms & Infrastructure,12c,1,8
+172,ALB,Platforms & Infrastructure,ALB,1,9
+173,AWS,Platforms & Infrastructure,AWS,1,2056
+174,AWS CloudFormation,Platforms & Infrastructure,AWS CloudFormation,1,25
+175,AWS Glue,Platforms & Infrastructure,Glue,1,46
+176,ActiveMQ,Platforms & Infrastructure,ActiveMQ,1,28
+177,Advana,Platforms & Infrastructure,Advana,1,6
+178,Airbyte,Platforms & Infrastructure,Airbyte,1,9
+179,AlloyDB,Platforms & Infrastructure,AlloyDB,1,8
+180,Amazon Cognito,Platforms & Infrastructure,Cognito,1,7
+181,Amazon ECR,Platforms & Infrastructure,ECR,1,19
+182,Amazon EFS,Platforms & Infrastructure,EFS,1,6
+183,Amazon MSK,Platforms & Infrastructure,MSK,1,9
+184,Amazon Route 53,Platforms & Infrastructure,Route53,1,6
+185,Amazon Web Services (AWS),Platforms & Infrastructure,AWS GovCloud,1,37
+186,Ansible,Platforms & Infrastructure,Ansible,1,295
+187,Apache Accumulo,Platforms & Infrastructure,Accumulo,1,14
+188,Apache Cassandra,Platforms & Infrastructure,Cassandra,1,22
+189,Apache Hive,Platforms & Infrastructure,Hive,1,59
+190,ArcSight,Platforms & Infrastructure,ArcSight,1,8
+191,Athena,Platforms & Infrastructure,Athena,1,21
+192,Aurora,Platforms & Infrastructure,Aurora,1,29
+193,Auth0,Platforms & Infrastructure,Auth0,1,9
+194,Azure,Platforms & Infrastructure,Azure,1,836
+195,Azure Data Factory,Platforms & Infrastructure,ADF,1,23
+196,Azure Data Lake Storage (ADLS),Platforms & Infrastructure,ADLS,1,19
+197,Azure Databricks,Platforms & Infrastructure,Azure Databricks,1,28
+198,Azure DevOps,Platforms & Infrastructure,ADO; Azure DevOps,2,269
+199,Azure ExpressRoute,Platforms & Infrastructure,ExpressRoute,1,17
+200,Azure Network Security Groups (NSGs),Platforms & Infrastructure,NSGs,1,11
+201,Azure OpenAI,Platforms & Infrastructure,Azure OpenAI,1,31
+202,Azure Synapse Analytics,Platforms & Infrastructure,Synapse,1,16
+203,Azure Virtual Desktop (AVD),Platforms & Infrastructure,AVD,1,7
+204,BLE,Platforms & Infrastructure,BLE,1,6
+205,Bedrock,Platforms & Infrastructure,Bedrock,1,23
+206,BigQuery,Platforms & Infrastructure,BigQuery,1,87
+207,Boomi,Platforms & Infrastructure,Boomi,1,16
+208,Caboodle,Platforms & Infrastructure,Caboodle,1,5
+209,CentOS,Platforms & Infrastructure,CentOS,1,7
+210,Ceph,Platforms & Infrastructure,ceph,1,36
+211,Checkpoint,Platforms & Infrastructure,Checkpoint,1,5
+212,Chef,Platforms & Infrastructure,Chef,1,69
+213,Chroma,Platforms & Infrastructure,Chroma,1,10
+214,Cilium,Platforms & Infrastructure,Cilium,1,7
+215,Cisco,Platforms & Infrastructure,Cisco,1,131
+216,Cisco Firepower,Platforms & Infrastructure,Firepower,1,5
+217,Citrix,Platforms & Infrastructure,Citrix,1,7
+218,ClickHouse,Platforms & Infrastructure,ClickHouse,1,17
+219,CloudFormation,Platforms & Infrastructure,CloudFormation,1,164
+220,CloudTrail,Platforms & Infrastructure,CloudTrail,1,18
+221,CloudWatch,Platforms & Infrastructure,CloudWatch,1,91
+222,Cloudflare,Platforms & Infrastructure,Cloudflare,1,11
+223,Confluent,Platforms & Infrastructure,Confluent,1,5
+224,Consul,Platforms & Infrastructure,Consul,1,9
+225,Crossplane,Platforms & Infrastructure,Crossplane,1,10
+226,CrowdStrike,Platforms & Infrastructure,CrowdStrike,1,27
+227,D365,Platforms & Infrastructure,D365,1,5
+228,DB2,Platforms & Infrastructure,DB2; LUW,2,79
+229,Dagster,Platforms & Infrastructure,Dagster,1,23
+230,DataStage,Platforms & Infrastructure,DataStage,1,13
+231,Databricks,Platforms & Infrastructure,Databricks,1,367
+232,Databricks Workflows,Platforms & Infrastructure,Databricks Workflows,1,11
+233,Debezium,Platforms & Infrastructure,Debezium,1,6
+234,Docker,Platforms & Infrastructure,Docker; Dockerfiles,2,604
+235,DynamoDB,Platforms & Infrastructure,DynamoDB,1,62
+236,EC2,Platforms & Infrastructure,EC2,1,196
+237,ECS,Platforms & Infrastructure,ECS,1,103
+238,EKS,Platforms & Infrastructure,EKS,1,182
+239,EVPN,Platforms & Infrastructure,EVPN,1,20
+240,ElastiCache,Platforms & Infrastructure,ElastiCache,1,8
+241,Elasticsearch,Platforms & Infrastructure,Elasticsearch,1,88
+242,Entra ID,Platforms & Infrastructure,Entra ID,1,75
+243,Envoy,Platforms & Infrastructure,Envoy,1,10
+244,Ethernet,Platforms & Infrastructure,Ethernet,1,5
+245,EventBridge,Platforms & Infrastructure,EventBridge,1,10
+246,Fargate,Platforms & Infrastructure,Fargate,1,8
+247,Fivetran,Platforms & Infrastructure,Fivetran,1,39
+248,FortiGate,Platforms & Infrastructure,FortiGate,1,9
+249,Fortinet,Platforms & Infrastructure,Fortinet,1,41
+250,GCP,Platforms & Infrastructure,GCP,1,559
+251,GKE,Platforms & Infrastructure,GKE,1,43
+252,Google Cloud Bigtable,Platforms & Infrastructure,Bigtable,1,10
+253,Google Cloud Dataflow,Platforms & Infrastructure,Dataflow,1,14
+254,Google Cloud Dataproc,Platforms & Infrastructure,Dataproc,1,8
+255,Google Cloud Spanner,Platforms & Infrastructure,Spanner,1,5
+256,Google Cloud Storage,Platforms & Infrastructure,GCS,1,6
+257,GovCloud,Platforms & Infrastructure,GovCloud,1,19
+258,GuardDuty,Platforms & Infrastructure,GuardDuty,1,14
+259,HDFS,Platforms & Infrastructure,HDFS,1,5
+260,HashiCorp Nomad,Platforms & Infrastructure,Nomad,1,6
+261,Helm,Platforms & Infrastructure,Helm,1,87
+262,Heroku,Platforms & Infrastructure,Heroku,1,5
+263,IBGP,Platforms & Infrastructure,IBGP,1,5
+264,ICMP,Platforms & Infrastructure,ICMP,1,5
+265,IPMI,Platforms & Infrastructure,IPMI,1,6
+266,InfiniBand,Platforms & Infrastructure,InfiniBand,1,12
+267,Infoblox,Platforms & Infrastructure,Infoblox,1,7
+268,Infor,Platforms & Infrastructure,Infor,1,5
+269,Internet Information Services (IIS),Platforms & Infrastructure,IIS,1,20
+270,Intune,Platforms & Infrastructure,Intune,1,32
+271,Istio,Platforms & Infrastructure,Istio,1,28
+272,Juniper SRX,Platforms & Infrastructure,SRX,1,8
+273,KMS,Platforms & Infrastructure,KMS,1,25
+274,KServe,Platforms & Infrastructure,KServe,1,5
+275,KVM,Platforms & Infrastructure,KVM,1,10
+276,Kafka,Platforms & Infrastructure,Kafka,1,222
+277,Karpenter,Platforms & Infrastructure,Karpenter,1,8
+278,Kibana,Platforms & Infrastructure,Kibana,1,30
+279,Kinesis,Platforms & Infrastructure,Kinesis,1,30
+280,Kubeflow,Platforms & Infrastructure,Kubeflow,1,11
+281,Kubernetes,Platforms & Infrastructure,K8S; Kubernetes; Kubernetes-based,3,945
+282,L3VPN,Platforms & Infrastructure,L3VPN,1,5
+283,Lambda,Platforms & Infrastructure,Lambda; Lambdas; Lamda,3,148
+284,Linkerd,Platforms & Infrastructure,Linkerd,1,5
+285,Linux,Platforms & Infrastructure,Linux,1,408
+286,MCP,Platforms & Infrastructure,MCP,1,106
+287,MLOps,Platforms & Infrastructure,MLOps,1,96
+288,MariaDB,Platforms & Infrastructure,MariaDB,1,5
+289,Microsoft Dataverse,Platforms & Infrastructure,Dataverse,1,11
+290,Milvus,Platforms & Infrastructure,Milvus,1,12
+291,MongoDB,Platforms & Infrastructure,MongoDB,1,46
+292,MuleSoft,Platforms & Infrastructure,MuleSoft,1,35
+293,MySQL,Platforms & Infrastructure,MySQL,1,178
+294,NATS,Platforms & Infrastructure,NATS,1,7
+295,NFS,Platforms & Infrastructure,NFS,1,15
+296,Neo4j,Platforms & Infrastructure,Neo4j,1,10
+297,NetApp,Platforms & Infrastructure,NetApp,1,6
+298,Netconf,Platforms & Infrastructure,Netconf,1,5
+299,Network-Attached Storage (NAS),Platforms & Infrastructure,NAS,1,12
+300,Nginx,Platforms & Infrastructure,Nginx,1,23
+301,NiFi,Platforms & Infrastructure,NiFi,1,21
+302,NoSQL,Platforms & Infrastructure,NoSQL,1,99
+303,Nutanix,Platforms & Infrastructure,Nutanix,1,17
+304,O365,Platforms & Infrastructure,O365,1,8
+305,OCI,Platforms & Infrastructure,OCI,1,87
+306,Okta,Platforms & Infrastructure,Okta,1,29
+307,OneLake,Platforms & Infrastructure,OneLake,1,24
+308,OpenAI,Platforms & Infrastructure,OpenAI,1,73
+309,OpenSearch,Platforms & Infrastructure,OpenSearch,1,40
+310,OpenShift,Platforms & Infrastructure,OpenShift,1,56
+311,OpenStack,Platforms & Infrastructure,OpenStack,1,8
+312,OpenTofu,Platforms & Infrastructure,OpenTofu,1,13
+313,Oracle,Platforms & Infrastructure,19c; 26ai; Oracle,3,423
+314,Oracle Exadata,Platforms & Infrastructure,Exadata,1,13
+315,Oracle GoldenGate,Platforms & Infrastructure,GoldenGate,1,11
+316,PLCs,Platforms & Infrastructure,PLCs,1,7
+317,PeopleSoft,Platforms & Infrastructure,PeopleSoft,1,10
+318,Pinecone,Platforms & Infrastructure,Pinecone,1,39
+319,Podman,Platforms & Infrastructure,Podman,1,28
+320,PostgreSQL,Platforms & Infrastructure,PostgreSQL,1,323
+321,Prefect,Platforms & Infrastructure,Prefect,1,11
+322,PrivateLink,Platforms & Infrastructure,PrivateLink,1,7
+323,Pulumi,Platforms & Infrastructure,Pulumi,1,38
+324,Puppet,Platforms & Infrastructure,Puppet,1,119
+325,QFX,Platforms & Infrastructure,QFX,1,6
+326,Qdrant,Platforms & Infrastructure,Qdrant,1,5
+327,RAID,Platforms & Infrastructure,RAID,1,6
+328,RDMA,Platforms & Infrastructure,RDMA,1,8
+329,RDS,Platforms & Infrastructure,RDS,1,189
+330,RHEL,Platforms & Infrastructure,RHEL,1,49
+331,RKE2,Platforms & Infrastructure,RKE2,1,7
+332,RabbitMQ,Platforms & Infrastructure,RabbitMQ,1,41
+333,Rancher,Platforms & Infrastructure,Rancher,1,23
+334,Redis,Platforms & Infrastructure,Redis,1,97
+335,Redshift,Platforms & Infrastructure,Redshift,1,108
+336,S3,Platforms & Infrastructure,S3,1,324
+337,S4,Platforms & Infrastructure,S4,1,8
+338,SAP,Platforms & Infrastructure,SAP,1,244
+339,SAP Sybase,Platforms & Infrastructure,SYBASE,1,9
+340,SDDC,Platforms & Infrastructure,SDDC,1,5
+341,SQL Server,Platforms & Infrastructure,MSSQL; SQL Server,2,329
+342,SQLite,Platforms & Infrastructure,SQLite,1,8
+343,SSD,Platforms & Infrastructure,SSD,1,5
+344,SageMaker,Platforms & Infrastructure,AWS SageMaker; SageMaker,2,50
+345,Salesforce,Platforms & Infrastructure,Salesforce,1,243
+346,SaltStack,Platforms & Infrastructure,SaltStack,1,9
+347,SentinelOne,Platforms & Infrastructure,SentinelOne,1,7
+348,Server+,Platforms & Infrastructure,Server+,1,6
+349,ServiceNow,Platforms & Infrastructure,ServiceNow,1,69
+350,Slurm,Platforms & Infrastructure,Slurm,1,12
+351,Snowflake,Platforms & Infrastructure,Snowflake,1,387
+352,Snowpark,Platforms & Infrastructure,Snowpark,1,7
+353,Starlink,Platforms & Infrastructure,Starlink,1,8
+354,TCP,Platforms & Infrastructure,TCP,1,27
+355,Talend,Platforms & Infrastructure,Talend,1,14
+356,Tenable,Platforms & Infrastructure,Tenable,1,9
+357,Teradata,Platforms & Infrastructure,Teradata,1,17
+358,Terraform,Platforms & Infrastructure,Terraform,1,726
+359,Terragrunt,Platforms & Infrastructure,Terragrunt,1,24
+360,Traefik,Platforms & Infrastructure,Traefik,1,6
+361,Trino,Platforms & Infrastructure,Trino,1,26
+362,UDP,Platforms & Infrastructure,UDP,1,21
+363,UNIX,Platforms & Infrastructure,UNIX,1,85
+364,Ubuntu,Platforms & Infrastructure,Ubuntu,1,15
+365,VCF,Platforms & Infrastructure,VCF,1,8
+366,VMware,Platforms & Infrastructure,VMware,1,124
+367,VMware ESXi,Platforms & Infrastructure,ESXi,1,10
+368,VMware NSX,Platforms & Infrastructure,NSX,1,11
+369,VMware vCenter,Platforms & Infrastructure,vCenter,1,16
+370,VMware vSphere,Platforms & Infrastructure,VMware vSphere; vSphere,2,19
+371,VPC,Platforms & Infrastructure,VPC,1,141
+372,VPCs,Platforms & Infrastructure,VPCs,1,44
+373,VPLS,Platforms & Infrastructure,VPLS,1,7
+374,VRF,Platforms & Infrastructure,VRF,1,10
+375,VRFs,Platforms & Infrastructure,VRFs,1,10
+376,VXLAN,Platforms & Infrastructure,VXLAN,1,27
+377,Vector Databases,Platforms & Infrastructure,VectorDBs,1,8
+378,Vercel,Platforms & Infrastructure,Vercel,1,8
+379,Virtual Desktop Infrastructure (VDI),Platforms & Infrastructure,VDI,1,11
+380,Virtual Machines,Platforms & Infrastructure,VMs,1,14
+381,Virtual Networks (VNet),Platforms & Infrastructure,VNet; VNets,2,31
+382,Weaviate,Platforms & Infrastructure,Weaviate,1,27
+383,Windows,Platforms & Infrastructure,Windows,1,203
+384,Workato,Platforms & Infrastructure,Workato,1,7
+385,Zscaler,Platforms & Infrastructure,Zscaler,1,16
+386,containerd,Platforms & Infrastructure,containerd,1,9
+387,datacenter,Platforms & Infrastructure,datacenter,1,10
+388,hypervisors,Platforms & Infrastructure,hypervisors,1,7
+389,iSCSI,Platforms & Infrastructure,iSCSI,1,6
+390,pgvector,Platforms & Infrastructure,pgvector,1,16
+391,vSAN,Platforms & Infrastructure,vSAN,1,7
+392,ABAP,Programming Languages,ABAP,1,15
+393,Apex,Programming Languages,Apex,1,174
+394,Bash,Programming Languages,Bash,1,401
+395,C,Programming Languages,C,1,256
+396,C#,Programming Languages,C#; C#.NET,2,332
+397,C++,Programming Languages,C++,1,397
+398,COBOL,Programming Languages,COBOL,1,7
+399,CSS,Programming Languages,CSS; CSS3,2,256
+400,DAX,Programming Languages,DAX,1,180
+401,Dart,Programming Languages,Dart,1,10
+402,Golang,Programming Languages,Golang,1,91
+403,Groovy,Programming Languages,Groovy,1,36
+404,HTML,Programming Languages,HTML,1,159
+405,HTML5,Programming Languages,HTML5,1,89
+406,JCL,Programming Languages,JCL,1,7
+407,Java,Programming Languages,Java,1,687
+408,JavaScript,Programming Languages,ES6; ES6+; JavaScript,3,449
+409,JavaScript/TypeScript,Programming Languages,JavaScript/TypeScript,1,104
+410,KQL,Programming Languages,KQL,1,31
+411,Kotlin,Programming Languages,Kotlin,1,135
+412,LookML,Programming Languages,LookML,1,11
+413,MATLAB,Programming Languages,MATLAB,1,47
+414,PHP,Programming Languages,PHP,1,33
+415,PL/SQL,Programming Languages,PL/SQL; PLSQL,2,164
+416,PL/pgSQL,Programming Languages,PL/pgSQL,1,15
+417,Perl,Programming Languages,Perl,1,69
+418,PowerShell,Programming Languages,PowerShell,1,434
+419,Python,Programming Languages,Python,1,2598
+420,R,Programming Languages,R,1,300
+421,Ruby,Programming Languages,Ruby,1,110
+422,Rust,Programming Languages,Rust,1,88
+423,SAS,Programming Languages,SAS,1,91
+424,SCSS,Programming Languages,SCSS,1,8
+425,SOQL,Programming Languages,SOQL; SOQL/SOSL; SOSL,3,107
+426,SQL,Programming Languages,SQL; SQL queries; subqueries,3,2401
+427,Scala,Programming Languages,Scala,1,122
+428,Swift,Programming Languages,Swift,1,121
+429,T-SQL,Programming Languages,TSQL,1,5
+430,TypeScript,Programming Languages,TypeScript,1,385
+431,VB.NET,Programming Languages,VB.NET,1,5
+432,VBA,Programming Languages,VBA,1,25
+433,ACAS,Software & Tools,ACAS,1,24
+434,Alation,Software & Tools,Alation,1,10
+435,Alertmanager,Software & Tools,Alertmanager,1,6
+436,Alteryx,Software & Tools,Alteryx,1,31
+437,Amplitude,Software & Tools,Amplitude,1,14
+438,Anaplan,Software & Tools,Anaplan,1,6
+439,Apache Superset,Software & Tools,Superset,1,6
+440,AppDynamics,Software & Tools,AppDynamics,1,5
+441,Argo CD,Software & Tools,ArgoCD,1,62
+442,Autosys,Software & Tools,Autosys,1,6
+443,Bamboo,Software & Tools,Bamboo,1,14
+444,Bitbucket,Software & Tools,Bitbucket,1,83
+445,Braze,Software & Tools,Braze,1,6
+446,BrowserStack,Software & Tools,BrowserStack,1,8
+447,CMake,Software & Tools,CMake,1,5
+448,ChatGPT,Software & Tools,ChatGPT,1,44
+449,CircleCI,Software & Tools,CircleCI,1,24
+450,Claude,Software & Tools,Claude,1,134
+451,Codex,Software & Tools,Codex,1,60
+452,Collibra,Software & Tools,Collibra,1,15
+453,Confluence,Software & Tools,Confluence,1,93
+454,Copado,Software & Tools,Copado,1,28
+455,Cucumber,Software & Tools,Cucumber,1,58
+456,Cursor,Software & Tools,Cursor,1,131
+457,Datadog,Software & Tools,Datadog,1,161
+458,DirectQuery,Software & Tools,DirectQuery,1,5
+459,Domo,Software & Tools,Domo,1,12
+460,Dynatrace,Software & Tools,Dynatrace,1,35
+461,ELK Stack,Software & Tools,ELK,1,50
+462,Eclipse,Software & Tools,Eclipse,1,6
+463,Excel,Software & Tools,Excel,1,214
+464,FactSet,Software & Tools,FactSet,1,5
+465,Figma,Software & Tools,Figma,1,24
+466,Flyway,Software & Tools,Flyway,1,6
+467,Fortify,Software & Tools,Fortify,1,9
+468,Gatling,Software & Tools,Gatling,1,15
+469,Gearset,Software & Tools,Gearset,1,19
+470,Gemini,Software & Tools,Gemini,1,41
+471,Git,Software & Tools,Git,1,623
+472,GitHub,Software & Tools,GitHub,1,271
+473,GitHub Copilot,Software & Tools,GitHub Copilot,1,116
+474,GitLab,Software & Tools,GitLab,1,207
+475,Glean,Software & Tools,Glean,1,13
+476,Gmail,Software & Tools,Gmail,1,9
+477,Gradle,Software & Tools,Gradle,1,36
+478,Grafana,Software & Tools,Grafana,1,254
+479,IBM Cognos,Software & Tools,Cognos,1,16
+480,Informatica,Software & Tools,Informatica,1,38
+481,JAMA,Software & Tools,JAMA,1,6
+482,JFrog Artifactory,Software & Tools,Artifactory; JFrog Artifactory,2,38
+483,JMeter,Software & Tools,JMeter,1,68
+484,Jenkins,Software & Tools,Jenkins,1,375
+485,Jira,Software & Tools,Jira,1,357
+486,K9s,Software & Tools,K9s,1,12
+487,Karate,Software & Tools,Karate,1,22
+488,Keycloak,Software & Tools,Keycloak,1,13
+489,Kiro,Software & Tools,Kiro,1,9
+490,Kustomize,Software & Tools,Kustomize,1,5
+491,Kyverno,Software & Tools,Kyverno,1,5
+492,LSMW,Software & Tools,LSMW,1,8
+493,LangSmith,Software & Tools,LangSmith,1,14
+494,Langfuse,Software & Tools,Langfuse,1,10
+495,LaunchDarkly,Software & Tools,LaunchDarkly,1,5
+496,Lighthouse,Software & Tools,Lighthouse,1,7
+497,Liquibase,Software & Tools,Liquibase,1,10
+498,LoadRunner,Software & Tools,LoadRunner,1,8
+499,Locust,Software & Tools,Locust,1,11
+500,Loki,Software & Tools,Loki,1,8
+501,Looker,Software & Tools,Looker,1,106
+502,MLflow,Software & Tools,MLflow,1,42
+503,Maven,Software & Tools,Maven,1,51
+504,Metabase,Software & Tools,Metabase,1,13
+505,MicroStrategy,Software & Tools,MicroStrategy,1,13
+506,Microsoft Outlook,Software & Tools,Outlook,1,28
+507,Microsoft Purview,Software & Tools,Purview,1,18
+508,Mimecast,Software & Tools,Mimecast,1,6
+509,Mixpanel,Software & Tools,Mixpanel,1,8
+510,NDR,Software & Tools,NDR,1,8
+511,Nagios,Software & Tools,Nagios,1,17
+512,Nessus,Software & Tools,Nessus,1,16
+513,NetBox,Software & Tools,NetBox,1,6
+514,Notion,Software & Tools,Notion,1,13
+515,OmniStudio,Software & Tools,OmniStudio,1,6
+516,OneStream,Software & Tools,OneStream,1,6
+517,Oracle RMAN,Software & Tools,RMAN,1,41
+518,Otter.ai,Software & Tools,Otter; Otter.ai,2,12
+519,PRTG,Software & Tools,PRTG,1,6
+520,Packer,Software & Tools,Packer,1,7
+521,Pact,Software & Tools,Pact,1,5
+522,PagerDuty,Software & Tools,PagerDuty,1,15
+523,Palo Alto Panorama,Software & Tools,Panorama,1,12
+524,PivotTables,Software & Tools,PivotTables,1,9
+525,Postman,Software & Tools,Postman,1,111
+526,Power BI,Software & Tools,PowerBI,1,41
+527,PowerApps,Software & Tools,PowerApps,1,7
+528,PowerPoint,Software & Tools,PowerPoint,1,87
+529,Prometheus,Software & Tools,Prometheus,1,196
+530,Proofpoint,Software & Tools,Proofpoint,1,8
+531,QTest,Software & Tools,QTest,1,8
+532,Qlik,Software & Tools,Qlik,1,49
+533,QlikView,Software & Tools,QlikView,1,9
+534,Qualys,Software & Tools,Qualys,1,9
+535,QuickBooks,Software & Tools,QuickBooks,1,6
+536,RUNSTATS,Software & Tools,RUNSTATS,1,8
+537,Rapid7,Software & Tools,Rapid7,1,17
+538,ReadyAPI,Software & Tools,ReadyAPI,1,7
+539,Rubrik,Software & Tools,Rubrik,1,10
+540,SPSS,Software & Tools,SPSS,1,26
+541,SQL Server Analysis Services (SSAS),Software & Tools,SSAS,1,24
+542,SSIS,Software & Tools,SSIS,1,116
+543,SSMS,Software & Tools,SSMS,1,21
+544,SSRS,Software & Tools,SSRS,1,81
+545,Salesforce DX (SFDX),Software & Tools,SFDX,1,22
+546,Samsung,Software & Tools,Samsung,1,5
+547,Segment,Software & Tools,Segment,1,7
+548,Sentry,Software & Tools,Sentry,1,21
+549,SharePoint,Software & Tools,SharePoint,1,48
+550,Slack,Software & Tools,Slack,1,26
+551,SolarWinds,Software & Tools,SolarWinds,1,32
+552,SonarQube,Software & Tools,SonarQube,1,27
+553,Sonatype Nexus,Software & Tools,Nexus,1,22
+554,Sophos,Software & Tools,Sophos,1,5
+555,Spinnaker,Software & Tools,Spinnaker,1,7
+556,Splunk,Software & Tools,Splunk,1,153
+557,Storybook,Software & Tools,Storybook,1,16
+558,Subversion (SVN),Software & Tools,SVN,1,30
+559,Swagger,Software & Tools,Swagger,1,10
+560,TIBCO,Software & Tools,TIBCO,1,6
+561,Tableau,Software & Tools,Tableau,1,446
+562,Tanium,Software & Tools,Tanium,1,8
+563,TeamCity,Software & Tools,TeamCity,1,15
+564,TestFlight,Software & Tools,TestFlight,1,7
+565,TestRail,Software & Tools,TestRail,1,18
+566,Toad,Software & Tools,TOAD,1,34
+567,Trellix,Software & Tools,Trellix,1,5
+568,Tricentis Tosca,Software & Tools,Tosca,1,11
+569,UFT,Software & Tools,UFT,1,6
+570,Veeam,Software & Tools,Veeam,1,8
+571,Visio,Software & Tools,Visio,1,21
+572,Vite,Software & Tools,Vite,1,26
+573,WSUS,Software & Tools,WSUS,1,5
+574,Webpack,Software & Tools,Webpack,1,29
+575,Windsurf,Software & Tools,Windsurf,1,7
+576,Wireshark,Software & Tools,Wireshark,1,36
+577,Wiz,Software & Tools,Wiz,1,12
+578,Xcode,Software & Tools,Xcode,1,30
+579,Xray,Software & Tools,Xray,1,14
+580,Yarn,Software & Tools,Yarn,1,8
+581,Zabbix,Software & Tools,Zabbix,1,5
+582,Zephyr,Software & Tools,Zephyr,1,7
+583,Zoom,Software & Tools,Zoom,1,29
+584,dbatools,Software & Tools,dbatools,1,5
+585,eMASS,Software & Tools,eMASS,1,8
+586,erwin Data Modeler,Software & Tools,ERWIN,1,14
+587,k6,Software & Tools,k6,1,33
+588,npm,Software & Tools,npm,1,53
+589,tcpdump,Software & Tools,tcpdump,1,8
+590,C.F.R,Standards & Compliance,C.F.R,1,7
+591,CCPA,Standards & Compliance,CCPA,1,37
+592,CMMC,Standards & Compliance,CMMC,1,45
+593,CMMI,Standards & Compliance,CMMI,1,11
+594,CUI (Controlled Unclassified Information),Standards & Compliance,CUI,1,19
+595,CVSS,Standards & Compliance,CVSS,1,7
+596,DICOM,Standards & Compliance,DICOM,1,5
+597,DISA STIGs,Standards & Compliance,DISA STIGs,1,16
+598,DoD 8570.01-M,Standards & Compliance,8570.01-M,1,11
+599,FERPA,Standards & Compliance,FERPA,1,6
+600,FFIEC,Standards & Compliance,FFIEC,1,7
+601,FHIR,Standards & Compliance,FHIR,1,25
+602,FIPS,Standards & Compliance,FIPS,1,10
+603,FISMA,Standards & Compliance,FISMA,1,32
+604,FedRAMP,Standards & Compliance,FedRAMP,1,57
+605,GDPR,Standards & Compliance,GDPR,1,73
+606,GLBA,Standards & Compliance,GLBA,1,12
+607,GxP,Standards & Compliance,GxP,1,5
+608,HEDIS,Standards & Compliance,HEDIS,1,6
+609,HIPAA,Standards & Compliance,HIPAA; HIPPA,2,143
+610,HITRUST,Standards & Compliance,HITRUST,1,18
+611,HL7,Standards & Compliance,HL7,1,23
+612,HSPD-12,Standards & Compliance,HSPD-12,1,5
+613,ICD-10,Standards & Compliance,ICD-10,1,6
+614,ISO,Standards & Compliance,ISO,1,141
+615,ISO/IEC,Standards & Compliance,ISO/IEC,1,5
+616,ITAR/EAR,Standards & Compliance,ITAR/EAR,1,5
+617,JSIG,Standards & Compliance,JSIG,1,5
+618,KYC,Standards & Compliance,KYC,1,5
+619,MITRE ATT&CK,Standards & Compliance,MITRE,1,75
+620,NIST,Standards & Compliance,NIST,1,267
+621,OMOP,Standards & Compliance,OMOP,1,6
+622,OWASP,Standards & Compliance,OWASP,1,57
+623,RMF,Standards & Compliance,RMF,1,89
+624,SCAP,Standards & Compliance,SCAP,1,5
+625,SOC 2,Standards & Compliance,SOC2,1,24
+626,STIGs,Standards & Compliance,STIGs,1,58
+627,TOGAF,Standards & Compliance,TOGAF,1,29
+628,WCAG,Standards & Compliance,WCAG,1,72
+629,X12 EDI,Standards & Compliance,X.12; X12,2,50
+630,Zachman Framework,Standards & Compliance,Zachman,1,6
+631,3D,Technical Concepts,3D,1,148
+632,5G,Technical Concepts,5G,1,8
+633,A2A,Technical Concepts,A2A,1,9
+634,AI/LLM,Technical Concepts,AI/LLM,1,27
+635,AI/LLM-based,Technical Concepts,AI/LLM-based,1,5
+636,AI/LLM-powered,Technical Concepts,AI/LLM-powered,1,5
+637,AI/ML,Technical Concepts,AI/ML,1,417
+638,AJAX,Technical Concepts,AJAX,1,7
+639,AKS,Technical Concepts,AKS,1,67
+640,API,Technical Concepts,API; APIs,2,1662
+641,ARM,Technical Concepts,ARM,1,52
+642,Access Control Lists (ACLs),Technical Concepts,ACL; ACLs,2,39
+643,AdTech,Technical Concepts,AdTech,1,5
+644,Agentforce,Technical Concepts,Agentforce,1,52
+645,Agentic AI,Technical Concepts,AI/agentic; agentic frameworks; agentic workflows,3,108
+646,Artificial Intelligence (AI),Technical Concepts,AI,1,2918
+647,Asynchronous Programming,Technical Concepts,async; async/await,2,22
+648,Automatic Speech Recognition (ASR),Technical Concepts,ASR,1,12
+649,BDD,Technical Concepts,BDD,1,51
+650,BGP,Technical Concepts,BGP,1,187
+651,BI,Technical Concepts,BI,1,904
+652,Bicep,Technical Concepts,Bicep,1,64
+653,Bluetooth,Technical Concepts,Bluetooth,1,10
+654,C4ISR,Technical Concepts,C4I; C4ISR,2,14
+655,C5ISR,Technical Concepts,C5ISR,1,7
+656,CAPA,Technical Concepts,CAPA,1,18
+657,CDK,Technical Concepts,CDK,1,47
+658,CLI,Technical Concepts,CLI,1,96
+659,CLIP,Technical Concepts,CLIP,1,10
+660,CMDB,Technical Concepts,CMDB,1,12
+661,COMSEC,Technical Concepts,COMSEC,1,8
+662,CORS,Technical Concepts,CORS,1,6
+663,CRDs,Technical Concepts,CRDs,1,6
+664,CRM,Technical Concepts,CRM,1,139
+665,CRMs,Technical Concepts,CRMs,1,5
+666,CSPM,Technical Concepts,CSPM,1,12
+667,CSV,Technical Concepts,CSV,1,17
+668,CTEs,Technical Concepts,CTEs,1,35
+669,Chatbots,Technical Concepts,chatbots,1,19
+670,Concurrency,Technical Concepts,concurrency,1,43
+671,Container Network Interface (CNI),Technical Concepts,CNI,1,10
+672,Convolutional Neural Networks (CNNs),Technical Concepts,CNNs,1,36
+673,DAST,Technical Concepts,DAST,1,8
+674,DBA,Technical Concepts,DBA,1,170
+675,DBMS,Technical Concepts,DBMS,1,21
+676,DCL,Technical Concepts,DCL,1,5
+677,DDL,Technical Concepts,DDL,1,12
+678,DHCP,Technical Concepts,DHCP,1,162
+679,DLP,Technical Concepts,DLP,1,65
+680,DMVPN,Technical Concepts,DMVPN,1,9
+681,DNS,Technical Concepts,DNS,1,380
+682,Data Aggregation,Technical Concepts,aggregations,1,32
+683,Data Deduplication,Technical Concepts,deduplication,1,17
+684,Data Marts,Technical Concepts,datamarts; marts,2,16
+685,Data Preprocessing,Technical Concepts,preprocessing,1,15
+686,Data Visualization,Technical Concepts,dashboarding; dashboards; reports/dashboards; visualization,4,1145
+687,Data Warehousing,Technical Concepts,EDW; warehousing,2,66
+688,Deadlocks,Technical Concepts,deadlocks,1,12
+689,Deep Neural Networks (DNNs),Technical Concepts,DNN,1,5
+690,ECMP,Technical Concepts,ECMP,1,7
+691,EDR,Technical Concepts,EDR; EDR/XDR,2,169
+692,EHR,Technical Concepts,EHR,1,34
+693,EHRs,Technical Concepts,EHRs,1,7
+694,EIGRP,Technical Concepts,EIGRP,1,63
+695,EMR,Technical Concepts,EMR,1,80
+696,ERDs,Technical Concepts,ERDs,1,8
+697,ERP,Technical Concepts,ERP,1,172
+698,ETL/data,Technical Concepts,ETL/data,1,17
+699,Explainable AI,Technical Concepts,explainability,1,28
+700,Exploratory Data Analysis (EDA),Technical Concepts,EDA,1,14
+701,FP16,Technical Concepts,FP16,1,5
+702,Failover,Technical Concepts,failover,1,17
+703,Flow,Technical Concepts,Flow,1,83
+704,Fully Sharded Data Parallel (FSDP),Technical Concepts,FSDP,1,10
+705,GPT,Technical Concepts,GPT; GPT-3,2,29
+706,GPU,Technical Concepts,GPU,1,164
+707,GRC,Technical Concepts,GRC,1,26
+708,Generative AI,Technical Concepts,AI/GenAI; GenAI; generative AI,3,320
+709,Geographic Information Systems (GIS),Technical Concepts,GIS,1,37
+710,Geospatial Analysis,Technical Concepts,geospatial,1,10
+711,GitOps,Technical Concepts,GitOps; GitOps workflows,2,81
+712,GraphQL,Technical Concepts,GraphQL; GraphQL APIs,2,86
+713,HPC,Technical Concepts,HPC,1,32
+714,HSRP,Technical Concepts,HSRP,1,16
+715,HTTP,Technical Concepts,HTTP,1,75
+716,HTTPS,Technical Concepts,HTTPS,1,12
+717,IAM,Technical Concepts,IAM,1,327
+718,IEEE 802.1X,Technical Concepts,802.1X,1,30
+719,IMU,Technical Concepts,IMU,1,11
+720,IP Address Management (IPAM),Technical Concepts,IPAM,1,13
+721,IPsec,Technical Concepts,IPSEC,1,39
+722,IPv4,Technical Concepts,IPv4,1,16
+723,IPv6,Technical Concepts,IPv6,1,11
+724,IS-IS,Technical Concepts,ISIS,1,8
+725,IaaS,Technical Concepts,IaaS,1,25
+726,Intrusion Detection Systems (IDS),Technical Concepts,IDS,1,29
+727,JSON,Technical Concepts,JSON,1,148
+728,JWT,Technical Concepts,JWT,1,20
+729,Jest,Technical Concepts,Jest,1,57
+730,Kerberos,Technical Concepts,Kerberos,1,5
+731,LACP,Technical Concepts,LACP,1,12
+732,LDAP,Technical Concepts,LDAP,1,23
+733,LLM-powered,Technical Concepts,LLM-powered,1,7
+734,LLM/AI,Technical Concepts,LLM/AI,1,6
+735,Large Language Models (LLMs),Technical Concepts,LLM; LLMs,2,666
+736,LiDAR,Technical Concepts,LiDAR,1,31
+737,Llama,Technical Concepts,Llama,1,23
+738,LoRA,Technical Concepts,LoRA,1,25
+739,Local Area Networks (LAN),Technical Concepts,LANs,1,6
+740,MFA,Technical Concepts,MFA,1,80
+741,ML/NLP,Technical Concepts,ML/NLP,1,6
+742,MLAG,Technical Concepts,MLAG,1,7
+743,MPLS,Technical Concepts,MPLS,1,60
+744,MQTT,Technical Concepts,MQTT,1,5
+745,MRP,Technical Concepts,MRP,1,6
+746,MVVM,Technical Concepts,MVVM,1,60
+747,Machine Learning,Technical Concepts,ML,1,565
+748,MapReduce,Technical Concepts,MapReduce,1,23
+749,Mistral,Technical Concepts,Mistral,1,10
+750,NAC,Technical Concepts,NAC,1,22
+751,NLP,Technical Concepts,NLP,1,173
+752,NTP,Technical Concepts,NTP,1,12
+753,NetFlow,Technical Concepts,NetFlow,1,13
+754,Network Address Translation (NAT),Technical Concepts,NAT,1,37
+755,OAuth,Technical Concepts,OAuth,1,57
+756,OAuth/OIDC,Technical Concepts,OAuth/OIDC,1,5
+757,OAuth2,Technical Concepts,OAuth2,1,18
+758,OCR,Technical Concepts,OCR,1,23
+759,ODS,Technical Concepts,ODS,1,9
+760,OIDC,Technical Concepts,OIDC,1,40
+761,OLAP,Technical Concepts,OLAP,1,19
+762,ORMs,Technical Concepts,ORMs,1,9
+763,OSPF,Technical Concepts,OSPF,1,155
+764,Object-Oriented Programming (OOP),Technical Concepts,OOP,1,29
+765,OpenAPI,Technical Concepts,OpenAPI,1,11
+766,OpenTelemetry,Technical Concepts,OpenTelemetry,1,54
+767,PAM,Technical Concepts,PAM,1,13
+768,PEFT,Technical Concepts,PEFT,1,23
+769,PHI,Technical Concepts,PHI,1,38
+770,PII,Technical Concepts,PII,1,37
+771,PKI,Technical Concepts,PKI,1,42
+772,PaaS,Technical Concepts,PaaS,1,26
+773,Parquet,Technical Concepts,Parquet,1,13
+774,Partitioning,Technical Concepts,partitioning,1,24
+775,Phishing,Technical Concepts,phishing,1,26
+776,Postgres,Technical Concepts,Postgres,1,85
+777,Precision Time Protocol (PTP),Technical Concepts,PTP,1,5
+778,QLoRA,Technical Concepts,QLoRA,1,10
+779,Quality of Service (QoS),Technical Concepts,QoS,1,38
+780,Quantization,Technical Concepts,quantization,1,39
+781,RAG,Technical Concepts,RAG,1,288
+782,RBAC,Technical Concepts,RBAC,1,86
+783,RCA,Technical Concepts,RCA,1,35
+784,RDBMS,Technical Concepts,RDBMS,1,62
+785,REST API,Technical Concepts,RESTful APIs,1,164
+786,RLHF,Technical Concepts,RLHF,1,14
+787,RPA,Technical Concepts,RPA,1,5
+788,RTO/RPO,Technical Concepts,RPO/RTO; RTO/RPO,2,21
+789,Reinforcement Learning,Technical Concepts,RL,1,13
+790,S/4HANA,Technical Concepts,S/4HANA,1,82
+791,SAML,Technical Concepts,SAML,1,50
+792,SAP IDocs,Technical Concepts,IDocs,1,9
+793,SASE,Technical Concepts,SASE,1,15
+794,SAST,Technical Concepts,SAST,1,11
+795,SCA,Technical Concepts,SCA,1,10
+796,SCADA,Technical Concepts,SCADA,1,11
+797,SCIM,Technical Concepts,SCIM,1,14
+798,SD-WAN,Technical Concepts,SDWAN,1,20
+799,SDK,Technical Concepts,SDK,1,69
+800,SDKs,Technical Concepts,SDKs,1,32
+801,SIEM,Technical Concepts,SIEM,1,263
+802,SIGINT,Technical Concepts,SIGINT,1,10
+803,SIP,Technical Concepts,SIP,1,11
+804,SLAM,Technical Concepts,SLAM,1,40
+805,SMTP,Technical Concepts,SMTP,1,18
+806,SNMP,Technical Concepts,SNMP,1,37
+807,SQS,Technical Concepts,SQS,1,54
+808,SSH,Technical Concepts,SSH,1,21
+809,SSO,Technical Concepts,SSO,1,71
+810,Server-Driven UI (SDUI),Technical Concepts,SDUI,1,11
+811,Software-Defined Networking (SDN),Technical Concepts,SDN,1,22
+812,Spanning Tree Protocol (STP),Technical Concepts,STP,1,27
+813,Statistics,Technical Concepts,Statistics,1,596
+814,Summarization,Technical Concepts,summarization,1,28
+815,TCP/IP,Technical Concepts,TCP/IP,1,262
+816,TDD,Technical Concepts,TDD,1,52
+817,TDE,Technical Concepts,TDE,1,10
+818,TLS,Technical Concepts,SSL/TLS; TLS; TLS/SSL,3,70
+819,Tokenization,Technical Concepts,tokenization,1,22
+820,Transformer,Technical Concepts,Transformer,1,8
+821,UEBA,Technical Concepts,UEBA,1,5
+822,UI,Technical Concepts,UI,1,413
+823,VLAN Trunking Protocol (VTP),Technical Concepts,VTP,1,9
+824,VLANs,Technical Concepts,VLANs,1,106
+825,VPNs,Technical Concepts,VPNs,1,126
+826,ViT,Technical Concepts,ViT,1,6
+827,Vision-Language Models (VLMs),Technical Concepts,VLM; VLMs,2,29
+828,VoIP,Technical Concepts,VoIP,1,18
+829,WAL,Technical Concepts,WAL,1,5
+830,Web3,Technical Concepts,Web3,1,9
+831,WebRTC,Technical Concepts,WebRTC,1,10
+832,WebSockets,Technical Concepts,WebSockets,1,28
+833,Webhooks,Technical Concepts,webhooks,1,9
+834,Wireless LAN (WLAN),Technical Concepts,WLAN,1,26
+835,Word2vec,Technical Concepts,Word2vec,1,7
+836,Workday,Technical Concepts,Workday,1,56
+837,XDR,Technical Concepts,XDR,1,21
+838,XML,Technical Concepts,XML,1,82
+839,XSD,Technical Concepts,XSD,1,5
+840,XSS,Technical Concepts,XSS,1,7
+841,YAML,Technical Concepts,YAML,1,50
+842,agentic AI,Technical Concepts,agentic AI,1,127
+843,algorithms,Technical Concepts,algorithms,1,301
+844,analytics,Technical Concepts,analytic; analytics,2,1164
+845,authentication,Technical Concepts,authentication,1,222
+846,autoscaling,Technical Concepts,autoscaling,1,7
+847,bioinformatics,Technical Concepts,bioinformatics,1,8
+848,cloud,Technical Concepts,cloud,1,1447
+849,clustering,Technical Concepts,clustering,1,61
+850,compute,Technical Concepts,compute,1,135
+851,connectivity,Technical Concepts,connectivity,1,160
+852,cybersecurity,Technical Concepts,cybersecurity,1,434
+853,data.Build,Technical Concepts,data.Build,1,7
+854,database,Technical Concepts,database; databases,2,1049
+855,eDiscovery,Technical Concepts,eDiscovery,1,6
+856,embeddings,Technical Concepts,embeddings,1,84
+857,firewall,Technical Concepts,firewall,1,66
+858,firewalls,Technical Concepts,NGFW; firewalls,2,329
+859,frontend,Technical Concepts,frontend,1,102
+860,gRPC,Technical Concepts,gRPC,1,27
+861,indexing,Technical Concepts,indexing,1,138
+862,lakehouse,Technical Concepts,Lakehouses; lakehouse,2,78
+863,latency,Technical Concepts,latency,1,231
+864,mTLS,Technical Concepts,mTLS,1,9
+865,metadata,Technical Concepts,metadata,1,120
+866,metrics,Technical Concepts,metrics,1,523
+867,microservice,Technical Concepts,microservice,1,6
+868,microservices,Technical Concepts,microservices,1,203
+869,middleware,Technical Concepts,middleware,1,74
+870,model/LLM,Technical Concepts,model/LLM,1,6
+871,modeling,Technical Concepts,modeling,1,201
+872,modularization,Technical Concepts,modularization,1,7
+873,optimization,Technical Concepts,optimization,1,457
+874,postmortems,Technical Concepts,postmortems,1,34
+875,relational,Technical Concepts,relational,1,123
+876,retrieval,Technical Concepts,retrieval,1,97
+877,robotics,Technical Concepts,robotics,1,162
+878,routing,Technical Concepts,routing,1,242
+879,schemas,Technical Concepts,schema; schemas,2,117
+880,segmentation,Technical Concepts,segmentation,1,145
+881,serverless,Technical Concepts,serverless,1,22
+882,subnetting,Technical Concepts,subnets; subnetting,2,51
+883,syslog,Technical Concepts,syslog,1,9
+884,telemetry,Technical Concepts,telemetry,1,81
+885,tuning,Technical Concepts,tuning,1,138
+886,8D,Technical Practices,8D,1,5
+887,AIOps,Technical Practices,AIOps,1,20
+888,Agile,Technical Practices,Agile,1,410
+889,Agile/Scrum,Technical Practices,Agile/Scrum,1,152
+890,Application Performance Monitoring (APM),Technical Practices,APM,1,18
+891,Architecture Decision Records (ADRs),Technical Practices,ADRs,1,6
+892,Benchmarking,Technical Practices,benchmarking,1,30
+893,CI/CD,Technical Practices,CI/CD; CI/CD pipelines; CICD,3,2776
+894,DataOps,Technical Practices,DataOps,1,16
+895,DevOps,Technical Practices,DevOps,1,645
+896,DevOps/DevSecOps,Technical Practices,DevOps/DevSecOps,1,6
+897,DevOps/SRE,Technical Practices,DevOps/SRE,1,6
+898,DevSecOps,Technical Practices,DevSecOps; SecDevOps,2,152
+899,Digital Forensics and Incident Response (DFIR),Technical Practices,DFIR,1,7
+900,ELT,Technical Practices,ELT,1,67
+901,ELT/ETL,Technical Practices,ELT/ETL,1,25
+902,ETL,Technical Practices,ETL,1,493
+903,ETL/ELT,Technical Practices,ETL/ELT,1,220
+904,ETLs,Technical Practices,ETLs,1,6
+905,End-to-End Testing,Technical Practices,E2E,1,29
+906,FMEA,Technical Practices,FMEA,1,8
+907,FinOps,Technical Practices,FinOps,1,44
+908,GitLab CI/CD,Technical Practices,GitLab CI; GitLab CI/CD; Gitlab-CI,3,129
+909,IT Service Management (ITSM),Technical Practices,ITSM,1,41
+910,IaC,Technical Practices,IaC,1,234
+911,Kanban,Technical Practices,Kanban,1,29
+912,Lean,Technical Practices,Lean,1,20
+913,QA,Technical Practices,QA; SQA,2,487
+914,REORG,Technical Practices,REORG,1,5
+915,Reconciliation,Technical Practices,reconciliations,1,23
+916,SDLC,Technical Practices,Agentic SSDLC; SDLC; SSDLC,3,256
+917,SLIs/SLOs,Technical Practices,SLI/SLO; SLIs; SLO/SLI; SLOs; SLOs/SLIs,5,221
+918,SRE,Technical Practices,SRE,1,277
+919,Scrum,Technical Practices,Scrum,1,98
+920,SecOps,Technical Practices,SecOps,1,10
+921,Security Hardening,Technical Practices,hardening,1,28
+922,Software Testing Life Cycle (STLC),Technical Practices,STLC,1,11
+923,Waterfall,Technical Practices,Waterfall,1,6
+924,administering,Technical Practices,administering,1,9
+925,alerting,Technical Practices,alerting; alerts,2,292
+926,automation,Technical Practices,automation,1,1722
+927,automation/IaC,Technical Practices,automation/IaC,1,6
+928,automations,Technical Practices,automations,1,43
+929,bulkification,Technical Practices,bulkification,1,9
+930,caching,Technical Practices,Cache; caching,2,35
+931,configuration,Technical Practices,Config; configuration; configuring,3,582
+932,containerization,Technical Practices,containerization; containerized; containerized workloads,3,375
+933,containerization/orchestration,Technical Practices,containerization/orchestration,1,7
+934,debugging,Technical Practices,debugging,1,306
+935,deployment,Technical Practices,deploying; deployments; rollouts,3,395
+936,experimentation,Technical Practices,experimentation,1,220
+937,governance,Technical Practices,governance,1,490
+938,guardrails,Technical Practices,guardrails,1,69
+939,ingestion,Technical Practices,ingestion,1,83
+940,integration,Technical Practices,integration; integrations,2,1127
+941,lineage,Technical Practices,lineage,1,179
+942,migrations,Technical Practices,migrations,1,135
+943,monitoring,Technical Practices,monitoring,1,1166
+944,monitoring/alerting,Technical Practices,monitoring/alerting,1,6
+945,monitoring/observability,Technical Practices,monitoring/observability,1,6
+946,networking,Technical Practices,networking,1,608
+947,observability,Technical Practices,observability,1,635
+948,observability tooling,Technical Practices,observability tooling,1,36
+949,orchestration,Technical Practices,orchestration,1,274
+950,patching,Technical Practices,patching,1,184
+951,playbooks,Technical Practices,playbooks,1,73
+952,provisioning,Technical Practices,provisioning,1,95
+953,querying,Technical Practices,querying,1,49
+954,refactoring,Technical Practices,refactoring; refactors,2,35
+955,regression,Technical Practices,regression,1,168
+956,routings,Technical Practices,routings,1,6
+957,runbooks,Technical Practices,runbooks,1,254
+958,testing,Technical Practices,testing,1,1407
+959,triage,Technical Practices,triage; triaging,2,155
+960,troubleshooting,Technical Practices,troubleshooting,1,784
+961,validation,Technical Practices,validation,1,565
+962,validations,Technical Practices,validations,1,19
+963,versioning,Technical Practices,versioning,1,56
+964,virtualization,Technical Practices,virtualization; virtualized,2,140

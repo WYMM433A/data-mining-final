@@ -1,0 +1,22 @@
+﻿metric,value,section,category,before_count,after_count,net_change
+Total original terms,1608.0,totals,,,,
+Terms changed category,478.0,totals,,,,
+Terms with an action,947.0,totals,,,,
+Unique canonical skills,964.0,totals,,,,
+Aliases merged (rows),101.0,totals,,,,
+Action: Retained,661.0,totals,,,,
+Action: Normalized / reclassified,316.0,totals,,,,
+Action: Retained - needs review,267.0,totals,,,,
+Action: Removed - not a skill,238.0,totals,,,,
+Action: Alias merged,101.0,totals,,,,
+Action: Confirmed,25.0,totals,,,,
+,,by category,Programming Languages,31.0,50.0,19.0
+,,by category,Frameworks & Libraries,81.0,122.0,41.0
+,,by category,Platforms & Infrastructure,186.0,234.0,48.0
+,,by category,Software & Tools,66.0,159.0,93.0
+,,by category,Technical Concepts,201.0,283.0,82.0
+,,by category,Technical Practices,68.0,103.0,35.0
+,,by category,Certifications,43.0,56.0,13.0
+,,by category,Standards & Compliance,31.0,43.0,12.0
+,,by category,Generic / Nontechnical,87.0,89.0,2.0
+,,by category,Noise / Ambiguous,814.0,469.0,-345.0

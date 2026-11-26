@@ -1,0 +1,268 @@
+﻿skill_id,original_term,original_category,doc_freq,reason
+SK-0099,SOC,Standards & Compliance,238,Ambiguous (SOC 2 vs Security Operations Center)
+SK-0135,Microsoft,Software & Tools,167,Company name; needs product context
+SK-0145,detection,Noise / Ambiguous,155,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-0187,endpoint,Noise / Ambiguous,116,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-0193,routers,Noise / Ambiguous,109,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-0247,Word,Noise / Ambiguous,82,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-0254,Copilot,Platforms & Infrastructure,79,Ambiguous product name (GitHub vs Microsoft Copilot)
+SK-0301,SD,Noise / Ambiguous,60,Ambiguous abbreviation
+SK-0320,GCIA,Noise / Ambiguous,53,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-0321,Visualforce,Noise / Ambiguous,53,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-0343,MDM,Noise / Ambiguous,47,Ambiguous (master data management vs mobile device management)
+SK-0351,generation/refactoring,Technical Practices,46,Compound; split review
+SK-0353,B2B,Noise / Ambiguous,45,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-0355,MM,Noise / Ambiguous,45,Ambiguous abbreviation (materials management vs other meaning)
+SK-0356,SAP S/4HANA,Noise / Ambiguous,45,Compound term; split proposal needs review
+SK-0359,EBS,Noise / Ambiguous,44,Ambiguous (Oracle E-Business Suite vs AWS Elastic Block Store)
+SK-0372,U.S.C,Noise / Ambiguous,42,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-0376,Juniper,Generic / Nontechnical,41,Vendor name; may refer to Junos skills
+SK-0383,Flux,Noise / Ambiguous,40,Ambiguous (Flux CD vs InfluxDB vs generic)
+SK-0388,WAF,Noise / Ambiguous,40,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-0389,CDC,Noise / Ambiguous,39,Ambiguous (change data capture vs disease control agency)
+SK-0399,Fabric,Noise / Ambiguous,38,Ambiguous (Microsoft Fabric vs generic word)
+SK-0429,AR,Noise / Ambiguous,34,Ambiguous abbreviation (accounts receivable vs augmented reality)
+SK-0431,PP,Noise / Ambiguous,34,Ambiguous abbreviation
+SK-0435,CPU,Noise / Ambiguous,33,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-0445,GTM,Noise / Ambiguous,32,Ambiguous (go-to-market vs Google Tag Manager)
+SK-0450,Shell,Noise / Ambiguous,32,Ambiguous (shell scripting vs generic word)
+SK-0456,Coroutines,Noise / Ambiguous,31,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-0459,Salesforce.com,Noise / Ambiguous,31,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-0463,OEM,Noise / Ambiguous,30,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-0471,F5,Noise / Ambiguous,29,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-0474,MES,Noise / Ambiguous,29,Ambiguous abbreviation (Manufacturing Execution System?)
+SK-0482,ASM,Noise / Ambiguous,28,Ambiguous abbreviation (Oracle ASM vs attack surface management)
+SK-0485,C#/.NET,Noise / Ambiguous,28,Compound; split review
+SK-0489,Defender,Noise / Ambiguous,28,Ambiguous (Microsoft Defender product vs generic)
+SK-0493,Route,Noise / Ambiguous,28,Ambiguous (AWS Route 53 vs generic)
+SK-0494,Sigma,Noise / Ambiguous,28,Ambiguous (Sigma detection rules vs BI tool)
+SK-0514,Arista,Generic / Nontechnical,26,Vendor name; may refer to product skills
+SK-0515,Aruba,Generic / Nontechnical,26,Vendor name; may refer to product skills
+SK-0516,Bazel/Pants/Buck,Noise / Ambiguous,26,Compound list of build tools; split review
+SK-0517,FICO,Noise / Ambiguous,26,Ambiguous (FICO score vs SAP FICO module)
+SK-0519,HPE,Generic / Nontechnical,26,Vendor name; may refer to product skills
+SK-0533,Epic,Noise / Ambiguous,25,Ambiguous (Epic EHR product vs generic word)
+SK-0536,IA,Noise / Ambiguous,25,Ambiguous abbreviation
+SK-0537,ICD,Noise / Ambiguous,25,Ambiguous (ICD-10 medical codes vs other meaning)
+SK-0544,Meraki,Generic / Nontechnical,25,Vendor name; may refer to product skills
+SK-0546,SLIs/SLOs,Noise / Ambiguous,25,Compound term; split proposal needs review
+SK-0547,TypeScript/JavaScript,Noise / Ambiguous,25,Compound; split review
+SK-0551,CPQ,Noise / Ambiguous,24,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-0554,EWM,Noise / Ambiguous,24,Ambiguous (SAP EWM module)
+SK-0558,OT,Noise / Ambiguous,24,Ambiguous (operational technology vs other meaning)
+SK-0560,Palantir,Noise / Ambiguous,24,Company or product name; needs context
+SK-0561,RLS,Noise / Ambiguous,24,Ambiguous acronym (row-level security vs other meaning)
+SK-0571,L3,Noise / Ambiguous,23,Ambiguous (support level vs layer 3)
+SK-0581,SCM,Noise / Ambiguous,23,Ambiguous (supply chain vs source code management)
+SK-0588,Gen2,Noise / Ambiguous,22,Ambiguous (Azure Data Lake Storage Gen2 vs other)
+SK-0603,Hex,Noise / Ambiguous,21,Ambiguous (Hex notebook tool vs generic)
+SK-0607,S/4,Noise / Ambiguous,21,Compound term; split proposal needs review
+SK-0611,SoapUI,Noise / Ambiguous,21,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-0625,SFT,Noise / Ambiguous,20,Ambiguous abbreviation
+SK-0640,Force.com,Noise / Ambiguous,19,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-0641,GEOINT,Noise / Ambiguous,19,Ambiguous (geospatial intelligence vs other)
+SK-0644,Harness,Noise / Ambiguous,19,Ambiguous (Harness.io CI/CD vs common word)
+SK-0655,Atlas,Noise / Ambiguous,18,Ambiguous (MongoDB Atlas vs Apache Atlas)
+SK-0660,Esri,Noise / Ambiguous,18,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-0662,Hyper,Noise / Ambiguous,18,Ambiguous (Hyper-V / Tableau Hyper / generic word)
+SK-0664,ISR,Noise / Ambiguous,18,Ambiguous abbreviation
+SK-0667,Mode,Noise / Ambiguous,18,Ambiguous (Mode analytics vs generic word)
+SK-0690,FI,Noise / Ambiguous,17,Ambiguous (SAP FI module vs other meaning)
+SK-0693,Jasmine,Noise / Ambiguous,17,Ambiguous name
+SK-0699,SQL/NoSQL,Noise / Ambiguous,17,Compound; split review
+SK-0708,AP,Noise / Ambiguous,16,Ambiguous abbreviation (accounts payable vs other meaning)
+SK-0709,AWR,Noise / Ambiguous,16,Ambiguous (Oracle AWR report vs other)
+SK-0725,Omni,Noise / Ambiguous,16,Ambiguous product name
+SK-0736,Apache,Noise / Ambiguous,15,Ambiguous (Apache HTTP Server vs Apache Spark vs generic)
+SK-0738,CDP,Noise / Ambiguous,15,Ambiguous (Customer Data Platform vs Cloudera Data Platform)
+SK-0749,QM,Noise / Ambiguous,15,Ambiguous (SAP QM vs quality management)
+SK-0751,SAM,Noise / Ambiguous,15,Ambiguous (software asset management vs other meaning)
+SK-0753,Salt,Noise / Ambiguous,15,Ambiguous (SaltStack vs generic word)
+SK-0754,Sentinel,Noise / Ambiguous,15,Ambiguous (Microsoft Sentinel vs generic word)
+SK-0764,Docker/Kubernetes,Noise / Ambiguous,14,Compound; split review
+SK-0770,L2,Noise / Ambiguous,14,Ambiguous (support level vs layer 2)
+SK-0772,M365,Noise / Ambiguous,14,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-0773,MLOps/LLMOps,Noise / Ambiguous,14,Compound; split review
+SK-0775,MVI,Noise / Ambiguous,14,Ambiguous (IBM Maximo Visual Inspection vs other)
+SK-0777,NetSuite,Noise / Ambiguous,14,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-0791,AWS/GCP,Noise / Ambiguous,13,Compound; split review
+SK-0792,Cortex,Noise / Ambiguous,13,Ambiguous (Palo Alto Cortex vs other meaning)
+SK-0796,F1,Noise / Ambiguous,13,Ambiguous abbreviation
+SK-0801,IEC,Noise / Ambiguous,13,Ambiguous standard number
+SK-0813,RGB,Noise / Ambiguous,13,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-0817,TFS,Noise / Ambiguous,13,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-0819,million+,Noise / Ambiguous,13,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-0826,Bloomberg,Noise / Ambiguous,12,Company or product name; needs context
+SK-0832,Databricks Lakehouse,Noise / Ambiguous,12,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-0834,ECS/Fargate,Noise / Ambiguous,12,Compound; split review
+SK-0835,Elastic,Noise / Ambiguous,12,Company name or product; needs context
+SK-0842,Java/J2EE,Noise / Ambiguous,12,Compound; split review
+SK-0844,Kubernetes/EKS,Noise / Ambiguous,12,Compound; split review
+SK-0851,QuickSight,Noise / Ambiguous,12,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-0855,Weights,Noise / Ambiguous,12,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-0861,traceability/auditability,Noise / Ambiguous,12,Compound; split review
+SK-0866,AWS/Azure/GCP,Noise / Ambiguous,11,Compound; split review
+SK-0868,Ansible Terraform,Noise / Ambiguous,11,Compound; split review
+SK-0869,Aura,Noise / Ambiguous,11,Ambiguous (Salesforce Aura vs generic word)
+SK-0872,DSC,Noise / Ambiguous,11,Ambiguous (PowerShell DSC vs other)
+SK-0875,Docker Kubernetes,Noise / Ambiguous,11,Compound; split review
+SK-0876,Docker/Podman,Noise / Ambiguous,11,Compound; split review
+SK-0877,ECS/EKS,Noise / Ambiguous,11,Compound; split review
+SK-0879,Firebase,Noise / Ambiguous,11,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-0882,HRIS,Noise / Ambiguous,11,Ambiguous (HR information system vs generic)
+SK-0886,Kotlin/Java,Noise / Ambiguous,11,Compound; split review
+SK-0891,MSSP,Noise / Ambiguous,11,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-0898,React/TypeScript,Noise / Ambiguous,11,Compound; split review
+SK-0911,WM,Noise / Ambiguous,11,Ambiguous (warehouse management vs other meaning)
+SK-0914,copilots,Software & Tools,11,Ambiguous product reference
+SK-0916,gRPC/Protobuf,Noise / Ambiguous,11,Compound; split review
+SK-0919,tensorflow/pytorch,Noise / Ambiguous,11,Compound; split review
+SK-0928,ASH,Noise / Ambiguous,10,Ambiguous abbreviation (Oracle ASH vs other)
+SK-0932,ArcGIS,Noise / Ambiguous,10,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-0943,DDOT,Noise / Ambiguous,10,Ambiguous abbreviation
+SK-0944,DNS/DHCP,Noise / Ambiguous,10,Compound; split review
+SK-0948,Docusign,Noise / Ambiguous,10,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-0954,GNC,Noise / Ambiguous,10,Ambiguous abbreviation
+SK-0958,L2/L3,Noise / Ambiguous,10,Compound; split review
+SK-0960,Lightspeed,Noise / Ambiguous,10,Ambiguous product name
+SK-0962,MSS,Noise / Ambiguous,10,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-0966,OTC,Noise / Ambiguous,10,Ambiguous (over-the-counter vs order-to-cash)
+SK-0968,P2P,Noise / Ambiguous,10,Ambiguous (peer-to-peer vs procure-to-pay)
+SK-0970,PCL,Noise / Ambiguous,10,Ambiguous abbreviation
+SK-0972,PHI/PII,Noise / Ambiguous,10,Compound term; split proposal needs review
+SK-0973,PL,Noise / Ambiguous,10,Ambiguous abbreviation (PL/SQL vs other)
+SK-0977,Prometheus/Grafana,Noise / Ambiguous,10,Compound; split review
+SK-0979,RDS/Aurora,Noise / Ambiguous,10,Compound; split review
+SK-0980,REST/GraphQL,Noise / Ambiguous,10,Compound; split review needed
+SK-0985,SDLC/toolchain,Noise / Ambiguous,10,Compound; split review
+SK-0986,SIEM/SOAR,Noise / Ambiguous,10,Compound; split review needed
+SK-0992,TCP/UDP,Noise / Ambiguous,10,Compound; split review
+SK-0999,automates,Noise / Ambiguous,10,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-1004,sandboxes,Noise / Ambiguous,10,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-1016,ACS,Noise / Ambiguous,9,Ambiguous abbreviation
+SK-1017,ADDM,Noise / Ambiguous,9,Ambiguous (Oracle ADDM vs other)
+SK-1025,CC,Noise / Ambiguous,9,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-1028,Dynamics,Noise / Ambiguous,9,Ambiguous (Microsoft Dynamics vs generic word)
+SK-1029,EVPN/VXLAN,Noise / Ambiguous,9,Compound; split review
+SK-1033,GNFA,Noise / Ambiguous,9,Ambiguous abbreviation
+SK-1034,GTS,Noise / Ambiguous,9,Ambiguous abbreviation
+SK-1038,L1,Noise / Ambiguous,9,Ambiguous (support level vs layer 1)
+SK-1039,LLMOps,Noise / Ambiguous,9,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-1040,LTV,Noise / Ambiguous,9,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-1055,TM,Noise / Ambiguous,9,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-1081,ADK,Noise / Ambiguous,8,Ambiguous abbreviation
+SK-1082,AIS,Noise / Ambiguous,8,Ambiguous abbreviation
+SK-1083,AWS/GCP/Azure,Noise / Ambiguous,8,Compound; split review
+SK-1086,BDD/TDD,Noise / Ambiguous,8,Compound; split review
+SK-1087,BMC,Noise / Ambiguous,8,Ambiguous (BMC Remedy vs company name)
+SK-1090,C2,Noise / Ambiguous,8,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-1091,C2S,Noise / Ambiguous,8,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-1099,DIA,Noise / Ambiguous,8,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-1100,DINO,Noise / Ambiguous,8,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-1103,EE,Noise / Ambiguous,8,Ambiguous (Java EE vs other)
+SK-1107,Emotion,Noise / Ambiguous,8,Ambiguous (CSS-in-JS library vs generic word)
+SK-1112,Gherkin,Noise / Ambiguous,8,Ambiguous (BDD language vs test tool)
+SK-1114,IPv4/IPv6,Noise / Ambiguous,8,Compound; split review
+SK-1119,Iceberg,Noise / Ambiguous,8,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-1120,JEMA,Noise / Ambiguous,8,Ambiguous abbreviation
+SK-1129,MX,Noise / Ambiguous,8,Ambiguous abbreviation
+SK-1132,NX,Noise / Ambiguous,8,Ambiguous (Nx monorepo tool vs other meaning)
+SK-1134,OMS,Noise / Ambiguous,8,Ambiguous abbreviation
+SK-1135,OTEL,Noise / Ambiguous,8,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-1136,OpenID,Noise / Ambiguous,8,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-1141,PyTorch/TensorFlow,Noise / Ambiguous,8,Compound; split review
+SK-1150,SAR,Noise / Ambiguous,8,Ambiguous abbreviation
+SK-1153,SPC,Noise / Ambiguous,8,Ambiguous (statistical process control vs other)
+SK-1156,SSM,Noise / Ambiguous,8,Ambiguous (AWS Systems Manager vs other)
+SK-1162,Temporal,Noise / Ambiguous,8,Ambiguous (workflow engine vs generic word)
+SK-1163,Terraform/Terragrunt,Noise / Ambiguous,8,Compound; split review
+SK-1171,WMS,Noise / Ambiguous,8,Ambiguous (warehouse management system vs other)
+SK-1191,AIP,Noise / Ambiguous,7,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-1193,ARM/Bicep,Noise / Ambiguous,7,Compound term; split proposal needs review
+SK-1197,BEV,Noise / Ambiguous,7,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-1199,BW,Noise / Ambiguous,7,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-1201,Banner,Noise / Ambiguous,7,Ambiguous (Ellucian Banner vs generic word)
+SK-1205,CBS,Noise / Ambiguous,7,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-1214,Controlling,Noise / Ambiguous,7,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-1215,Cube,Noise / Ambiguous,7,Ambiguous (Cube.dev vs generic)
+SK-1219,EMS,Noise / Ambiguous,7,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-1220,Einstein,Noise / Ambiguous,7,Ambiguous (Salesforce Einstein vs name)
+SK-1222,GEO,Noise / Ambiguous,7,Ambiguous abbreviation
+SK-1224,HSRP/VRRP,Noise / Ambiguous,7,Compound; split review
+SK-1229,JIRA/Confluence,Noise / Ambiguous,7,Compound; split review
+SK-1230,Java/Kotlin,Noise / Ambiguous,7,Compound; split review
+SK-1233,LTM,Noise / Ambiguous,7,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-1234,Lakehouse/Warehouse,Noise / Ambiguous,7,Compound; split review
+SK-1235,LangChain/LangGraph,Noise / Ambiguous,7,Compound; split review
+SK-1238,LoRA/QLoRA,Noise / Ambiguous,7,Compound; split review
+SK-1243,O2C,Noise / Ambiguous,7,Ambiguous (order-to-cash vs other)
+SK-1246,Orion,Noise / Ambiguous,7,Ambiguous (SolarWinds Orion vs other)
+SK-1259,SFDC,Noise / Ambiguous,7,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-1261,Salesforce Agentforce,Noise / Ambiguous,7,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-1275,VLA,Noise / Ambiguous,7,Ambiguous abbreviation
+SK-1280,XP,Noise / Ambiguous,7,Ambiguous (Extreme Programming vs Windows XP)
+SK-1307,ARC,Noise / Ambiguous,6,Ambiguous abbreviation
+SK-1312,Atlantis,Software & Tools,6,Ambiguous (Atlantis Terraform tool vs generic word)
+SK-1328,DI,Noise / Ambiguous,6,Ambiguous (dependency injection vs data integration)
+SK-1329,DMVs,Noise / Ambiguous,6,Ambiguous (DMV agency vs SQL Server dynamic management views)
+SK-1339,Elasticsearch/OpenSearch,Noise / Ambiguous,6,Compound; split review
+SK-1345,GPOs,Noise / Ambiguous,6,Ambiguous (Group Policy Objects vs other)
+SK-1349,HubSpot,Noise / Ambiguous,6,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-1359,JavaScript/NodeJS,Noise / Ambiguous,6,Compound; split review
+SK-1360,Kimball,Noise / Ambiguous,6,Person name; may refer to Kimball dimensional modeling
+SK-1361,Kotlin/Jetpack,Noise / Ambiguous,6,Compound; split review
+SK-1362,L4,Noise / Ambiguous,6,Ambiguous (support level vs layer 4)
+SK-1368,Linear,Noise / Ambiguous,6,Ambiguous (Linear app vs generic word)
+SK-1371,MQ,Noise / Ambiguous,6,Ambiguous (IBM MQ vs message queue)
+SK-1373,Maestro,Noise / Ambiguous,6,Ambiguous product name
+SK-1378,NPS,Noise / Ambiguous,6,Ambiguous (Net Promoter Score vs Windows NPS)
+SK-1383,OOP/OOD,Noise / Ambiguous,6,Compound; split review
+SK-1389,OpenAPI/Swagger,Noise / Ambiguous,6,Compound; split review
+SK-1391,OpenCV NumPy,Noise / Ambiguous,6,Compound; split review
+SK-1392,Orca,Noise / Ambiguous,6,Ambiguous product name
+SK-1401,React/Next.js,Noise / Ambiguous,6,Compound; split review
+SK-1405,RxJava,Noise / Ambiguous,6,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-1406,SAGE,Noise / Ambiguous,6,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-1407,SSIS/SSRS,Noise / Ambiguous,6,Compound; split review
+SK-1410,SfM,Noise / Ambiguous,6,Ambiguous abbreviation (Structure from Motion vs other)
+SK-1411,Spark/PySpark,Noise / Ambiguous,6,Compound; split review
+SK-1417,Unity,Noise / Ambiguous,6,Ambiguous (game engine vs generic word)
+SK-1431,least-privilege/RBAC,Noise / Ambiguous,6,Compound; split review
+SK-1458,ACSP,Noise / Ambiguous,5,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-1462,ALB/NLB,Noise / Ambiguous,5,Compound of AWS load balancers; split review
+SK-1467,BEC,Noise / Ambiguous,5,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-1468,BOMs,Noise / Ambiguous,5,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-1469,BW/4HANA,Noise / Ambiguous,5,Compound term; split proposal needs review
+SK-1474,CSM,Noise / Ambiguous,5,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-1486,Diode,Noise / Ambiguous,5,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-1489,EKS/Kubernetes,Noise / Ambiguous,5,Compound; split review
+SK-1490,ELK/OpenSearch,Noise / Ambiguous,5,Compound; split review
+SK-1491,ETO,Noise / Ambiguous,5,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-1498,Foundry,Noise / Ambiguous,5,Ambiguous (Palantir Foundry vs generic)
+SK-1502,Git/Bitbucket,Noise / Ambiguous,5,Compound; split review
+SK-1504,HBSS,Noise / Ambiguous,5,Ambiguous (McAfee HBSS vs other)
+SK-1507,HLS,Noise / Ambiguous,5,Ambiguous abbreviation
+SK-1510,IAT/IAM,Noise / Ambiguous,5,Compound; split review
+SK-1512,IBP,Noise / Ambiguous,5,Ambiguous (SAP IBP vs other)
+SK-1513,IC4,Noise / Ambiguous,5,Ambiguous abbreviation
+SK-1524,Kubernetes/OpenShift,Noise / Ambiguous,5,Compound; split review
+SK-1531,Logstash,Noise / Ambiguous,5,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-1532,MDG,Noise / Ambiguous,5,Ambiguous (SAP Master Data Governance vs other)
+SK-1536,MVC/MVM,Noise / Ambiguous,5,Compound; split review
+SK-1550,PBR,Noise / Ambiguous,5,Ambiguous abbreviation
+SK-1551,PCE,Noise / Ambiguous,5,Ambiguous abbreviation
+SK-1555,Protobuf,Noise / Ambiguous,5,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-1559,Repos,Noise / Ambiguous,5,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-1560,SAST/DAST,Noise / Ambiguous,5,Compound; split review
+SK-1563,SIEM/EDR,Noise / Ambiguous,5,Compound; split review
+SK-1564,SIT/UAT,Noise / Ambiguous,5,Compound of two test types; needs split review
+SK-1566,SLMs,Noise / Ambiguous,5,Ambiguous or insufficient context in job-description evidence; not confidently classifiable
+SK-1569,SPM,Noise / Ambiguous,5,Ambiguous abbreviation
+SK-1570,SQS/SNS,Noise / Ambiguous,5,Compound; split review
+SK-1581,Swagger/OpenAPI,Noise / Ambiguous,5,Compound; split review
+SK-1582,Swift/SwiftUI,Noise / Ambiguous,5,Compound; split review
+SK-1586,Terraform/CloudFormation,Noise / Ambiguous,5,Compound; split review
+SK-1588,TypeScript/React,Noise / Ambiguous,5,Compound; split review
+SK-1590,UIKit/SwiftUI,Noise / Ambiguous,5,Compound; split review
+SK-1594,WM/EWM,Noise / Ambiguous,5,Compound; split review
+SK-1606,review/refactoring,Noise / Ambiguous,5,Compound; split review

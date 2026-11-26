@@ -1,0 +1,79 @@
+=== description_level view ===
+Input rows: 6458
+After excluding 'other' family: 6296
+After >=3 raw mining-eligible skills: 6130
+Final matrix rows: 6125
+Skill columns: 391
+Density: 3.6920%
+Median skills per row: 13.0
+Rows per family:
+job_family
+ai_ml             991
+cloud_devops     1033
+cyber_network     721
+data_bi           817
+database_data     852
+enterprise_it     268
+qa_testing        406
+software         1037
+Top 20 skills:
+Artificial_Intelligence_(AI)    3125
+Python                          3037
+SQL                             2254
+AWS                             2087
+CI-CD                           1839
+Azure                           1474
+Machine_Learning                1449
+Agile                           1398
+Data_Visualization              1354
+Kubernetes                      1226
+Linux                           1015
+DevOps                           976
+Git                              936
+Terraform                        896
+observability                    889
+Java                             877
+orchestration                    825
+Data_Quality                     812
+Docker                           808
+Incident_Response                784
+
+=== listing_level view ===
+Input rows: 8879
+After excluding 'other' family: 8712
+After >=3 raw mining-eligible skills: 8368
+Final matrix rows: 8363
+Skill columns: 391
+Density: 3.5877%
+Median skills per row: 13.0
+Rows per family:
+job_family
+ai_ml            1334
+cloud_devops     1333
+cyber_network     951
+data_bi           960
+database_data    1233
+enterprise_it     657
+qa_testing        483
+software         1412
+Top 20 skills:
+Artificial_Intelligence_(AI)    4449
+Python                          4145
+SQL                             2855
+AWS                             2797
+CI-CD                           2382
+Azure                           2114
+Machine_Learning                2026
+Agile                           1895
+Data_Visualization              1691
+Kubernetes                      1593
+DevOps                          1264
+Linux                           1227
+observability                   1210
+Git                             1185
+Data_Science                    1184
+Terraform                       1183
+Java                            1170
+Data_Quality                    1156
+orchestration                   1083
+Data_Modeling                   1068

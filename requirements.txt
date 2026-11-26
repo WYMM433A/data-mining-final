@@ -1,0 +1,10 @@
+pandas>=2.2
+numpy>=2.0
+scipy>=1.14
+scikit-learn>=1.6
+mlxtend>=0.23
+matplotlib>=3.9
+spacy>=3.8
+wordfreq>=3.1
+plotly>=5.24
+streamlit>=1.40
