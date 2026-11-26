@@ -1,0 +1,481 @@
+﻿canonical_skill,description_group_id,is_real_technical_use,notes
+Statistics,611,no,Degree/field-of-study mention only
+Statistics,705,yes,
+Statistics,797,no,Different sense: SQL Server 'wait statistics' (performance metrics)
+Statistics,825,no,Degree/field-of-study mention only
+Statistics,891,no,Degree/field-of-study mention only
+Statistics,1057,no,Degree/field-of-study mention only
+Statistics,1550,no,"Background field list ('quantitative or technical field, such as...'), not a required skill"
+Statistics,1562,yes,
+Statistics,1922,no,Degree/field-of-study mention only
+Statistics,2029,no,Degree/field-of-study mention only
+Statistics,2159,no,Degree/field-of-study mention only
+Statistics,2462,yes,
+Statistics,2514,no,Degree/field-of-study mention only
+Statistics,2640,no,Degree/field-of-study mention only
+Statistics,2830,no,Degree/field-of-study mention only
+Statistics,2914,yes,
+Statistics,3195,no,Different sense: 'key statistics' = published figures
+Statistics,3389,no,Degree/field-of-study mention only
+Statistics,3437,no,Degree/field-of-study mention only
+Statistics,3458,no,Degree/field-of-study mention only
+Statistics,3462,yes,
+Statistics,4348,no,Degree/field-of-study mention only
+Statistics,4754,yes,
+Statistics,4774,no,Degree/field-of-study mention only
+Statistics,5151,no,"Related-discipline list for degree, not a required skill"
+Statistics,5846,no,Degree/field-of-study mention only
+Statistics,5940,no,Degree/field-of-study mention only
+Statistics,6223,no,Degree/field-of-study mention only
+Statistics,6299,no,Degree/field-of-study mention only
+Statistics,6369,yes,
+alerting,626,no,"Alias 'alerts': triaging security alerts, not building alerting (borderline)"
+alerting,694,no,Alias 'alerts': reviewing analyst alerts (borderline)
+alerting,1151,yes,
+alerting,1679,yes,
+alerting,1755,no,Alias 'alerts': security alert triage (borderline)
+alerting,1788,yes,
+alerting,1791,no,Alias 'alerts': security alert triage (borderline)
+alerting,1807,no,Alias 'alerts': security alert triage (borderline)
+alerting,1815,yes,
+alerting,2268,no,"Alias 'alerts': responding to alerts, not configuring them (borderline)"
+alerting,2419,yes,
+alerting,2748,yes,
+alerting,2794,yes,
+alerting,2837,yes,
+alerting,2989,yes,
+alerting,3627,yes,
+alerting,3829,yes,
+alerting,3947,yes,
+alerting,4191,yes,
+alerting,4600,no,Alias 'alerts': security alert triage (borderline)
+alerting,4828,yes,
+alerting,4958,yes,
+alerting,5203,yes,
+alerting,5381,yes,
+alerting,5500,no,Alias 'alerts': security alert triage (borderline)
+alerting,5512,yes,
+alerting,5754,no,Alias 'alerts': responding to alerts (borderline)
+alerting,5758,no,Alias 'alerts': security alert triage (borderline)
+alerting,5905,yes,
+alerting,6471,yes,
+authentication,137,yes,
+authentication,461,yes,
+authentication,543,yes,
+authentication,743,yes,
+authentication,1022,yes,
+authentication,1035,yes,
+authentication,1072,yes,
+authentication,1210,yes,
+authentication,1260,yes,
+authentication,1368,yes,
+authentication,1475,yes,
+authentication,1546,yes,
+authentication,2232,yes,
+authentication,3215,yes,
+authentication,3241,yes,
+authentication,3838,yes,
+authentication,4248,yes,
+authentication,4345,yes,
+authentication,4394,yes,
+authentication,4676,yes,
+authentication,4896,yes,
+authentication,4922,yes,
+authentication,5221,yes,Overlaps with MFA ('multi-factor authentication')
+authentication,5698,yes,
+authentication,6085,yes,
+authentication,6184,yes,
+authentication,6222,yes,
+authentication,6323,yes,
+authentication,6461,no,Names an internal system ('Authentication Everywhere') used to log in to reporting apps; incidental
+authentication,6521,yes,Overlaps with MFA ('multifactor authentication')
+guardrails,114,yes,
+guardrails,154,no,"Generic architecture wording ('standards, patterns, guardrails')"
+guardrails,179,yes,
+guardrails,260,no,"Generic policy wording, not a technical control"
+guardrails,310,yes,
+guardrails,405,no,Generic dev-experience wording
+guardrails,523,no,Generic best-practice wording ('platform guardrails')
+guardrails,545,no,Non-technical/safety wording
+guardrails,765,yes,
+guardrails,1346,no,Generic wording ('set up guardrails and detection')
+guardrails,1513,yes,
+guardrails,1718,yes,
+guardrails,2545,no,Different sense: experimentation guardrail metrics (product)
+guardrails,2671,yes,
+guardrails,2837,yes,
+guardrails,2927,yes,
+guardrails,3039,yes,
+guardrails,3454,yes,
+guardrails,3636,no,Generic architecture wording
+guardrails,3793,yes,
+guardrails,3840,yes,
+guardrails,3940,yes,
+guardrails,4325,yes,
+guardrails,4393,yes,
+guardrails,4720,yes,
+guardrails,4731,no,Generic reliability wording (borderline)
+guardrails,4909,yes,
+guardrails,5230,no,Culture phrase about letting agents run loose; incidental
+guardrails,5398,yes,
+guardrails,5415,no,Generic architecture-governance wording
+indexing,376,yes,
+indexing,565,yes,
+indexing,585,yes,
+indexing,606,yes,
+indexing,733,yes,
+indexing,998,yes,
+indexing,1393,yes,
+indexing,1794,yes,
+indexing,1809,yes,
+indexing,2045,yes,
+indexing,2564,yes,
+indexing,2602,yes,
+indexing,2621,yes,
+indexing,2652,yes,
+indexing,3339,yes,
+indexing,3664,yes,
+indexing,3739,yes,Sense: vector DB / RAG indexing
+indexing,4044,yes,Sense: search/RAG indexing
+indexing,4212,yes,Sense: RAG indexing
+indexing,4328,yes,Sense: RAG indexing
+indexing,4906,no,"Different sense: 'over-indexing on Azure' (focusing too much), not a technical skill"
+indexing,5046,yes,
+indexing,5299,yes,Sense: document search indexing
+indexing,5648,yes,
+indexing,5661,yes,
+indexing,5807,yes,
+indexing,5882,yes,Sense: search/log indexing
+indexing,6150,yes,
+indexing,6177,yes,Sense: RAG indexing
+indexing,6463,yes,
+ingestion,205,yes,Borderline: 'AI ingestion' of documentation
+ingestion,232,yes,
+ingestion,765,yes,
+ingestion,934,yes,
+ingestion,1163,yes,
+ingestion,1183,yes,
+ingestion,1220,yes,
+ingestion,1506,yes,
+ingestion,1822,yes,
+ingestion,1852,yes,
+ingestion,1903,yes,
+ingestion,1954,yes,
+ingestion,1966,yes,
+ingestion,2082,yes,
+ingestion,2431,yes,
+ingestion,2554,yes,
+ingestion,2651,yes,
+ingestion,2668,yes,
+ingestion,2870,yes,
+ingestion,3047,yes,
+ingestion,3314,yes,
+ingestion,3667,yes,
+ingestion,4149,yes,
+ingestion,4811,yes,
+ingestion,5123,yes,
+ingestion,5585,yes,
+ingestion,6007,yes,
+ingestion,6156,yes,
+ingestion,6177,yes,
+ingestion,6189,yes,
+lineage,170,yes,
+lineage,574,yes,
+lineage,594,yes,
+lineage,712,yes,
+lineage,996,yes,
+lineage,1031,yes,
+lineage,1045,yes,
+lineage,1263,yes,
+lineage,1728,yes,
+lineage,1771,yes,
+lineage,2419,yes,
+lineage,2539,yes,
+lineage,2684,yes,
+lineage,3247,yes,
+lineage,3419,yes,
+lineage,4149,yes,
+lineage,4480,yes,
+lineage,4716,yes,
+lineage,5032,yes,
+lineage,5075,yes,
+lineage,5077,yes,
+lineage,5302,yes,
+lineage,5369,yes,
+lineage,5435,yes,
+lineage,5467,yes,
+lineage,6015,yes,
+lineage,6254,yes,
+lineage,6265,yes,
+lineage,6342,yes,
+lineage,6446,yes,
+middleware,11,yes,
+middleware,308,yes,
+middleware,523,yes,
+middleware,552,yes,
+middleware,566,yes,
+middleware,868,yes,
+middleware,1010,yes,
+middleware,1402,yes,
+middleware,1519,yes,
+middleware,1875,yes,
+middleware,2150,yes,
+middleware,2278,yes,
+middleware,2328,yes,
+middleware,2481,yes,
+middleware,2644,yes,Different sense: Redux middleware
+middleware,3245,yes,
+middleware,3736,yes,
+middleware,3763,yes,
+middleware,3787,yes,
+middleware,3937,yes,
+middleware,3992,yes,
+middleware,4200,yes,Different sense: web/Next.js middleware
+middleware,4929,yes,
+middleware,4943,yes,
+middleware,5241,yes,
+middleware,5782,yes,
+middleware,5996,yes,
+middleware,6031,yes,
+middleware,6197,yes,
+middleware,6274,yes,
+observability,210,yes,
+observability,235,yes,
+observability,343,yes,
+observability,657,yes,
+observability,833,yes,
+observability,834,yes,
+observability,1223,yes,
+observability,1368,yes,
+observability,1685,yes,
+observability,2008,yes,
+observability,2023,yes,
+observability,2076,yes,
+observability,2381,yes,
+observability,2525,yes,
+observability,2835,yes,
+observability,3166,yes,
+observability,3231,yes,
+observability,3505,yes,
+observability,3792,yes,
+observability,3868,yes,
+observability,4116,yes,
+observability,4280,yes,
+observability,4291,yes,
+observability,4732,yes,
+observability,4916,yes,
+observability,5166,yes,
+observability,5240,yes,
+observability,5248,yes,
+observability,6172,yes,
+observability,6482,yes,
+orchestration,197,yes,
+orchestration,405,yes,
+orchestration,619,yes,
+orchestration,824,yes,
+orchestration,1004,yes,
+orchestration,1273,yes,
+orchestration,1665,yes,
+orchestration,1706,yes,
+orchestration,1843,yes,
+orchestration,1884,yes,Sense: agent orchestration (AI)
+orchestration,1983,yes,Sense: LLM orchestration
+orchestration,1986,yes,Sense: AI agent orchestration
+orchestration,2015,yes,Sense: AI agent orchestration
+orchestration,2155,yes,
+orchestration,2552,yes,
+orchestration,2841,yes,Sense: AI agent orchestration
+orchestration,3712,yes,
+orchestration,3819,yes,
+orchestration,3945,yes,
+orchestration,4094,yes,Sense: AI workflow orchestration
+orchestration,4199,yes,
+orchestration,4591,yes,
+orchestration,4669,yes,
+orchestration,5351,yes,
+orchestration,5459,yes,
+orchestration,5678,yes,
+orchestration,6185,yes,
+orchestration,6248,yes,Sense: LLM orchestration
+orchestration,6403,yes,
+orchestration,6408,yes,
+patching,89,yes,
+patching,159,yes,
+patching,693,yes,
+patching,746,yes,
+patching,748,yes,
+patching,1086,yes,
+patching,1510,yes,
+patching,1569,yes,
+patching,1757,yes,
+patching,1769,yes,
+patching,2088,yes,
+patching,2628,yes,
+patching,2862,yes,
+patching,2994,yes,
+patching,3083,yes,
+patching,3182,yes,
+patching,3413,yes,
+patching,3492,yes,
+patching,3798,yes,
+patching,4511,yes,
+patching,4687,yes,
+patching,4906,yes,
+patching,5078,yes,
+patching,5166,yes,
+patching,5439,yes,
+patching,5690,yes,
+patching,5692,yes,
+patching,5888,yes,
+patching,6085,yes,
+patching,6139,yes,
+playbooks,474,yes,
+playbooks,660,yes,Sense: Ansible/automation playbooks
+playbooks,672,yes,
+playbooks,694,yes,
+playbooks,1022,no,Idiom: 'without a playbook'
+playbooks,1504,no,"Incidental team description, no skill required (borderline)"
+playbooks,1868,yes,
+playbooks,2179,yes,
+playbooks,2198,yes,
+playbooks,2199,yes,
+playbooks,2264,yes,
+playbooks,2872,yes,Sense: Ansible playbooks
+playbooks,3100,yes,
+playbooks,3268,yes,
+playbooks,3397,yes,
+playbooks,3730,yes,
+playbooks,3732,yes,
+playbooks,3741,yes,
+playbooks,3784,yes,Sense: Ansible playbooks
+playbooks,3797,no,Idiom: 'no existing playbook'
+playbooks,3829,yes,
+playbooks,4139,yes,
+playbooks,4720,yes,
+playbooks,4969,yes,
+playbooks,5380,no,"Business 'implementation playbooks' (consulting/training), not IT"
+playbooks,5468,yes,
+playbooks,5576,yes,
+playbooks,5891,yes,
+playbooks,6328,yes,
+playbooks,6449,no,Idiom: 'no playbook to copy'
+provisioning,158,yes,
+provisioning,319,yes,
+provisioning,498,yes,
+provisioning,637,yes,
+provisioning,897,yes,
+provisioning,910,yes,
+provisioning,1128,yes,
+provisioning,1341,yes,
+provisioning,2078,yes,
+provisioning,2174,yes,
+provisioning,2404,yes,
+provisioning,2546,yes,
+provisioning,2782,yes,
+provisioning,3003,yes,
+provisioning,3219,yes,
+provisioning,4035,yes,
+provisioning,4173,yes,
+provisioning,4470,yes,
+provisioning,4615,yes,
+provisioning,4778,yes,Sense: identity provisioning (SCIM)
+provisioning,5210,yes,
+provisioning,5460,yes,
+provisioning,5572,yes,
+provisioning,5809,yes,
+provisioning,5938,yes,
+provisioning,6038,yes,
+provisioning,6247,yes,Sense: telecom subscriber provisioning
+provisioning,6259,yes,
+provisioning,6357,yes,
+provisioning,6501,yes,Sense: capacity provisioning
+routing,7,yes,
+routing,183,yes,
+routing,203,yes,Sense: API gateway routing
+routing,502,yes,
+routing,548,yes,
+routing,844,yes,
+routing,1037,yes,
+routing,1090,yes,
+routing,1097,yes,
+routing,1126,yes,
+routing,1138,yes,
+routing,1165,yes,
+routing,1368,yes,Sense: database read/write routing (ProxySQL)
+routing,1913,yes,
+routing,2263,yes,
+routing,2336,yes,
+routing,2746,yes,
+routing,2814,yes,
+routing,3211,no,"Incident-routing process (on-call workflow), not network/app routing (borderline)"
+routing,3734,yes,
+routing,4291,yes,Sense: LLM request routing
+routing,4365,yes,
+routing,4584,yes,
+routing,5037,yes,
+routing,5331,yes,
+routing,5836,yes,
+routing,5990,yes,
+routing,6406,yes,
+routing,6497,yes,
+routing,6499,yes,
+runbooks,7,yes,
+runbooks,131,yes,
+runbooks,241,yes,
+runbooks,352,yes,
+runbooks,458,yes,
+runbooks,599,yes,
+runbooks,688,yes,
+runbooks,817,yes,
+runbooks,829,yes,
+runbooks,1088,yes,
+runbooks,1121,yes,
+runbooks,1388,yes,
+runbooks,1900,yes,
+runbooks,2249,yes,
+runbooks,2762,yes,
+runbooks,3999,yes,
+runbooks,4056,yes,
+runbooks,4130,yes,
+runbooks,4213,yes,
+runbooks,4270,yes,
+runbooks,4417,yes,
+runbooks,4451,yes,
+runbooks,4465,yes,
+runbooks,4518,yes,
+runbooks,4530,yes,
+runbooks,4906,yes,
+runbooks,5330,yes,
+runbooks,6114,yes,
+runbooks,6222,yes,
+runbooks,6390,yes,
+segmentation,109,yes,Sense: image/CV segmentation
+segmentation,205,no,Marketing segmentation mentioned only as what the data models power; incidental
+segmentation,502,yes,Sense: network segmentation
+segmentation,607,yes,Sense: network segmentation
+segmentation,830,yes,Sense: network segmentation
+segmentation,1104,yes,Sense: image/CV segmentation
+segmentation,1139,yes,Sense: image/CV segmentation
+segmentation,1240,yes,Sense: image/CV segmentation
+segmentation,1465,yes,Sense: network segmentation
+segmentation,1522,yes,Sense: network segmentation
+segmentation,1524,yes,Sense: network segmentation
+segmentation,1863,yes,Sense: image/CV segmentation
+segmentation,2242,yes,Sense: network segmentation
+segmentation,2383,yes,Sense: image/CV segmentation
+segmentation,2878,yes,Sense: image/CV segmentation
+segmentation,3188,yes,Sense: network segmentation
+segmentation,3376,yes,Sense: image/CV segmentation
+segmentation,3386,yes,Sense: image/CV segmentation
+segmentation,3561,yes,Sense: network segmentation
+segmentation,3598,yes,Sense: network segmentation
+segmentation,3755,yes,Sense: customer/marketing segmentation
+segmentation,4350,yes,Sense: network segmentation
+segmentation,5092,yes,Sense: network segmentation
+segmentation,5194,yes,Sense: image/CV segmentation
+segmentation,5738,yes,Sense: network segmentation
+segmentation,5907,yes,Sense: customer/marketing segmentation
+segmentation,6045,yes,Sense: image/CV segmentation
+segmentation,6048,yes,Sense: image/CV segmentation
+segmentation,6143,yes,Sense: image/CV segmentation
+segmentation,6402,yes,Sense: network segmentation

@@ -1,0 +1,121 @@
+﻿val_id,job_id,extracted_skills
+VAL0001,4409627770,Java;Kotlin;SDK
+VAL0002,4451913268,AWS;Argo CD;Azure;Bash;CI/CD;DevOps;Distributed Systems;GitOps;Golang;Grafana;IaC;Incident Response;Istio;Kubernetes;Linux;Prometheus;Python;SLIs/SLOs;SRE;Terraform;Vulnerability Management;containerization;observability
+VAL0003,4490538437,Azure DevOps;DAX;Data Modeling;Data Visualization;EDR;Microsoft Fabric;Power BI;Power Query;SQL;SQL Server;SSRS
+VAL0004,4462482727,AWS;Ansible;Azure;CI/CD;DevOps;GCP;GitHub;HTML;IaC;Incident Response;Kubernetes;Linux;Terraform;containerization;orchestration;provisioning;virtualization
+VAL0005,4486555027,AWS;Artificial Intelligence (AI);MLOps;MLflow;Machine Learning;Prefect;Python;SQL;Scikit-learn;XGBoost;orchestration
+VAL0006,4465231702,Incident Response;SIEM;cybersecurity
+VAL0007,4477276461,AWS;DNS;Istio;Kubernetes;Load Balancing;TCP/IP;cybersecurity;firewalls;provisioning;routing;segmentation
+VAL0008,4482525670,Agile;Artificial Intelligence (AI);Data Visualization;Excel;Jira;Power Query;Python;R;SQL;Tableau
+VAL0009,4447095102,AWS;Agile;Ansible;Artificial Intelligence (AI);CI/CD;Docker;ECS;Java;Jira;Kubernetes;Lambda;Linux;MySQL;Oracle;PostgreSQL;React;SQL;SQL Server;SSO;Scrum;Spring;Spring Boot
+VAL0010,4471964552,Agentforce;Apex;CI/CD;LWC;MuleSoft;SOQL;Salesforce
+VAL0011,4483874778,Artificial Intelligence (AI);C++;Computer Vision;MLOps;Machine Learning;OpenCV;PyTorch;Python;TensorRT;segmentation
+VAL0012,4472238685,Artificial Intelligence (AI);ChatGPT;Confluence;Cursor;Entra ID;Incident Response;Intune;Jira;Linux;Power BI;Python;Tenable;UNIX;Vulnerability Management;Windows;cybersecurity;firewalls;segmentation
+VAL0013,4489797900,Data Governance;Data Modeling;Data Visualization;Excel;Power BI
+VAL0014,4488970531,C;C++;CI/CD;Git;GitLab;Linux;UNIX;virtualization
+VAL0015,4483423119,AWS;Agile;Angular;Artificial Intelligence (AI);Aurora;Bootstrap;CI/CD;DevSecOps;Excel;Generative AI;Git;GitHub;GitLab;Hibernate;Java;JavaScript;Oracle;PL/pgSQL;PostgreSQL;PowerPoint;SQL;Visio
+VAL0016,4489001528,Agile;CI/CD;DevOps;JavaScript;Test Automation;TypeScript
+VAL0017,4486287388,Agentforce;Artificial Intelligence (AI);LWC;Salesforce;Visualforce
+VAL0018,4487037559,Artificial Intelligence (AI);Azure DevOps;DAX;Data Governance;Data Modeling;Data Visualization;Data Warehousing;ETL/ELT;Git;JavaScript;Jira;Machine Learning;Microsoft Fabric;Power BI;Power Query;Python;R;SQL
+VAL0019,4470323825,Data Governance;Database Administration;Linux;Oracle;PL/SQL;SQL;SQL Server;UNIX;indexing;middleware;patching;runbooks
+VAL0020,4484671376,API Testing;AWS;Agile;Argo CD;CI/CD;Databricks;Datadog;Distributed Systems;Docker;GCP;GitHub;Grafana;JUnit;Java;Jenkins;Kubernetes;Machine Learning;Postman;Prometheus;Pytest;Python;REST API;Ray;Scala;Test Automation;TestNG;microservices;observability
+VAL0021,4491422569,BGP;Cisco;Fortinet;OSPF;SolarWinds;VLANs;VPNs;Wireshark;firewalls;routing
+VAL0022,4492120870,AWS;Agile;Ansible;Artificial Intelligence (AI);Azure;Bash;CloudFormation;DNS;Data Visualization;EKS;GCP;Golang;Helm;IaC;Incident Response;Kubernetes;Linux;Load Balancing;Pulumi;Python;React;TCP/IP;Terraform;microservices;observability;orchestration
+VAL0023,4479572498,AWS;Agentic AI;Artificial Intelligence (AI);C#;C++;Java;MCP;Perl;authentication
+VAL0024,4466935709,AWS;Ansible;Azure;Bash;IAM;Incident Response;Linux;PowerShell;Puppet;Python;SAP;SIEM;Terraform;Vulnerability Management;cybersecurity;segmentation
+VAL0025,4472085853,Artificial Intelligence (AI);Claude;Cursor;GitHub;GitHub Copilot;React
+VAL0026,4484376837,Artificial Intelligence (AI);Azure;CI/CD;DAX;Data Governance;Data Modeling;Data Visualization;Databricks;Delta Lake;ETL/ELT;Git;Machine Learning;Power BI;Power Query;Python;R;SQL;orchestration
+VAL0027,4491714556,Agentic AI;Distributed Systems;Kubernetes;Machine Learning;cybersecurity;observability;orchestration
+VAL0028,4491097917,Excel;PowerPoint;SAP
+VAL0029,4482530845,Database Administration;Oracle;Oracle RMAN;PL/SQL;SQL;patching
+VAL0030,4484124136,AWS;Agile;Azure;Azure DevOps;C#;CI/CD;Cucumber;Cypress;Docker;GitLab;JMeter;JUnit;Java;JavaScript;Jenkins;Karate;Kubernetes;OCI;Performance Testing;Playwright;Python;REST API;Selenium;Test Automation;TestNG;containerization;microservices;orchestration
+VAL0031,4491053087,Artificial Intelligence (AI);C++;Computer Vision;Machine Learning;ONNX;PyTorch;Python;TensorFlow;TensorRT;robotics
+VAL0032,4471136330,AWS;Artificial Intelligence (AI);Datadog;observability;telemetry
+VAL0033,4489810134,C;C++;Computer Vision;Deep Learning;Machine Learning;PyTorch;Python;TensorFlow;robotics
+VAL0034,4460382063,API Testing;Agile;Appium;Artificial Intelligence (AI);Azure DevOps;CI/CD;Cypress;DevOps;Distributed Systems;Git;GitHub;GitHub Copilot;JavaScript;Performance Testing;Playwright;RAG;REST API;SQL;Scrum;Test Automation;TypeScript;containerization;k6
+VAL0035,4453837215,AWS;Agentic AI;Ansible;Artificial Intelligence (AI);CI/CD;Chef;Claude;CloudFormation;CloudWatch;Codex;Cursor;DNS;Data Visualization;Datadog;Docker;DynamoDB;EKS;Git;GitHub;Grafana;HTTP;IaC;Incident Management;Incident Response;Java;Jenkins;Jira;Kubernetes;Lambda;Linux;Load Balancing;MySQL;Oracle;Python;RDS;SQL;SRE;ServiceNow;Snowflake;Splunk;TCP/IP;Terraform;UNIX;observability;orchestration;runbooks;telemetry
+VAL0036,4478803416,Agile;Apex;Boomi;CI/CD;Git;GitHub;Jenkins;MuleSoft;SOQL;Salesforce;Scrum;Visualforce;middleware
+VAL0037,4490795701,AWS;CI/CD;Docker;DynamoDB;GitHub;JSON;Java;Kafka;Kubernetes;NoSQL;PostgreSQL;Python;RDS;Rust;S3;SQL;SQS;Spring Boot;robotics
+VAL0038,4492045522,AWS;CI/CD;Datadog;DevOps;ECS;GitHub;IAM;Incident Management;Incident Response;RDS;Terraform;VPC;dbt;observability;runbooks
+VAL0039,4454455041,SAP
+VAL0040,4483305128,Artificial Intelligence (AI);ChatGPT;Claude;Codex;Data Visualization;Excel;GitHub;GitHub Copilot;Looker;Power BI;SQL;Tableau
+VAL0041,4482916736,AWS;Agile;Azure;CI/CD;Git;Gradle;JUnit;Java;Jira;Kotlin;Linux;Test Automation;UNIX;cybersecurity
+VAL0042,4479202471,Artificial Intelligence (AI);JavaScript;Large Language Models (LLMs);Machine Learning;Python;Snowflake;TypeScript;embeddings;orchestration
+VAL0043,4490577247,Agile;Azure;Data Visualization;Entra ID;Incident Response;Jira;SIEM;ServiceNow;Vulnerability Management;Windows;cybersecurity;provisioning;runbooks
+VAL0044,4489452275,AWS;Artificial Intelligence (AI);Azure;GCP;Large Language Models (LLMs);NLP;Node.js;PyTorch;Python;RAG;React;TensorFlow
+VAL0045,4483983814,AWS;Agile;Appium;Azure;Bitbucket;CI/CD;DevOps;DevSecOps;Docker;GCP;Git;GitHub;GitLab;HTTP;Kubernetes;Postman;Selenium;Test Automation;containerization;cybersecurity;virtualization
+VAL0046,4477163418,AWS;AWS Glue;Data Modeling;Data Warehousing;EC2;ECS;EKS;ETL/ELT;IAM;Kinesis;Lambda;Redshift;S3;SQL;serverless
+VAL0047,4481002554,Data Visualization;Data Warehousing;Excel;Looker;Power BI;Python;SQL;Salesforce;Tableau
+VAL0048,4490689627,API Testing;Agile;Azure DevOps;CI/CD;Cucumber;DevOps;GitHub;Java;Jenkins;Performance Testing;Playwright;Scrum;Selenium;Test Automation
+VAL0049,4487549100,Azure;Cisco;DHCP;DNS;Fortinet;Palo Alto;TCP/IP;TLS;VPNs;firewalls;routing
+VAL0050,4486849590,AWS;Agile;Apache Cassandra;Artificial Intelligence (AI);Azure;CI/CD;Data Modeling;DynamoDB;GCP;Java;Kafka;MongoDB;NoSQL;React;Spring;Spring Boot;TypeScript;observability;orchestration
+VAL0051,4490185601,AWS;Artificial Intelligence (AI);Dynatrace;Linux;Python;SRE;Splunk;Windows;observability;runbooks;telemetry
+VAL0052,4472263755,AWS;Agile;Artificial Intelligence (AI);CI/CD;Incident Response;JMeter;Machine Learning;MongoDB;Performance Testing;Python;SLIs/SLOs;SRE
+VAL0053,4487787298,Artificial Intelligence (AI);C++;CUDA;Computer Vision;Deep Learning;GPU;Kubernetes;Machine Learning;Python;Rust;orchestration
+VAL0054,4489563984,ACAS;Agile;CI/CD;DevSecOps;Jira;Kubernetes;Linux;Nessus;Vulnerability Management;Windows;cybersecurity
+VAL0055,4474388893,AWS;Agentforce;Agile;Artificial Intelligence (AI);Azure;CRM;Claude;Codex;Cursor;Docker;GCP;GitHub;GitHub Copilot;Golang;Java;Kubernetes;OpenAI;PostgreSQL;Python;Ruby;Salesforce;Terraform;containerization;microservices
+VAL0056,4484271757,Data Modeling;Data Warehousing;ETL/ELT
+VAL0057,4490806725,Agile;Data Visualization;DevSecOps;HTML;Power BI;Power Query;SQL;T-SQL;cybersecurity
+VAL0058,4483270958,Data Modeling;Distributed Systems;Golang;Python
+VAL0059,4484252233,AWS;Ansible;Azure;Cisco;DHCP;DNS;IaC;Python;Terraform;VPNs;Wireless Networking;provisioning;routing;segmentation;telemetry
+VAL0060,4477726190,Confluence;Data Visualization;EDR;IAM;IaaS;Incident Response;KQL;PaaS;PowerShell;Python;SIEM;ServiceNow;Vulnerability Management;firewalls
+VAL0061,4486094704,AWS;Artificial Intelligence (AI);BigQuery;CI/CD;CRM;Data Modeling;Data Visualization;Databricks;ETL/ELT;Fivetran;Large Language Models (LLMs);Python;SQL;Snowflake;dbt;ingestion;lineage;orchestration;telemetry
+VAL0062,4368396986,AWS;Agentic AI;Artificial Intelligence (AI);Azure;CI/CD;Computer Vision;GCP;Generative AI;Hugging Face;Jenkins;LangSmith;Large Language Models (LLMs);MLOps;Machine Learning;PyTorch;Python;RAG;TensorFlow;embeddings;observability
+VAL0063,4482032099,Deep Learning;Flink;Machine Learning;PyTorch;Python;Ray;Scikit-learn;TensorFlow;XGBoost;telemetry
+VAL0064,4487506104,Agile;Artificial Intelligence (AI);Azure DevOps;C#;CI/CD;Data Warehousing;DevSecOps;ETL/ELT;JUnit;Java;JavaScript;NUnit;Playwright;Postman;Pytest;Python;SQL;SQL Server;Selenium;Test Automation;TypeScript
+VAL0065,4488385509,Artificial Intelligence (AI);CI/CD;GitHub;JMeter;Java;JavaScript;Karate;Performance Testing;Playwright;Python;SQL;Selenium;Test Automation
+VAL0066,4488412999,Azure;Azure Data Factory;DAX;DB2;Data Governance;Data Modeling;Data Visualization;Data Warehousing;Entra ID;Excel;Power BI;Power Query;SQL;SQL Server;T-SQL
+VAL0067,4484756403,Data Visualization;Excel;Power BI;Power Query;Python;SQL
+VAL0068,4460351848,AWS;Ansible;Azure;Data Visualization;EC2;Incident Management;PaaS;Power BI;PowerShell;RDS;SQL;SQL Server;SSIS;SSRS;ServiceNow;Windows;authentication;cybersecurity;patching;provisioning
+VAL0069,4489005346,Data Governance;Data Modeling;Data Visualization;Data Warehousing;Power BI;Python;SQL
+VAL0070,4463150604,C++;Computer Vision;Deep Learning;Java;Machine Learning;Python;segmentation
+VAL0071,4449442307,ActiveMQ;Angular;Ansible;C#;Docker;Golang;Gradle;Java;JavaScript;Kafka;Kubernetes;PostgreSQL;Puppet;Python;RabbitMQ;React;SQL;SQL Server;Scala;Terraform;UNIX;npm
+VAL0072,4275263115,S/4HANA;SAP
+VAL0073,4449214367,Azure;Azure Data Factory;DAX;Data Governance;Data Modeling;Data Visualization;ETL/ELT;Git;Microsoft Fabric;Power BI;Python;SQL;lakehouse;lineage;orchestration;routing
+VAL0074,4467125312,Agile;Data Modeling;Data Warehousing;ETL/ELT;NumPy;Oracle;PL/SQL;Pandas;Python;SQL;Scrum;indexing
+VAL0075,4462334954,Apex;Artificial Intelligence (AI);CI/CD;GitHub;HTTP;LWC;SOAP API;Salesforce;Visualforce
+VAL0076,4491773826,AWS;Artificial Intelligence (AI);Azure;CI/CD;Cypress;DevOps;GCP;Git;JavaScript;Machine Learning;Playwright;Python;Test Automation;TypeScript
+VAL0077,4474642985,AWS;Artificial Intelligence (AI);Aurora;CI/CD;CloudWatch;DNS;ECS;GCP;Incident Response;Kinesis;Kubernetes;MCP;OpenAI;Python;TLS;VPC;dbt;observability;orchestration
+VAL0078,4483947942,AWS;Ansible;Artificial Intelligence (AI);Azure;Bash;Chef;Data Visualization;Distributed Systems;Docker;Golang;Incident Management;Incident Response;Java;JavaScript;Kubernetes;Puppet;Python;Terraform;containerization;observability;orchestration;provisioning;runbooks
+VAL0079,4484517778,AWS;Databricks
+VAL0080,4491204401,AWS;Artificial Intelligence (AI);Distributed Systems;Golang;Incident Response;Kubernetes;Python;SLIs/SLOs;SRE;containerization;observability;provisioning
+VAL0081,4428386182,AWS;Data Governance;Databricks;Snowflake
+VAL0082,4484877798,Azure;Incident Response;SIEM;Vulnerability Management;cybersecurity;firewalls
+VAL0083,4491569809,Agentforce;Agentic AI;Apex;Artificial Intelligence (AI);CI/CD;Claude;Cursor;Data Governance;DevOps;ETL/ELT;Generative AI;Git;GitHub;GitHub Copilot;LWC;MuleSoft;SAP;SOQL;Salesforce;middleware
+VAL0084,4489982156,AWS;Incident Response;Linux;Oracle;Oracle RMAN;PostgreSQL;SQL;SQL Server;patching
+VAL0085,4463862450,API Testing;Agile;Artificial Intelligence (AI);CI/CD;ChatGPT;DevOps;Generative AI;Git;GitHub;GitHub Copilot;HTTP;Java;NoSQL;Playwright;SQL;Scrum;Selenium;Test Automation
+VAL0086,4472376296,Angular;CI/CD;CSS;Data Visualization;Docker;Git;HTML;JavaScript;Linux;NoSQL;Python;REST API;React;SQL;TypeScript;Vue;orchestration
+VAL0087,4465717279,Distributed Systems;SRE
+VAL0088,4491005802,Azure;IaaS;PowerShell;SQL;SQL Server;VMware;Windows
+VAL0089,4477087885,AWS;Agile;Artificial Intelligence (AI);CI/CD;ChatGPT;Claude;Cypress;DevOps;Docker;ECS;Golang;Helm;JavaScript;Jira;Kubernetes;Linux;Playwright;Python;React;SIEM;Selenium;TLS;TestRail;TypeScript;VPNs;Windows;authentication;containerization;cybersecurity;firewalls;orchestration;routing;virtualization
+VAL0090,4488661603,Argo CD;Artificial Intelligence (AI);CI/CD;Ceph;DNS;Distributed Systems;Incident Response;Kubernetes;Node.js;Python;observability;provisioning
+VAL0091,4491054044,Database Administration;SQL;SQL Server
+VAL0092,4476102997,AWS;Artificial Intelligence (AI);Django;GitHub;JSON;PostgreSQL;Python;Redis;SSO;Terraform;observability
+VAL0093,4491668291,Agile;CI/CD;DevOps;Excel;PowerPoint;Salesforce;Visio
+VAL0094,4488081063,AWS;Agile;Ansible;Apache Hive;Bash;CI/CD;Ceph;DevOps;EC2;EKS;Elasticsearch;Git;Hadoop;Kafka;Kubernetes;Lambda;Linux;NiFi;PostgreSQL;Python;S3;Spark;Terraform;Trino;orchestration
+VAL0095,4478598481,Artificial Intelligence (AI);BGP;Cisco;DNS;OSPF;Palo Alto;UNIX;firewalls;routing
+VAL0096,4490774331,AWS;Apex;Artificial Intelligence (AI);Bedrock;C#;C++;CI/CD;CRM;DevOps;Generative AI;Golang;Java;LWC;Linux;Python;RAG;Ruby;Rust;SOQL;Salesforce;Salesforce Flow;UNIX
+VAL0097,4482815459,Angular;Django;FastAPI;Flask;PostgreSQL;Python;React;Vue
+VAL0098,4424286897,Agentic AI;Artificial Intelligence (AI);Keras;Machine Learning;PyTorch;RAG;TensorFlow
+VAL0099,4491732236,Apex;Artificial Intelligence (AI);CRM;CSS;GitHub;GitHub Copilot;HTTP;JSON;JavaScript;Salesforce;Visualforce;XML;middleware
+VAL0100,4443038177,Agentic AI;Artificial Intelligence (AI);Data Visualization;Python;R;SQL;Snowflake
+VAL0101,4414702687,AWS;Ansible;Artificial Intelligence (AI);Azure DevOps;CI/CD;Data Visualization;Docker;Generative AI;GitHub;GitLab;IaC;Incident Response;Jenkins;Kubernetes;Machine Learning;SLIs/SLOs;SRE;Terraform;VMware;containerization;observability;orchestration;runbooks;telemetry
+VAL0102,4477621256,AWS;Agentic AI;Artificial Intelligence (AI);Azure;Deep Learning;GCP;Large Language Models (LLMs);Machine Learning;NLP;PyTorch;Python;Scikit-learn;TensorFlow;embeddings
+VAL0103,4486474280,Data Visualization;Databricks;Excel;Power BI;Qlik;SQL;Tableau
+VAL0104,4489146697,AWS;Artificial Intelligence (AI);C#;C++;Java;Lambda;Machine Learning;Perl;Python;R;S3;SAS;SPSS;SQL;Tableau
+VAL0105,4477702593,API Testing;Agile;Angular;Artificial Intelligence (AI);CI/CD;Cucumber;JUnit;Java;JavaScript;Jenkins;Linux;Performance Testing;SQL;Selenium;Spring;Test Automation;UNIX
+VAL0106,4486218922,Agile;CI/CD;Jira;Performance Testing
+VAL0107,4473680556,Airflow;Artificial Intelligence (AI);BigQuery;Data Modeling;Data Warehousing;Hadoop;Python;Scala;Spark;dbt
+VAL0108,4482182767,AWS;Agile;Apex;Artificial Intelligence (AI);CRM;CloudFormation;DevOps;ETL/ELT;GitHub;IaC;Informatica;LWC;Lambda;MFA;Performance Testing;Python;SQL;SSO;Salesforce;authentication
+VAL0109,4491195073,AWS;Artificial Intelligence (AI);Data Governance;Data Visualization;EDR;IAM;Incident Response;SIEM;Vulnerability Management;authentication;cybersecurity;provisioning;runbooks;telemetry
+VAL0110,4484259728,AWS;Airflow;Artificial Intelligence (AI);Bash;CI/CD;Data Visualization;DevOps;EC2;ETL/ELT;Git;GitLab;Grafana;Linux;PostgreSQL;PowerShell;Prefect;Python;SQL;SQL Server;Snowflake;T-SQL;Terraform;Windows;observability;orchestration;patching;provisioning;runbooks
+VAL0111,4466283060,AWS;Airflow;Artificial Intelligence (AI);Data Governance;Data Modeling;ETL/ELT;Git;GitHub;Incident Response;Jira;Prefect;Python;Redshift;S3;SQL;Snowflake;dbt;ingestion;lineage;observability;orchestration
+VAL0112,4449137281,Agile;Apex;Azure DevOps;Boomi;CI/CD;CRM;Copado;Data Governance;Data Modeling;Gearset;Git;LWC;MuleSoft;SOQL;SQL;Salesforce;Scrum;Visualforce;middleware
+VAL0113,4463073023,Artificial Intelligence (AI);Data Modeling;Data Visualization;Excel;Machine Learning;PostgreSQL;Python;R;SQL;Tableau
+VAL0114,4481901340,DHCP;DNS;HTTP;SIEM;Splunk;Vulnerability Management;cybersecurity;firewalls
+VAL0115,4482325208,Cisco;firewalls;patching;routing
+VAL0116,4448535437,Artificial Intelligence (AI);Data Warehousing;ETL/ELT;Jira;SAP
+VAL0117,4491350793,BigQuery;Data Modeling;Data Visualization;Data Warehousing;Git;Looker;Pandas;Power BI;Python;SQL;Snowflake;Tableau;dbt
+VAL0118,4258506065,Agile;Azure DevOps;C#;Postman;Scrum;Selenium;observability
+VAL0119,4493307448,AWS;Aurora;Bash;CI/CD;CloudFormation;CloudWatch;DNS;Datadog;DevOps;Django;Docker;ECS;Entra ID;Git;GitHub;IAM;IaC;JSON;KMS;Kafka;PagerDuty;PostgreSQL;Python;RDS;Redis;S3;SQS;SSO;Terraform;Terragrunt;VPC;YAML;authentication;containerization;microservices;observability;runbooks
+VAL0120,4475342118,API Testing;Agile;Artificial Intelligence (AI);Azure;C#;CI/CD;Cucumber;JUnit;Java;JavaScript;Jira;Postman;Python;SQL;Selenium;Test Automation;TypeScript

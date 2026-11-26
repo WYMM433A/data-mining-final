@@ -1,0 +1,3 @@
+﻿step,rows_in,rows_out,rows_removed,reason
+02.1_missing_title_or_description,8882,8881,1,Removed rows with an empty title or description.
+02.2_description_under_50_words,8881,8879,2,Removed descriptions shorter than 50 whitespace-delimited words.

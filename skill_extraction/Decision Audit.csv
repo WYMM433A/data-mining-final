@@ -1,0 +1,923 @@
+﻿skill_id,original_term,previous_category,canonical_skill,new_category,action,reason,doc_freq
+SK-0001,AI,Technical Concepts,Artificial Intelligence (AI),Technical Concepts,Normalized / reclassified,Canonical name for AI,2918
+SK-0007,infrastructure,Platforms & Infrastructure,infrastructure,Generic / Nontechnical,Normalized / reclassified,Generic word; overrides prior Platforms decision,1551
+SK-0015,CI/CD pipelines,Technical Practices,CI/CD,Technical Practices,Alias merged,Pipelines are the CI/CD practice,879
+SK-0016,dashboards,Generic / Nontechnical,Data Visualization,Technical Concepts,Alias merged,Dashboard development is a visualization skill; overrides prior Generic decision,861
+SK-0019,APIs,Technical Concepts,API,Technical Concepts,Alias merged,Plural of API,769
+SK-0025,databases,Platforms & Infrastructure,database,Technical Concepts,Alias merged,Plural of existing concept,627
+SK-0031,frameworks,Platforms & Infrastructure,frameworks,Generic / Nontechnical,Normalized / reclassified,Generic word; overrides prior Platforms decision,569
+SK-0032,ML,Technical Concepts,Machine Learning,Technical Concepts,Normalized / reclassified,Canonical name for ML,565
+SK-0043,Tableau,Platforms & Infrastructure,Tableau,Software & Tools,Normalized / reclassified,BI tool,446
+SK-0058,Jenkins,Platforms & Infrastructure,Jenkins,Software & Tools,Normalized / reclassified,CI/CD tool,375
+SK-0060,integrations,Noise / Ambiguous,integration,Technical Practices,Alias merged,Plural of existing practice term,369
+SK-0062,Jira,Platforms & Infrastructure,Jira,Software & Tools,Normalized / reclassified,Issue tracking tool,357
+SK-0063,LLM,Technical Concepts,Large Language Models (LLMs),Technical Concepts,Normalized / reclassified,Canonical name for LLM,357
+SK-0071,LLMs,Technical Concepts,Large Language Models (LLMs),Technical Concepts,Alias merged,Plural of LLM,309
+SK-0081,GitHub,Platforms & Infrastructure,GitHub,Software & Tools,Normalized / reclassified,Source control platform,271
+SK-0088,Grafana,Platforms & Infrastructure,Grafana,Software & Tools,Normalized / reclassified,Dashboard/monitoring tool,254
+SK-0090,visualization,Noise / Ambiguous,Data Visualization,Technical Concepts,Normalized / reclassified,Data visualization is a technical concept,253
+SK-0091,generative AI,Technical Concepts,Generative AI,Technical Concepts,Normalized / reclassified,Canonical name,252
+SK-0099,SOC,Standards & Compliance,,Noise / Ambiguous,Retained - needs review,Ambiguous (SOC 2 vs Security Operations Center),238
+SK-0101,deployments,Technical Practices,deployment,Technical Practices,Normalized / reclassified,Canonical name normalized to singular practice term,231
+SK-0108,Excel,Platforms & Infrastructure,Excel,Software & Tools,Normalized / reclassified,Spreadsheet application,214
+SK-0109,datasets,Noise / Ambiguous,,Generic / Nontechnical,Removed - not a skill,Generic word,213
+SK-0112,GitLab,Platforms & Infrastructure,GitLab,Software & Tools,Normalized / reclassified,Source control/DevOps platform,207
+SK-0115,alerts,Noise / Ambiguous,alerting,Technical Practices,Alias merged,Alerts are the output of the alerting practice,202
+SK-0119,Prometheus,Platforms & Infrastructure,Prometheus,Software & Tools,Normalized / reclassified,Monitoring tool,196
+SK-0124,queries,Noise / Ambiguous,,Generic / Nontechnical,Removed - not a skill,Generic word without a specific technology,186
+SK-0130,Apex,Technical Concepts,Apex,Programming Languages,Normalized / reclassified,Salesforce programming language,174
+SK-0135,Microsoft,Software & Tools,,Noise / Ambiguous,Retained - needs review,Company name; needs product context,167
+SK-0138,RESTful APIs,Technical Concepts,REST API,Technical Concepts,Alias merged,Canonical name for RESTful APIs,164
+SK-0141,Datadog,Platforms & Infrastructure,Datadog,Software & Tools,Normalized / reclassified,Monitoring tool,161
+SK-0145,detection,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,155
+SK-0148,Splunk,Platforms & Infrastructure,Splunk,Software & Tools,Normalized / reclassified,Log analysis tool,153
+SK-0154,deploying,Noise / Ambiguous,deployment,Technical Practices,Alias merged,Verb form of deployment,146
+SK-0160,SLOs,Standards & Compliance,SLIs/SLOs,Technical Practices,Normalized / reclassified,Reliability practice (SRE); misfiled as a standard,139
+SK-0169,Claude,Platforms & Infrastructure,Claude,Software & Tools,Normalized / reclassified,AI assistant tool,134
+SK-0172,Cursor,Platforms & Infrastructure,Cursor,Software & Tools,Normalized / reclassified,AI code editor,131
+SK-0182,permissions,Noise / Ambiguous,,Generic / Nontechnical,Removed - not a skill,Generic word without a specific technology,121
+SK-0185,GitHub Copilot,Platforms & Infrastructure,GitHub Copilot,Software & Tools,Normalized / reclassified,Developer AI assistant tool,116
+SK-0187,endpoint,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,116
+SK-0191,Postman,Platforms & Infrastructure,Postman,Software & Tools,Normalized / reclassified,API testing tool,111
+SK-0193,routers,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,109
+SK-0195,architectures,Noise / Ambiguous,,Generic / Nontechnical,Removed - not a skill,Generic word,108
+SK-0196,configuring,Noise / Ambiguous,configuration,Technical Practices,Alias merged,Verb form of configuration,107
+SK-0198,Looker,Platforms & Infrastructure,Looker,Software & Tools,Normalized / reclassified,BI tool,106
+SK-0205,LWC,Technical Concepts,LWC,Frameworks & Libraries,Normalized / reclassified,Lightning Web Components framework,101
+SK-0212,SQL queries,Noise / Ambiguous,SQL,Programming Languages,Alias merged,Querying SQL is the SQL language skill,96
+SK-0214,H-1B,Generic / Nontechnical,,Noise / Ambiguous,Removed - not a skill,"Visa term, not a skill",94
+SK-0215,Confluence,Platforms & Infrastructure,Confluence,Software & Tools,Normalized / reclassified,Documentation tool,93
+SK-0231,PowerPoint,Platforms & Infrastructure,PowerPoint,Software & Tools,Normalized / reclassified,Presentation application,87
+SK-0236,agentic workflows,Noise / Ambiguous,Agentic AI,Technical Concepts,Alias merged,Agentic workflows are the agentic AI concept,84
+SK-0238,Amazon,Generic / Nontechnical,,Noise / Ambiguous,Removed - not a skill,"Company name, not a skill",83
+SK-0239,Bitbucket,Platforms & Infrastructure,Bitbucket,Software & Tools,Normalized / reclassified,Source control platform,83
+SK-0243,prioritization,Noise / Ambiguous,,Generic / Nontechnical,Removed - not a skill,Generic word,83
+SK-0244,24x7,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,82
+SK-0245,CUDA,Technical Concepts,CUDA,Frameworks & Libraries,Normalized / reclassified,Parallel computing library/platform,82
+SK-0247,Word,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,82
+SK-0254,Copilot,Platforms & Infrastructure,,Noise / Ambiguous,Retained - needs review,Ambiguous product name (GitHub vs Microsoft Copilot),79
+SK-0258,GitLab CI,Platforms & Infrastructure,GitLab CI/CD,Technical Practices,Alias merged,GitLab CI is GitLab CI/CD,75
+SK-0260,MITRE,Technical Concepts,MITRE ATT&CK,Standards & Compliance,Normalized / reclassified,Security framework,75
+SK-0263,AI-assisted,Noise / Ambiguous,,Generic / Nontechnical,Removed - not a skill,Modifier without a specific skill,73
+SK-0269,OPT,Generic / Nontechnical,,Noise / Ambiguous,Removed - not a skill,"Visa term, not a skill",72
+SK-0271,query,Noise / Ambiguous,,Generic / Nontechnical,Removed - not a skill,Generic word without a specific technology,72
+SK-0280,CSS3,Noise / Ambiguous,CSS,Programming Languages,Alias merged,CSS version,68
+SK-0281,JMeter,Technical Concepts,JMeter,Software & Tools,Normalized / reclassified,Load testing tool,68
+SK-0284,SLIs,Technical Concepts,SLIs/SLOs,Technical Practices,Alias merged,Reliability practice (SRE),67
+SK-0292,ArgoCD,Technical Concepts,Argo CD,Software & Tools,Normalized / reclassified,GitOps deployment tool,62
+SK-0301,SD,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous abbreviation,60
+SK-0302,Hive,Technical Concepts,Apache Hive,Platforms & Infrastructure,Normalized / reclassified,Data warehouse on Hadoop,59
+SK-0303,Cucumber,Technical Concepts,Cucumber,Software & Tools,Normalized / reclassified,BDD testing tool,58
+SK-0304,DB2,Technical Concepts,DB2,Platforms & Infrastructure,Normalized / reclassified,Database,58
+SK-0305,GenAI,Technical Concepts,Generative AI,Technical Concepts,Alias merged,Generative AI,58
+SK-0311,CCIE,Noise / Ambiguous,CCIE,Certifications,Normalized / reclassified,Cisco certification,56
+SK-0314,Transformers,Technical Concepts,Transformers,Frameworks & Libraries,Normalized / reclassified,Hugging Face library,56
+SK-0317,DISA,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Organization name, not a skill",54
+SK-0320,GCIA,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,53
+SK-0321,Visualforce,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,53
+SK-0322,npm,Technical Concepts,npm,Software & Tools,Normalized / reclassified,Package manager,53
+SK-0325,D.C,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Location fragment,52
+SK-0329,Maven,Technical Concepts,Maven,Software & Tools,Normalized / reclassified,Build tool,51
+SK-0330,ELK,Technical Concepts,ELK Stack,Software & Tools,Normalized / reclassified,Logging stack,50
+SK-0333,warehousing,Noise / Ambiguous,Data Warehousing,Technical Concepts,Alias merged,Data warehousing concept,50
+SK-0335,Qlik,Platforms & Infrastructure,Qlik,Software & Tools,Normalized / reclassified,BI tool,49
+SK-0338,B.S,Noise / Ambiguous,Bachelor's Degree,Generic / Nontechnical,Normalized / reclassified,Degree (generic nontechnical),48
+SK-0340,analytic,Noise / Ambiguous,analytics,Technical Concepts,Alias merged,Singular form of analytics,48
+SK-0343,MDM,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (master data management vs mobile device management),47
+SK-0344,ONNX,Technical Concepts,ONNX,Frameworks & Libraries,Normalized / reclassified,ML model format/runtime library,47
+SK-0345,SOQL/SOSL,Technical Concepts,SOQL,Programming Languages,Alias merged,Salesforce query languages,47
+SK-0346,containerized workloads,Noise / Ambiguous,containerization,Technical Practices,Alias merged,Containerized workloads refer to containerization practice,47
+SK-0348,Glue,Technical Concepts,AWS Glue,Platforms & Infrastructure,Normalized / reclassified,Cloud ETL service,46
+SK-0349,MongoDB,Technical Concepts,MongoDB,Platforms & Infrastructure,Normalized / reclassified,Database,46
+SK-0350,SOQL,Technical Concepts,SOQL,Programming Languages,Normalized / reclassified,Salesforce query language,46
+SK-0351,generation/refactoring,Technical Practices,,Noise / Ambiguous,Retained - needs review,Compound; split review,46
+SK-0352,19c,Noise / Ambiguous,Oracle,Platforms & Infrastructure,Alias merged,Oracle Database version,45
+SK-0353,B2B,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,45
+SK-0355,MM,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous abbreviation (materials management vs other meaning),45
+SK-0356,SAP S/4HANA,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound term; split proposal needs review,45
+SK-0358,ChatGPT,Platforms & Infrastructure,ChatGPT,Software & Tools,Normalized / reclassified,AI assistant tool,44
+SK-0359,EBS,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (Oracle E-Business Suite vs AWS Elastic Block Store),44
+SK-0360,FinOps,Noise / Ambiguous,FinOps,Technical Practices,Normalized / reclassified,Cloud financial management practice,44
+SK-0363,TLS,Noise / Ambiguous,TLS,Technical Concepts,Normalized / reclassified,Protocol,43
+SK-0365,concurrency,Noise / Ambiguous,Concurrency,Technical Concepts,Normalized / reclassified,Programming concept,43
+SK-0366,containerized,Noise / Ambiguous,containerization,Technical Practices,Alias merged,Adjective form of containerization,43
+SK-0367,vulnerability,Noise / Ambiguous,,Generic / Nontechnical,Removed - not a skill,Generic word; not a specific skill,43
+SK-0369,MLflow,Noise / Ambiguous,MLflow,Software & Tools,Normalized / reclassified,ML lifecycle tool,42
+SK-0370,Network+,Technical Concepts,CompTIA Network+,Certifications,Normalized / reclassified,Certification,42
+SK-0372,U.S.C,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,42
+SK-0374,Gemini,Platforms & Infrastructure,Gemini,Software & Tools,Normalized / reclassified,AI assistant tool,41
+SK-0375,ITSM,Noise / Ambiguous,IT Service Management (ITSM),Technical Practices,Normalized / reclassified,IT service management practice,41
+SK-0376,Juniper,Generic / Nontechnical,,Noise / Ambiguous,Retained - needs review,Vendor name; may refer to Junos skills,41
+SK-0377,PowerBI,Noise / Ambiguous,Power BI,Software & Tools,Alias merged,Spelling variant of Power BI,41
+SK-0378,RMAN,Noise / Ambiguous,Oracle RMAN,Software & Tools,Normalized / reclassified,Oracle backup utility,41
+SK-0379,RabbitMQ,Noise / Ambiguous,RabbitMQ,Platforms & Infrastructure,Normalized / reclassified,Message broker,41
+SK-0380,subnets,Noise / Ambiguous,subnetting,Technical Concepts,Alias merged,Subnets are the subnetting concept,41
+SK-0381,workspaces,Noise / Ambiguous,,Generic / Nontechnical,Removed - not a skill,Generic word,41
+SK-0382,Appium,Noise / Ambiguous,Appium,Frameworks & Libraries,Normalized / reclassified,Mobile test automation framework,40
+SK-0383,Flux,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (Flux CD vs InfluxDB vs generic),40
+SK-0386,React.js,Noise / Ambiguous,React,Frameworks & Libraries,Alias merged,Spelling variant of React,40
+SK-0387,SLAM,Noise / Ambiguous,SLAM,Technical Concepts,Normalized / reclassified,Robotics/vision concept,40
+SK-0388,WAF,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,40
+SK-0389,CDC,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (change data capture vs disease control agency),39
+SK-0392,IPSEC,Noise / Ambiguous,IPsec,Technical Concepts,Normalized / reclassified,Protocol,39
+SK-0393,Pinecone,Noise / Ambiguous,Pinecone,Platforms & Infrastructure,Normalized / reclassified,Vector database,39
+SK-0396,a.m,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Time fragment,39
+SK-0397,personalization,Noise / Ambiguous,,Generic / Nontechnical,Removed - not a skill,Generic word,39
+SK-0398,quantization,Noise / Ambiguous,Quantization,Technical Concepts,Normalized / reclassified,Model-optimization technique,39
+SK-0399,Fabric,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (Microsoft Fabric vs generic word),38
+SK-0400,Informatica,Noise / Ambiguous,Informatica,Software & Tools,Normalized / reclassified,ETL tool,38
+SK-0403,QoS,Noise / Ambiguous,Quality of Service (QoS),Technical Concepts,Normalized / reclassified,Networking concept,38
+SK-0404,Stripe,Generic / Nontechnical,,Noise / Ambiguous,Removed - not a skill,"Company name, not a skill",38
+SK-0406,architecting,Noise / Ambiguous,,Generic / Nontechnical,Removed - not a skill,Generic verb,38
+SK-0407,AWS GovCloud,Noise / Ambiguous,Amazon Web Services (AWS),Platforms & Infrastructure,Alias merged,GovCloud is an AWS partition,37
+SK-0408,Anthropic,Generic / Nontechnical,,Noise / Ambiguous,Removed - not a skill,"Company name, not a skill",37
+SK-0410,GIS,Noise / Ambiguous,Geographic Information Systems (GIS),Technical Concepts,Normalized / reclassified,Geospatial technology concept,37
+SK-0411,NAT,Noise / Ambiguous,Network Address Translation (NAT),Technical Concepts,Normalized / reclassified,Networking protocol concept,37
+SK-0413,SNMP,Noise / Ambiguous,SNMP,Technical Concepts,Normalized / reclassified,Protocol,37
+SK-0414,Vue.js,Frameworks & Libraries,Vue,Frameworks & Libraries,Alias merged,Spelling variant of Vue,37
+SK-0416,CNNs,Noise / Ambiguous,Convolutional Neural Networks (CNNs),Technical Concepts,Normalized / reclassified,Neural network architecture,36
+SK-0417,Gradle,Noise / Ambiguous,Gradle,Software & Tools,Normalized / reclassified,Build tool,36
+SK-0419,Wireshark,Noise / Ambiguous,Wireshark,Software & Tools,Normalized / reclassified,Network analysis tool,36
+SK-0420,ceph,Noise / Ambiguous,Ceph,Platforms & Infrastructure,Normalized / reclassified,Storage platform,36
+SK-0423,Dynatrace,Platforms & Infrastructure,Dynatrace,Software & Tools,Normalized / reclassified,Monitoring tool,35
+SK-0424,ES6,Noise / Ambiguous,JavaScript,Programming Languages,Alias merged,ES6 is a JavaScript version,35
+SK-0428,3rd,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Fragment,34
+SK-0429,AR,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous abbreviation (accounts receivable vs augmented reality),34
+SK-0431,PP,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous abbreviation,34
+SK-0433,TOAD,Noise / Ambiguous,Toad,Software & Tools,Normalized / reclassified,Database tool,34
+SK-0435,CPU,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,33
+SK-0436,EDR/XDR,Noise / Ambiguous,EDR,Technical Concepts,Alias merged,Compound; EDR concept,33
+SK-0437,ES6+,Noise / Ambiguous,JavaScript,Programming Languages,Alias merged,ES6+ is a JavaScript version,33
+SK-0440,k6,Noise / Ambiguous,k6,Software & Tools,Normalized / reclassified,Load testing tool,33
+SK-0441,p.m,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Time fragment,33
+SK-0442,200K,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,32
+SK-0443,Artifactory,Noise / Ambiguous,JFrog Artifactory,Software & Tools,Alias merged,Artifact repository tool,32
+SK-0445,GTM,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (go-to-market vs Google Tag Manager),32
+SK-0448,Ray,Noise / Ambiguous,Ray,Frameworks & Libraries,Normalized / reclassified,Distributed compute framework,32
+SK-0450,Shell,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (shell scripting vs generic word),32
+SK-0451,SolarWinds,Noise / Ambiguous,SolarWinds,Software & Tools,Normalized / reclassified,Monitoring tool,32
+SK-0452,aggregations,Noise / Ambiguous,Data Aggregation,Technical Concepts,Normalized / reclassified,Data aggregation is a technical concept,32
+SK-0453,retries,Noise / Ambiguous,,Generic / Nontechnical,Removed - not a skill,Generic word,32
+SK-0454,Alteryx,Noise / Ambiguous,Alteryx,Software & Tools,Normalized / reclassified,Analytics tool,31
+SK-0456,Coroutines,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,31
+SK-0457,KQL,Noise / Ambiguous,KQL,Programming Languages,Normalized / reclassified,Kusto Query Language,31
+SK-0458,LiDAR,Noise / Ambiguous,LiDAR,Technical Concepts,Normalized / reclassified,Sensing technology,31
+SK-0459,Salesforce.com,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,31
+SK-0460,802.1X,Noise / Ambiguous,IEEE 802.1X,Technical Concepts,Normalized / reclassified,Network access control standard/protocol,30
+SK-0463,OEM,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,30
+SK-0464,SVN,Noise / Ambiguous,Subversion (SVN),Software & Tools,Normalized / reclassified,Version control,30
+SK-0465,Xcode,Noise / Ambiguous,Xcode,Software & Tools,Normalized / reclassified,IDE,30
+SK-0466,benchmarking,Noise / Ambiguous,Benchmarking,Technical Practices,Normalized / reclassified,Practice term,30
+SK-0470,E2E,Noise / Ambiguous,End-to-End Testing,Technical Practices,Alias merged,Abbreviation of end-to-end testing,29
+SK-0471,F5,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,29
+SK-0472,IDS,Noise / Ambiguous,Intrusion Detection Systems (IDS),Technical Concepts,Normalized / reclassified,Security concept,29
+SK-0473,Kanban,Noise / Ambiguous,Kanban,Technical Practices,Normalized / reclassified,Agile workflow method,29
+SK-0474,MES,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous abbreviation (Manufacturing Execution System?),29
+SK-0475,Meta,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Company name, not a skill",29
+SK-0476,OOP,Noise / Ambiguous,Object-Oriented Programming (OOP),Technical Concepts,Normalized / reclassified,Programming paradigm,29
+SK-0478,TOGAF,Noise / Ambiguous,TOGAF,Standards & Compliance,Normalized / reclassified,Enterprise architecture framework,29
+SK-0479,Webpack,Noise / Ambiguous,Webpack,Software & Tools,Normalized / reclassified,Build tool,29
+SK-0481,schema,Noise / Ambiguous,schemas,Technical Concepts,Alias merged,Singular of schemas,29
+SK-0482,ASM,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous abbreviation (Oracle ASM vs attack surface management),28
+SK-0483,ActiveMQ,Noise / Ambiguous,ActiveMQ,Platforms & Infrastructure,Normalized / reclassified,Message broker,28
+SK-0485,C#/.NET,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,28
+SK-0488,Copado,Noise / Ambiguous,Copado,Software & Tools,Normalized / reclassified,Salesforce DevOps tool,28
+SK-0489,Defender,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (Microsoft Defender product vs generic),28
+SK-0491,Outlook,Noise / Ambiguous,Microsoft Outlook,Software & Tools,Normalized / reclassified,Email application,28
+SK-0493,Route,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (AWS Route 53 vs generic),28
+SK-0494,Sigma,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (Sigma detection rules vs BI tool),28
+SK-0496,explainability,Noise / Ambiguous,Explainable AI,Technical Concepts,Normalized / reclassified,XAI concept,28
+SK-0497,hardening,Noise / Ambiguous,Security Hardening,Technical Practices,Normalized / reclassified,Security practice,28
+SK-0498,summarization,Noise / Ambiguous,Summarization,Technical Concepts,Normalized / reclassified,NLP concept,28
+SK-0503,STP,Noise / Ambiguous,Spanning Tree Protocol (STP),Technical Concepts,Normalized / reclassified,Networking protocol,27
+SK-0504,SonarQube,Noise / Ambiguous,SonarQube,Software & Tools,Normalized / reclassified,Code quality tool,27
+SK-0506,TensorRT,Noise / Ambiguous,TensorRT,Frameworks & Libraries,Normalized / reclassified,Inference SDK,27
+SK-0508,Weaviate,Noise / Ambiguous,Weaviate,Platforms & Infrastructure,Normalized / reclassified,Vector database,27
+SK-0509,X12,Noise / Ambiguous,X12 EDI,Standards & Compliance,Normalized / reclassified,EDI standard,27
+SK-0511,gateways,Noise / Ambiguous,,Generic / Nontechnical,Removed - not a skill,Generic word,27
+SK-0512,reimbursement,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Not an IT skill,27
+SK-0514,Arista,Generic / Nontechnical,,Noise / Ambiguous,Retained - needs review,Vendor name; may refer to product skills,26
+SK-0515,Aruba,Generic / Nontechnical,,Noise / Ambiguous,Retained - needs review,Vendor name; may refer to product skills,26
+SK-0516,Bazel/Pants/Buck,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound list of build tools; split review,26
+SK-0517,FICO,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (FICO score vs SAP FICO module),26
+SK-0519,HPE,Generic / Nontechnical,,Noise / Ambiguous,Retained - needs review,Vendor name; may refer to product skills,26
+SK-0520,M.S,Noise / Ambiguous,Master's Degree,Generic / Nontechnical,Normalized / reclassified,Degree (generic nontechnical),26
+SK-0522,SPSS,Noise / Ambiguous,SPSS,Software & Tools,Normalized / reclassified,Statistics software,26
+SK-0523,Selenium WebDriver,Noise / Ambiguous,Selenium,Frameworks & Libraries,Alias merged,Selenium WebDriver is Selenium,26
+SK-0525,Trino,Noise / Ambiguous,Trino,Platforms & Infrastructure,Normalized / reclassified,Distributed SQL query engine,26
+SK-0526,Vite,Noise / Ambiguous,Vite,Software & Tools,Normalized / reclassified,Build tool,26
+SK-0527,WLAN,Noise / Ambiguous,Wireless LAN (WLAN),Technical Concepts,Normalized / reclassified,Networking concept,26
+SK-0528,phishing,Noise / Ambiguous,Phishing,Technical Concepts,Normalized / reclassified,Security threat concept,26
+SK-0529,repositories,Noise / Ambiguous,,Generic / Nontechnical,Removed - not a skill,Generic word,26
+SK-0531,C#.NET,Noise / Ambiguous,C#,Programming Languages,Alias merged,C# on .NET,25
+SK-0533,Epic,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (Epic EHR product vs generic word),25
+SK-0536,IA,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous abbreviation,25
+SK-0537,ICD,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (ICD-10 medical codes vs other meaning),25
+SK-0538,ICML,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Conference name,25
+SK-0540,JAX,Noise / Ambiguous,JAX,Frameworks & Libraries,Normalized / reclassified,ML library,25
+SK-0542,LoRA,Noise / Ambiguous,LoRA,Technical Concepts,Normalized / reclassified,Fine-tuning technique,25
+SK-0543,Matplotlib,Noise / Ambiguous,Matplotlib,Frameworks & Libraries,Normalized / reclassified,Plotting library,25
+SK-0544,Meraki,Generic / Nontechnical,,Noise / Ambiguous,Retained - needs review,Vendor name; may refer to product skills,25
+SK-0545,Navy,Generic / Nontechnical,,Noise / Ambiguous,Removed - not a skill,"Organization name, not a skill",25
+SK-0546,SLIs/SLOs,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound term; split proposal needs review,25
+SK-0547,TypeScript/JavaScript,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,25
+SK-0549,VCP,Noise / Ambiguous,VMware Certified Professional (VCP),Certifications,Normalized / reclassified,VMware certification,25
+SK-0550,ACAS,Noise / Ambiguous,ACAS,Software & Tools,Normalized / reclassified,Assured Compliance Assessment Solution (scanning tool),24
+SK-0551,CPQ,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,24
+SK-0553,DoorDash,Generic / Nontechnical,,Noise / Ambiguous,Removed - not a skill,"Company name, not a skill",24
+SK-0554,EWM,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (SAP EWM module),24
+SK-0555,Figma,Platforms & Infrastructure,Figma,Software & Tools,Normalized / reclassified,Design tool,24
+SK-0556,GPT,Noise / Ambiguous,GPT,Technical Concepts,Normalized / reclassified,Model architecture concept,24
+SK-0557,NodeJS,Noise / Ambiguous,Node.js,Frameworks & Libraries,Alias merged,Spelling variant of Node.js,24
+SK-0558,OT,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (operational technology vs other meaning),24
+SK-0560,Palantir,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Company or product name; needs context,24
+SK-0561,RLS,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous acronym (row-level security vs other meaning),24
+SK-0562,SOC2,Noise / Ambiguous,SOC 2,Standards & Compliance,Alias merged,Canonical name SOC 2,24
+SK-0563,SSAS,Noise / Ambiguous,SQL Server Analysis Services (SSAS),Software & Tools,Normalized / reclassified,Microsoft BI component,24
+SK-0565,dashboarding,Noise / Ambiguous,Data Visualization,Technical Concepts,Alias merged,Dashboard building is a visualization skill,24
+SK-0566,partitioning,Noise / Ambiguous,Partitioning,Technical Concepts,Normalized / reclassified,Database concept,24
+SK-0567,ADF,Noise / Ambiguous,Azure Data Factory,Platforms & Infrastructure,Normalized / reclassified,Cloud data service,23
+SK-0571,L3,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (support level vs layer 3),23
+SK-0573,Llama,Noise / Ambiguous,Llama,Technical Concepts,Normalized / reclassified,LLM model family,23
+SK-0574,MapReduce,Noise / Ambiguous,MapReduce,Technical Concepts,Normalized / reclassified,Distributed processing concept,23
+SK-0575,Nginx,Noise / Ambiguous,Nginx,Platforms & Infrastructure,Normalized / reclassified,Web server,23
+SK-0576,OCR,Noise / Ambiguous,OCR,Technical Concepts,Normalized / reclassified,Optical character recognition,23
+SK-0577,PEFT,Noise / Ambiguous,PEFT,Technical Concepts,Normalized / reclassified,Fine-tuning technique,23
+SK-0580,Robinhood,Generic / Nontechnical,,Noise / Ambiguous,Removed - not a skill,"Company name, not a skill",23
+SK-0581,SCM,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (supply chain vs source code management),23
+SK-0583,X.12,Noise / Ambiguous,X12 EDI,Standards & Compliance,Alias merged,Spelling variant of X12,23
+SK-0584,reconciliations,Noise / Ambiguous,Reconciliation,Technical Practices,Normalized / reclassified,Process term,23
+SK-0586,Atlassian,Generic / Nontechnical,,Noise / Ambiguous,Removed - not a skill,"Company name, not a skill",22
+SK-0587,Cassandra,Noise / Ambiguous,Apache Cassandra,Platforms & Infrastructure,Normalized / reclassified,Database,22
+SK-0588,Gen2,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (Azure Data Lake Storage Gen2 vs other),22
+SK-0589,Karate,Noise / Ambiguous,Karate,Software & Tools,Normalized / reclassified,API test framework,22
+SK-0591,Nexus,Noise / Ambiguous,Sonatype Nexus,Software & Tools,Normalized / reclassified,Artifact repository tool,22
+SK-0592,SDN,Noise / Ambiguous,Software-Defined Networking (SDN),Technical Concepts,Normalized / reclassified,Networking concept,22
+SK-0593,SFDX,Noise / Ambiguous,Salesforce DX (SFDX),Software & Tools,Normalized / reclassified,Salesforce developer tool,22
+SK-0594,SSL/TLS,Noise / Ambiguous,TLS,Technical Concepts,Alias merged,Same protocol family,22
+SK-0595,VNets,Noise / Ambiguous,Virtual Networks (VNet),Platforms & Infrastructure,Alias merged,Azure VNet,22
+SK-0597,tokenization,Noise / Ambiguous,Tokenization,Technical Concepts,Normalized / reclassified,NLP/data-security concept,22
+SK-0598,150K,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,21
+SK-0599,ADO,Noise / Ambiguous,Azure DevOps,Platforms & Infrastructure,Alias merged,ADO is the common abbreviation for Azure DevOps in job posts,21
+SK-0602,GCFA,Noise / Ambiguous,GCFA,Certifications,Normalized / reclassified,GIAC certification,21
+SK-0603,Hex,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (Hex notebook tool vs generic),21
+SK-0604,K8S,Noise / Ambiguous,Kubernetes,Platforms & Infrastructure,Alias merged,Abbreviation of Kubernetes,21
+SK-0605,LUW,Noise / Ambiguous,DB2,Platforms & Infrastructure,Alias merged,DB2 for Linux/UNIX/Windows is DB2,21
+SK-0607,S/4,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound term; split proposal needs review,21
+SK-0608,SSH,Noise / Ambiguous,SSH,Technical Concepts,Normalized / reclassified,Protocol,21
+SK-0610,Sentry,Noise / Ambiguous,Sentry,Software & Tools,Normalized / reclassified,Error monitoring tool,21
+SK-0611,SoapUI,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,21
+SK-0613,VLMs,Technical Concepts,Vision-Language Models (VLMs),Technical Concepts,Normalized / reclassified,Model class,21
+SK-0614,Visio,Platforms & Infrastructure,Visio,Software & Tools,Normalized / reclassified,Diagramming application,21
+SK-0616,skillset,Noise / Ambiguous,,Generic / Nontechnical,Removed - not a skill,Generic word,21
+SK-0617,ACLs,Noise / Ambiguous,Access Control Lists (ACLs),Technical Concepts,Alias merged,Plural form,20
+SK-0619,CrewAI,Noise / Ambiguous,CrewAI,Frameworks & Libraries,Normalized / reclassified,Agent framework,20
+SK-0621,IIS,Noise / Ambiguous,Internet Information Services (IIS),Platforms & Infrastructure,Normalized / reclassified,Web server,20
+SK-0623,Lean,Noise / Ambiguous,Lean,Technical Practices,Normalized / reclassified,Lean methodology,20
+SK-0624,SDWAN,Noise / Ambiguous,SD-WAN,Technical Concepts,Alias merged,Canonical spelling,20
+SK-0625,SFT,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous abbreviation,20
+SK-0627,Uber,Generic / Nontechnical,,Noise / Ambiguous,Removed - not a skill,"Company name, not a skill",20
+SK-0628,Walmart,Generic / Nontechnical,,Noise / Ambiguous,Removed - not a skill,"Company name, not a skill",20
+SK-0630,dataflows,Noise / Ambiguous,,Generic / Nontechnical,Removed - not a skill,Generic word,20
+SK-0631,ggplot2,Noise / Ambiguous,ggplot2,Frameworks & Libraries,Normalized / reclassified,R visualization library,20
+SK-0632,subqueries,Noise / Ambiguous,SQL,Programming Languages,Alias merged,SQL sub-construct,20
+SK-0633,180K,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,19
+SK-0634,ACL,Noise / Ambiguous,Access Control Lists (ACLs),Technical Concepts,Alias merged,Abbreviation,19
+SK-0635,ADLS,Noise / Ambiguous,Azure Data Lake Storage (ADLS),Platforms & Infrastructure,Normalized / reclassified,Cloud storage service,19
+SK-0637,CUI,Noise / Ambiguous,CUI (Controlled Unclassified Information),Standards & Compliance,Normalized / reclassified,Compliance category,19
+SK-0638,ECR,Noise / Ambiguous,Amazon ECR,Platforms & Infrastructure,Normalized / reclassified,AWS container registry,19
+SK-0639,FAISS,Noise / Ambiguous,FAISS,Frameworks & Libraries,Normalized / reclassified,Vector search library,19
+SK-0640,Force.com,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,19
+SK-0641,GEOINT,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (geospatial intelligence vs other),19
+SK-0642,Gearset,Noise / Ambiguous,Gearset,Software & Tools,Normalized / reclassified,Salesforce DevOps tool,19
+SK-0644,Harness,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (Harness.io CI/CD vs common word),19
+SK-0646,NeurIPS,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Conference name,19
+SK-0648,PyTest,Noise / Ambiguous,pytest,Frameworks & Libraries,Normalized / reclassified,Python test framework,19
+SK-0649,chatbots,Noise / Ambiguous,Chatbots,Technical Concepts,Normalized / reclassified,Application concept,19
+SK-0651,24x7x365,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,18
+SK-0652,300K,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,18
+SK-0653,4-year,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,18
+SK-0654,APM,Noise / Ambiguous,Application Performance Monitoring (APM),Technical Practices,Normalized / reclassified,Monitoring practice,18
+SK-0655,Atlas,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (MongoDB Atlas vs Apache Atlas),18
+SK-0659,Directors,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Job title, not a skill",18
+SK-0660,Esri,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,18
+SK-0661,HITRUST,Noise / Ambiguous,HITRUST,Standards & Compliance,Normalized / reclassified,Security framework,18
+SK-0662,Hyper,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (Hyper-V / Tableau Hyper / generic word),18
+SK-0664,ISR,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous abbreviation,18
+SK-0665,Ireland,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Location, not a skill",18
+SK-0666,MVP,Noise / Ambiguous,,Generic / Nontechnical,Removed - not a skill,Generic term,18
+SK-0667,Mode,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (Mode analytics vs generic word),18
+SK-0669,Purview,Noise / Ambiguous,Microsoft Purview,Software & Tools,Normalized / reclassified,Data governance tool,18
+SK-0671,SMTP,Noise / Ambiguous,SMTP,Technical Concepts,Normalized / reclassified,Protocol,18
+SK-0672,Square,Generic / Nontechnical,,Noise / Ambiguous,Removed - not a skill,"Company name, not a skill",18
+SK-0673,TestRail,Noise / Ambiguous,TestRail,Software & Tools,Normalized / reclassified,Test management tool,18
+SK-0674,TikTok,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Company name, not a skill",18
+SK-0675,Treasury,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Organization name, not a skill",18
+SK-0676,VoIP,Noise / Ambiguous,VoIP,Technical Concepts,Normalized / reclassified,Telephony over IP,18
+SK-0677,rollouts,Noise / Ambiguous,deployment,Technical Practices,Alias merged,Synonym of deployment in job posts,18
+SK-0678,250K,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,17
+SK-0679,AWS SageMaker,Noise / Ambiguous,SageMaker,Platforms & Infrastructure,Alias merged,SageMaker is the AWS ML service,17
+SK-0680,AutoGen,Noise / Ambiguous,AutoGen,Frameworks & Libraries,Normalized / reclassified,Agent framework,17
+SK-0681,C2C,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Contract type, not a skill",17
+SK-0684,Cloud+,Technical Concepts,CompTIA Cloud+,Certifications,Normalized / reclassified,Certification,17
+SK-0685,Coinbase,Generic / Nontechnical,,Noise / Ambiguous,Removed - not a skill,"Company name, not a skill",17
+SK-0686,Combine,Noise / Ambiguous,,Generic / Nontechnical,Removed - not a skill,Generic word,17
+SK-0689,ExpressRoute,Noise / Ambiguous,Azure ExpressRoute,Platforms & Infrastructure,Normalized / reclassified,Cloud networking service,17
+SK-0690,FI,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (SAP FI module vs other meaning),17
+SK-0691,GPS,Noise / Ambiguous,,Generic / Nontechnical,Removed - not a skill,Generic technology term without IT skill context,17
+SK-0692,H-1B1,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Visa term, not a skill",17
+SK-0693,Jasmine,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous name,17
+SK-0695,Nagios,Noise / Ambiguous,Nagios,Software & Tools,Normalized / reclassified,Monitoring tool,17
+SK-0696,Nutanix,Noise / Ambiguous,Nutanix,Platforms & Infrastructure,Normalized / reclassified,Infrastructure platform,17
+SK-0697,POCs,Noise / Ambiguous,,Generic / Nontechnical,Removed - not a skill,Generic term,17
+SK-0698,Rapid7,Noise / Ambiguous,Rapid7,Software & Tools,Normalized / reclassified,Security tool vendor product,17
+SK-0699,SQL/NoSQL,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,17
+SK-0700,Teradata,Noise / Ambiguous,Teradata,Platforms & Infrastructure,Normalized / reclassified,Data warehouse platform,17
+SK-0701,W2,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Tax form, not a skill",17
+SK-0702,agentic frameworks,Noise / Ambiguous,Agentic AI,Technical Concepts,Alias merged,Agentic frameworks are the agentic AI concept,17
+SK-0703,bronze,Noise / Ambiguous,,Generic / Nontechnical,Removed - not a skill,Generic word (medallion layer name without context),17
+SK-0704,declarative,Noise / Ambiguous,,Generic / Nontechnical,Removed - not a skill,Generic word,17
+SK-0705,deduplication,Noise / Ambiguous,Data Deduplication,Technical Concepts,Normalized / reclassified,Data-quality concept,17
+SK-0706,failover,Noise / Ambiguous,Failover,Technical Concepts,Normalized / reclassified,High-availability concept,17
+SK-0707,vLLM,Noise / Ambiguous,vLLM,Frameworks & Libraries,Normalized / reclassified,LLM inference library,17
+SK-0708,AP,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous abbreviation (accounts payable vs other meaning),16
+SK-0709,AWR,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (Oracle AWR report vs other),16
+SK-0711,Administrator,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Job title, not a skill",16
+SK-0713,Cognos,Noise / Ambiguous,IBM Cognos,Software & Tools,Normalized / reclassified,BI tool,16
+SK-0717,EDW,Noise / Ambiguous,Data Warehousing,Technical Concepts,Alias merged,Enterprise data warehouse is data warehousing,16
+SK-0718,GitOps workflows,Noise / Ambiguous,GitOps,Technical Concepts,Alias merged,GitOps practice,16
+SK-0719,HSRP,Noise / Ambiguous,HSRP,Technical Concepts,Normalized / reclassified,Networking protocol,16
+SK-0721,ISSO,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Job role, not a skill",16
+SK-0722,Lakehouses,Noise / Ambiguous,lakehouse,Technical Concepts,Alias merged,Plural of lakehouse,16
+SK-0723,Nessus,Noise / Ambiguous,Nessus,Software & Tools,Normalized / reclassified,Vulnerability scanner,16
+SK-0724,Node,Noise / Ambiguous,Node.js,Frameworks & Libraries,Alias merged,Node refers to Node.js,16
+SK-0725,Omni,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous product name,16
+SK-0727,Storybook,Noise / Ambiguous,Storybook,Software & Tools,Normalized / reclassified,UI development tool,16
+SK-0729,Synapse,Noise / Ambiguous,Azure Synapse Analytics,Platforms & Infrastructure,Normalized / reclassified,Cloud analytics service,16
+SK-0730,Zscaler,Noise / Ambiguous,Zscaler,Platforms & Infrastructure,Normalized / reclassified,Cloud security platform,16
+SK-0731,Zustand,Noise / Ambiguous,Zustand,Frameworks & Libraries,Normalized / reclassified,React state library,16
+SK-0732,pgvector,Noise / Ambiguous,pgvector,Platforms & Infrastructure,Normalized / reclassified,PostgreSQL extension,16
+SK-0733,vCenter,Noise / Ambiguous,VMware vCenter,Platforms & Infrastructure,Normalized / reclassified,Virtualization platform,16
+SK-0734,ABAP,Noise / Ambiguous,ABAP,Programming Languages,Normalized / reclassified,SAP programming language,15
+SK-0735,Airbnb,Generic / Nontechnical,,Noise / Ambiguous,Removed - not a skill,"Company name, not a skill",15
+SK-0736,Apache,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (Apache HTTP Server vs Apache Spark vs generic),15
+SK-0737,Army,Generic / Nontechnical,,Noise / Ambiguous,Removed - not a skill,"Organization name, not a skill",15
+SK-0738,CDP,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (Customer Data Platform vs Cloudera Data Platform),15
+SK-0739,COVID-19,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Irrelevant,15
+SK-0740,Collibra,Noise / Ambiguous,Collibra,Software & Tools,Normalized / reclassified,Data governance tool,15
+SK-0741,G2,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Company name, not a skill",15
+SK-0742,Gatling,Noise / Ambiguous,Gatling,Software & Tools,Normalized / reclassified,Load testing tool,15
+SK-0745,KDD,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Conference name,15
+SK-0746,NFS,Noise / Ambiguous,NFS,Platforms & Infrastructure,Normalized / reclassified,Storage protocol,15
+SK-0747,PL/pgSQL,Noise / Ambiguous,PL/pgSQL,Programming Languages,Normalized / reclassified,PostgreSQL procedural language,15
+SK-0748,PagerDuty,Noise / Ambiguous,PagerDuty,Software & Tools,Normalized / reclassified,Incident management tool,15
+SK-0749,QM,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (SAP QM vs quality management),15
+SK-0751,SAM,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (software asset management vs other meaning),15
+SK-0752,SASE,Noise / Ambiguous,SASE,Technical Concepts,Normalized / reclassified,Security architecture concept,15
+SK-0753,Salt,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (SaltStack vs generic word),15
+SK-0754,Sentinel,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (Microsoft Sentinel vs generic word),15
+SK-0755,TeamCity,Noise / Ambiguous,TeamCity,Software & Tools,Normalized / reclassified,CI/CD tool,15
+SK-0757,Vitest,Noise / Ambiguous,Vitest,Frameworks & Libraries,Normalized / reclassified,JavaScript test framework,15
+SK-0758,preprocessing,Noise / Ambiguous,Data Preprocessing,Technical Concepts,Normalized / reclassified,Data-preparation concept,15
+SK-0759,10x,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,14
+SK-0760,Accumulo,Noise / Ambiguous,Apache Accumulo,Platforms & Infrastructure,Normalized / reclassified,Database,14
+SK-0761,Amplitude,Noise / Ambiguous,Amplitude,Software & Tools,Normalized / reclassified,Product analytics tool,14
+SK-0762,Bamboo,Noise / Ambiguous,Bamboo,Software & Tools,Normalized / reclassified,CI/CD tool,14
+SK-0763,Dataflow,Noise / Ambiguous,Google Cloud Dataflow,Platforms & Infrastructure,Normalized / reclassified,Cloud data service,14
+SK-0764,Docker/Kubernetes,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,14
+SK-0766,EDA,Noise / Ambiguous,Exploratory Data Analysis (EDA),Technical Concepts,Normalized / reclassified,Analytics practice,14
+SK-0767,ERWIN,Noise / Ambiguous,erwin Data Modeler,Software & Tools,Normalized / reclassified,Data modeling tool,14
+SK-0769,Kubernetes-based,Noise / Ambiguous,Kubernetes,Platforms & Infrastructure,Alias merged,Kubernetes-based refers to Kubernetes,14
+SK-0770,L2,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (support level vs layer 2),14
+SK-0771,LangSmith,Noise / Ambiguous,LangSmith,Software & Tools,Normalized / reclassified,LLM observability tool,14
+SK-0772,M365,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,14
+SK-0773,MLOps/LLMOps,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,14
+SK-0774,MSSQL,Noise / Ambiguous,SQL Server,Platforms & Infrastructure,Alias merged,Abbreviation of SQL Server,14
+SK-0775,MVI,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (IBM Maximo Visual Inspection vs other),14
+SK-0776,NGFW,Noise / Ambiguous,firewalls,Technical Concepts,Alias merged,Next-generation firewall category,14
+SK-0777,NetSuite,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,14
+SK-0778,PCNSE,Noise / Ambiguous,PCNSE,Certifications,Normalized / reclassified,Palo Alto certification,14
+SK-0779,RLHF,Noise / Ambiguous,RLHF,Technical Concepts,Normalized / reclassified,ML training technique,14
+SK-0780,Ramp,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Company name, not a skill",14
+SK-0781,RestAssured,Noise / Ambiguous,REST Assured,Frameworks & Libraries,Normalized / reclassified,Java API test library,14
+SK-0782,RxJS,Noise / Ambiguous,RxJS,Frameworks & Libraries,Normalized / reclassified,Reactive library,14
+SK-0784,SOSL,Noise / Ambiguous,SOQL,Programming Languages,Alias merged,Salesforce query language,14
+SK-0786,VMs,Noise / Ambiguous,Virtual Machines,Platforms & Infrastructure,Normalized / reclassified,Infrastructure concept,14
+SK-0787,Xray,Noise / Ambiguous,Xray,Software & Tools,Normalized / reclassified,Test management tool,14
+SK-0788,lookups,Noise / Ambiguous,,Generic / Nontechnical,Removed - not a skill,Generic word,14
+SK-0789,140k,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,13
+SK-0790,2D,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,13
+SK-0791,AWS/GCP,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,13
+SK-0792,Cortex,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (Palo Alto Cortex vs other meaning),13
+SK-0794,Dell,Generic / Nontechnical,,Noise / Ambiguous,Removed - not a skill,"Company name, not a skill",13
+SK-0795,Exadata,Noise / Ambiguous,Oracle Exadata,Platforms & Infrastructure,Normalized / reclassified,Database platform,13
+SK-0796,F1,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous abbreviation,13
+SK-0797,Glean,Noise / Ambiguous,Glean,Software & Tools,Normalized / reclassified,Enterprise search tool,13
+SK-0798,GraphQL APIs,Noise / Ambiguous,GraphQL,Technical Concepts,Alias merged,GraphQL API is GraphQL,13
+SK-0799,H2O,Noise / Ambiguous,H2O.ai,Frameworks & Libraries,Normalized / reclassified,ML library,13
+SK-0800,Huggingface,Noise / Ambiguous,Hugging Face,Frameworks & Libraries,Alias merged,Hugging Face ecosystem,13
+SK-0801,IEC,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous standard number,13
+SK-0802,IPAM,Noise / Ambiguous,IP Address Management (IPAM),Technical Concepts,Normalized / reclassified,Networking concept,13
+SK-0803,ISSM,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Job role, not a skill",13
+SK-0804,Karma,Noise / Ambiguous,Karma,Frameworks & Libraries,Normalized / reclassified,JavaScript test runner,13
+SK-0805,Keycloak,Noise / Ambiguous,Keycloak,Software & Tools,Normalized / reclassified,Identity management tool,13
+SK-0806,Metabase,Noise / Ambiguous,Metabase,Software & Tools,Normalized / reclassified,BI tool,13
+SK-0807,MicroStrategy,Noise / Ambiguous,MicroStrategy,Software & Tools,Normalized / reclassified,BI tool,13
+SK-0808,NetFlow,Noise / Ambiguous,NetFlow,Technical Concepts,Normalized / reclassified,Network telemetry protocol,13
+SK-0813,RGB,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,13
+SK-0814,RL,Noise / Ambiguous,Reinforcement Learning,Technical Concepts,Alias merged,RL is reinforcement learning in ML context,13
+SK-0815,Rippling,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Company name, not a skill",13
+SK-0816,Sec+,Noise / Ambiguous,Security+,Certifications,Alias merged,Abbreviation of Security+,13
+SK-0817,TFS,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,13
+SK-0818,asylee,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Irrelevant,13
+SK-0819,million+,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,13
+SK-0820,1B,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,12
+SK-0821,1st,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,12
+SK-0822,2D/3D,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,12
+SK-0824,ASR,Noise / Ambiguous,Automatic Speech Recognition (ASR),Technical Concepts,Normalized / reclassified,Speech technology,12
+SK-0825,Accel,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Company name, not a skill",12
+SK-0826,Bloomberg,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Company or product name; needs context,12
+SK-0827,CICD,Noise / Ambiguous,CI/CD,Technical Practices,Alias merged,Spelling variant of CI/CD,12
+SK-0832,Databricks Lakehouse,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,12
+SK-0833,Domo,Noise / Ambiguous,Domo,Software & Tools,Normalized / reclassified,BI tool,12
+SK-0834,ECS/Fargate,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,12
+SK-0835,Elastic,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Company name or product; needs context,12
+SK-0836,Espresso,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Company name or product name, not a skill",12
+SK-0838,Gitlab-CI,Software & Tools,GitLab CI/CD,Technical Practices,Alias merged,Spelling variant of GitLab CI/CD,12
+SK-0839,H1-B,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Visa term, not a skill",12
+SK-0841,InfiniBand,Noise / Ambiguous,InfiniBand,Platforms & Infrastructure,Normalized / reclassified,High-performance networking,12
+SK-0842,Java/J2EE,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,12
+SK-0843,K9s,Noise / Ambiguous,K9s,Software & Tools,Normalized / reclassified,Kubernetes CLI tool,12
+SK-0844,Kubernetes/EKS,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,12
+SK-0845,LACP,Noise / Ambiguous,LACP,Technical Concepts,Normalized / reclassified,Link aggregation protocol,12
+SK-0846,LATAM,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Location, not a skill",12
+SK-0847,Milvus,Noise / Ambiguous,Milvus,Platforms & Infrastructure,Normalized / reclassified,Vector database,12
+SK-0848,NAS,Noise / Ambiguous,Network-Attached Storage (NAS),Platforms & Infrastructure,Normalized / reclassified,Storage infrastructure,12
+SK-0849,NTP,Noise / Ambiguous,NTP,Technical Concepts,Normalized / reclassified,Protocol,12
+SK-0850,Panorama,Noise / Ambiguous,Palo Alto Panorama,Software & Tools,Normalized / reclassified,Firewall management tool,12
+SK-0851,QuickSight,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,12
+SK-0852,RTO/RPO,Noise / Ambiguous,RTO/RPO,Technical Concepts,Normalized / reclassified,Disaster-recovery metrics,12
+SK-0853,SQA,Noise / Ambiguous,QA,Technical Practices,Alias merged,Software quality assurance = QA,12
+SK-0854,Slurm,Noise / Ambiguous,Slurm,Platforms & Infrastructure,Normalized / reclassified,HPC scheduler,12
+SK-0855,Weights,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,12
+SK-0856,Wiz,Noise / Ambiguous,Wiz,Software & Tools,Normalized / reclassified,Cloud security tool,12
+SK-0857,XCUITest,Noise / Ambiguous,XCUITest,Frameworks & Libraries,Normalized / reclassified,iOS test framework,12
+SK-0859,deadlocks,Noise / Ambiguous,Deadlocks,Technical Concepts,Normalized / reclassified,Database concurrency concept,12
+SK-0860,standups,Noise / Ambiguous,,Generic / Nontechnical,Removed - not a skill,Generic meeting term,12
+SK-0861,traceability/auditability,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,12
+SK-0862,160K,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,11
+SK-0863,170K,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,11
+SK-0864,5MB,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,11
+SK-0865,8570.01-M,Noise / Ambiguous,DoD 8570.01-M,Standards & Compliance,Normalized / reclassified,DoD IT workforce compliance standard,11
+SK-0866,AWS/Azure/GCP,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,11
+SK-0868,Ansible Terraform,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,11
+SK-0869,Aura,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (Salesforce Aura vs generic word),11
+SK-0871,Cloudflare,Noise / Ambiguous,Cloudflare,Platforms & Infrastructure,Normalized / reclassified,Cloud network/security platform,11
+SK-0872,DSC,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (PowerShell DSC vs other),11
+SK-0874,Dataverse,Noise / Ambiguous,Microsoft Dataverse,Platforms & Infrastructure,Normalized / reclassified,Platform,11
+SK-0875,Docker Kubernetes,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,11
+SK-0876,Docker/Podman,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,11
+SK-0877,ECS/EKS,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,11
+SK-0878,FINRA,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Regulator organization, not a skill",11
+SK-0879,Firebase,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,11
+SK-0881,GoldenGate,Noise / Ambiguous,Oracle GoldenGate,Platforms & Infrastructure,Normalized / reclassified,Replication platform,11
+SK-0882,HRIS,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (HR information system vs generic),11
+SK-0884,IMU,Noise / Ambiguous,IMU,Technical Concepts,Normalized / reclassified,Sensor technology,11
+SK-0886,Kotlin/Java,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,11
+SK-0887,Kubeflow,Noise / Ambiguous,Kubeflow,Platforms & Infrastructure,Normalized / reclassified,ML platform on Kubernetes,11
+SK-0888,LGBTQ+,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Irrelevant,11
+SK-0889,Locust,Noise / Ambiguous,Locust,Software & Tools,Normalized / reclassified,Load testing tool,11
+SK-0890,LookML,Noise / Ambiguous,LookML,Programming Languages,Normalized / reclassified,Looker modeling language,11
+SK-0891,MSSP,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,11
+SK-0892,N.A,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Text fragment,11
+SK-0893,NSGs,Noise / Ambiguous,Azure Network Security Groups (NSGs),Platforms & Infrastructure,Normalized / reclassified,Cloud network security,11
+SK-0894,NSX,Noise / Ambiguous,VMware NSX,Platforms & Infrastructure,Normalized / reclassified,Network virtualization platform,11
+SK-0895,NUnit,Noise / Ambiguous,NUnit,Frameworks & Libraries,Normalized / reclassified,.NET test framework,11
+SK-0898,React/TypeScript,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,11
+SK-0901,SCADA,Noise / Ambiguous,SCADA,Technical Concepts,Normalized / reclassified,Industrial control concept,11
+SK-0902,SDUI,Noise / Ambiguous,Server-Driven UI (SDUI),Technical Concepts,Normalized / reclassified,UI architecture concept,11
+SK-0903,SIP,Noise / Ambiguous,SIP,Technical Concepts,Normalized / reclassified,VoIP protocol,11
+SK-0904,SSDLC,Noise / Ambiguous,SDLC,Technical Practices,Alias merged,Secure SDLC is a variant of SDLC,11
+SK-0905,STLC,Noise / Ambiguous,Software Testing Life Cycle (STLC),Technical Practices,Normalized / reclassified,Testing lifecycle process,11
+SK-0906,SciPy,Noise / Ambiguous,SciPy,Frameworks & Libraries,Normalized / reclassified,Scientific computing library,11
+SK-0907,Sequoia,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Company name, not a skill",11
+SK-0908,Tosca,Noise / Ambiguous,Tricentis Tosca,Software & Tools,Normalized / reclassified,Test automation tool,11
+SK-0909,VDI,Noise / Ambiguous,Virtual Desktop Infrastructure (VDI),Platforms & Infrastructure,Normalized / reclassified,Infrastructure concept,11
+SK-0911,WM,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (warehouse management vs other meaning),11
+SK-0912,async,Noise / Ambiguous,Asynchronous Programming,Technical Concepts,Normalized / reclassified,Programming concept,11
+SK-0913,async/await,Noise / Ambiguous,Asynchronous Programming,Technical Concepts,Alias merged,Programming pattern,11
+SK-0914,copilots,Software & Tools,,Noise / Ambiguous,Retained - needs review,Ambiguous product reference,11
+SK-0915,customizations,Noise / Ambiguous,,Generic / Nontechnical,Removed - not a skill,Generic word,11
+SK-0916,gRPC/Protobuf,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,11
+SK-0917,misconfigurations,Noise / Ambiguous,,Generic / Nontechnical,Removed - not a skill,Generic word,11
+SK-0918,photocopiers,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Irrelevant,11
+SK-0919,tensorflow/pytorch,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,11
+SK-0920,.pdf,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,File format fragment,10
+SK-0921,130K,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,10
+SK-0922,21st,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,10
+SK-0923,220K,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,10
+SK-0924,230K,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,10
+SK-0925,90-day,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,10
+SK-0926,A+,Noise / Ambiguous,CompTIA A+,Certifications,Normalized / reclassified,Certification,10
+SK-0927,AI/GenAI,Noise / Ambiguous,Generative AI,Technical Concepts,Alias merged,Generative AI,10
+SK-0928,ASH,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous abbreviation (Oracle ASH vs other),10
+SK-0929,AZ-900,Noise / Ambiguous,AZ-900,Certifications,Normalized / reclassified,Microsoft certification,10
+SK-0930,Adobe,Generic / Nontechnical,,Noise / Ambiguous,Removed - not a skill,"Company name, not a skill",10
+SK-0931,Alation,Noise / Ambiguous,Alation,Software & Tools,Normalized / reclassified,Data catalog tool,10
+SK-0932,ArcGIS,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,10
+SK-0933,Bigtable,Noise / Ambiguous,Google Cloud Bigtable,Platforms & Infrastructure,Normalized / reclassified,Cloud database,10
+SK-0934,Block,Noise / Ambiguous,,Generic / Nontechnical,Removed - not a skill,Generic word,10
+SK-0935,Bluetooth,Noise / Ambiguous,Bluetooth,Technical Concepts,Normalized / reclassified,Wireless technology,10
+SK-0936,CLIP,Noise / Ambiguous,CLIP,Technical Concepts,Normalized / reclassified,Vision-language model,10
+SK-0937,CNI,Noise / Ambiguous,Container Network Interface (CNI),Technical Concepts,Normalized / reclassified,Container networking concept,10
+SK-0938,China,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Location, not a skill",10
+SK-0939,Chroma,Noise / Ambiguous,Chroma,Platforms & Infrastructure,Normalized / reclassified,Vector database,10
+SK-0940,Config,Noise / Ambiguous,configuration,Technical Practices,Alias merged,Abbreviation of configuration,10
+SK-0942,D3.js,Noise / Ambiguous,D3.js,Frameworks & Libraries,Normalized / reclassified,JavaScript visualization library,10
+SK-0943,DDOT,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous abbreviation,10
+SK-0944,DNS/DHCP,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,10
+SK-0946,DPO,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Job role, not a skill",10
+SK-0948,Docusign,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,10
+SK-0949,ESXi,Noise / Ambiguous,VMware ESXi,Platforms & Infrastructure,Normalized / reclassified,Hypervisor,10
+SK-0950,Envoy,Noise / Ambiguous,Envoy,Platforms & Infrastructure,Normalized / reclassified,Proxy,10
+SK-0953,FSDP,Noise / Ambiguous,Fully Sharded Data Parallel (FSDP),Technical Concepts,Normalized / reclassified,Distributed training concept,10
+SK-0954,GNC,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous abbreviation,10
+SK-0956,Intel,Generic / Nontechnical,,Noise / Ambiguous,Removed - not a skill,"Company name, not a skill",10
+SK-0957,KVM,Noise / Ambiguous,KVM,Platforms & Infrastructure,Normalized / reclassified,Hypervisor,10
+SK-0958,L2/L3,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,10
+SK-0959,Langfuse,Noise / Ambiguous,Langfuse,Software & Tools,Normalized / reclassified,LLM observability tool,10
+SK-0960,Lightspeed,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous product name,10
+SK-0961,Liquibase,Noise / Ambiguous,Liquibase,Software & Tools,Normalized / reclassified,Database migration tool,10
+SK-0962,MSS,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,10
+SK-0963,Mistral,Noise / Ambiguous,Mistral,Technical Concepts,Normalized / reclassified,LLM model family,10
+SK-0965,Neo4j,Noise / Ambiguous,Neo4j,Platforms & Infrastructure,Normalized / reclassified,Graph database,10
+SK-0966,OTC,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (over-the-counter vs order-to-cash),10
+SK-0967,Oil,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Industry term, not a skill",10
+SK-0968,P2P,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (peer-to-peer vs procure-to-pay),10
+SK-0969,PCAOB,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Regulator organization, not a skill",10
+SK-0970,PCL,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous abbreviation,10
+SK-0971,PDFs,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,File format fragment,10
+SK-0972,PHI/PII,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound term; split proposal needs review,10
+SK-0973,PL,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous abbreviation (PL/SQL vs other),10
+SK-0974,PLSQL,Noise / Ambiguous,PL/SQL,Programming Languages,Alias merged,Spelling variant of PL/SQL,10
+SK-0975,PayPal,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Company name, not a skill",10
+SK-0977,Prometheus/Grafana,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,10
+SK-0979,RDS/Aurora,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,10
+SK-0980,REST/GraphQL,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review needed,10
+SK-0981,ReactJS,Noise / Ambiguous,React,Frameworks & Libraries,Alias merged,Spelling variant of React,10
+SK-0985,SDLC/toolchain,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,10
+SK-0986,SIEM/SOAR,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review needed,10
+SK-0992,TCP/UDP,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,10
+SK-0994,USA.Minimum,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Text fragment,10
+SK-0999,automates,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,10
+SK-1001,geospatial,Noise / Ambiguous,Geospatial Analysis,Technical Concepts,Normalized / reclassified,Geospatial concept,10
+SK-1002,marts,Noise / Ambiguous,Data Marts,Technical Concepts,Alias merged,Data marts,10
+SK-1003,process.Minimum,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Text fragment,10
+SK-1004,sandboxes,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,10
+SK-1005,subnetting,Platforms & Infrastructure,subnetting,Technical Concepts,Normalized / reclassified,Networking concept,10
+SK-1006,.docx,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,File format fragment,9
+SK-1007,100K,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,9
+SK-1008,185K,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,9
+SK-1009,195K,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,9
+SK-1011,240K,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,9
+SK-1014,8am,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,9
+SK-1016,ACS,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous abbreviation,9
+SK-1017,ADDM,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (Oracle ADDM vs other),9
+SK-1024,Blink,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Generic word,9
+SK-1025,CC,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,9
+SK-1027,DMVPN,Noise / Ambiguous,DMVPN,Technical Concepts,Normalized / reclassified,VPN technology,9
+SK-1028,Dynamics,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (Microsoft Dynamics vs generic word),9
+SK-1029,EVPN/VXLAN,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,9
+SK-1032,Fortify,Noise / Ambiguous,Fortify,Software & Tools,Normalized / reclassified,Application security tool,9
+SK-1033,GNFA,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous abbreviation,9
+SK-1034,GTS,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous abbreviation,9
+SK-1036,IDocs,Noise / Ambiguous,SAP IDocs,Technical Concepts,Normalized / reclassified,SAP integration concept,9
+SK-1038,L1,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (support level vs layer 1),9
+SK-1039,LLMOps,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,9
+SK-1040,LTV,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,9
+SK-1041,Lamda,Noise / Ambiguous,Lambda,Platforms & Infrastructure,Alias merged,Typo of AWS Lambda,9
+SK-1042,Lenovo,Generic / Nontechnical,,Noise / Ambiguous,Removed - not a skill,"Company name, not a skill",9
+SK-1043,MSK,Noise / Ambiguous,Amazon MSK,Platforms & Infrastructure,Normalized / reclassified,AWS managed Kafka,9
+SK-1051,RPO/RTO,Noise / Ambiguous,RTO/RPO,Technical Concepts,Alias merged,Same disaster-recovery metrics,9
+SK-1052,SYBASE,Noise / Ambiguous,SAP Sybase,Platforms & Infrastructure,Normalized / reclassified,Database platform,9
+SK-1055,TM,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,9
+SK-1056,Tailwind,Noise / Ambiguous,Tailwind CSS,Frameworks & Libraries,Normalized / reclassified,CSS framework,9
+SK-1058,VNet,Noise / Ambiguous,Virtual Networks (VNet),Platforms & Infrastructure,Alias merged,Azure VNet,9
+SK-1059,VTP,Noise / Ambiguous,VLAN Trunking Protocol (VTP),Technical Concepts,Normalized / reclassified,Networking protocol,9
+SK-1067,virtualized,Noise / Ambiguous,virtualization,Technical Practices,Alias merged,Adjective form of virtualization,9
+SK-1068,webhooks,Noise / Ambiguous,Webhooks,Technical Concepts,Normalized / reclassified,API concept,9
+SK-1069,.doc,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,File format fragment,8
+SK-1070,.htm,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,File format fragment,8
+SK-1072,.rtf,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,File format fragment,8
+SK-1073,120K,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,8
+SK-1075,165K,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,8
+SK-1076,175K,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,8
+SK-1077,190K,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,8
+SK-1078,200M,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,8
+SK-1080,8am-5pm,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,8
+SK-1081,ADK,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous abbreviation,8
+SK-1082,AIS,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous abbreviation,8
+SK-1083,AWS/GCP/Azure,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,8
+SK-1086,BDD/TDD,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,8
+SK-1087,BMC,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (BMC Remedy vs company name),8
+SK-1088,Brex,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Company name, not a skill",8
+SK-1089,BrowserStack,Noise / Ambiguous,BrowserStack,Software & Tools,Normalized / reclassified,Testing platform,8
+SK-1090,C2,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,8
+SK-1091,C2S,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,8
+SK-1095,Cesium,Noise / Ambiguous,CesiumJS,Frameworks & Libraries,Normalized / reclassified,3D geospatial library,8
+SK-1099,DIA,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,8
+SK-1100,DINO,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,8
+SK-1102,Dataproc,Noise / Ambiguous,Google Cloud Dataproc,Platforms & Infrastructure,Normalized / reclassified,Cloud data service,8
+SK-1103,EE,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (Java EE vs other),8
+SK-1104,EMNLP,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Conference name,8
+SK-1107,Emotion,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (CSS-in-JS library vs generic word),8
+SK-1108,Equities,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Financial domain term, not a skill",8
+SK-1112,Gherkin,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (BDD language vs test tool),8
+SK-1113,H1B,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Visa term, not a skill",8
+SK-1114,IPv4/IPv6,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,8
+SK-1117,ISIS,Noise / Ambiguous,IS-IS,Technical Concepts,Normalized / reclassified,Routing protocol,8
+SK-1118,ISSOs,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Job role, not a skill",8
+SK-1119,Iceberg,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,8
+SK-1120,JEMA,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous abbreviation,8
+SK-1121,Kaggle/KDD-cup,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Competition name, not a skill",8
+SK-1127,Lyft,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Company name, not a skill",8
+SK-1129,MX,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous abbreviation,8
+SK-1132,NX,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (Nx monorepo tool vs other meaning),8
+SK-1134,OMS,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous abbreviation,8
+SK-1135,OTEL,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,8
+SK-1136,OpenID,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,8
+SK-1138,Paramount+,Generic / Nontechnical,,Noise / Ambiguous,Removed - not a skill,"Company name, not a skill",8
+SK-1139,Portugal,Generic / Nontechnical,,Generic / Nontechnical,Removed - not a skill,"Location, not a skill",8
+SK-1141,PyTorch/TensorFlow,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,8
+SK-1144,RFCs,Noise / Ambiguous,,Generic / Nontechnical,Removed - not a skill,"Document type, not a skill",8
+SK-1145,ROS2,Noise / Ambiguous,ROS 2,Frameworks & Libraries,Normalized / reclassified,Robotics framework,8
+SK-1146,RUNSTATS,Noise / Ambiguous,RUNSTATS,Software & Tools,Normalized / reclassified,DB2 utility,8
+SK-1147,Redfin,Generic / Nontechnical,,Noise / Ambiguous,Removed - not a skill,"Company name, not a skill",8
+SK-1150,SAR,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous abbreviation,8
+SK-1152,SCSS,Noise / Ambiguous,SCSS,Programming Languages,Normalized / reclassified,CSS preprocessor language,8
+SK-1153,SPC,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (statistical process control vs other),8
+SK-1155,SRX,Noise / Ambiguous,Juniper SRX,Platforms & Infrastructure,Normalized / reclassified,Firewall platform,8
+SK-1156,SSM,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (AWS Systems Manager vs other),8
+SK-1157,Spanish,Generic / Nontechnical,,Generic / Nontechnical,Removed - not a skill,Language proficiency; generic nontechnical,8
+SK-1160,Stereo,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Generic word,8
+SK-1161,Tanium,Noise / Ambiguous,Tanium,Software & Tools,Normalized / reclassified,Endpoint management tool,8
+SK-1162,Temporal,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (workflow engine vs generic word),8
+SK-1163,Terraform/Terragrunt,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,8
+SK-1165,V3,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Version fragment,8
+SK-1167,VLM,Noise / Ambiguous,Vision-Language Models (VLMs),Technical Concepts,Alias merged,Model class,8
+SK-1168,VectorDBs,Noise / Ambiguous,Vector Databases,Platforms & Infrastructure,Alias merged,Vector database category,8
+SK-1171,WMS,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (warehouse management system vs other),8
+SK-1173,amazon.com,Generic / Nontechnical,,Noise / Ambiguous,Removed - not a skill,URL fragment,8
+SK-1177,vSphere,Noise / Ambiguous,VMware vSphere,Platforms & Infrastructure,Alias merged,Canonical name for vSphere,8
+SK-1178,www.dhs.gov/E-Verify,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,URL fragment,8
+SK-1181,10B,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,7
+SK-1182,110K,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,7
+SK-1183,150M,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,7
+SK-1184,155K,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,7
+SK-1185,30/60/90-day,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,7
+SK-1186,50M,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,7
+SK-1187,5B,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,7
+SK-1188,80-year,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,7
+SK-1189,90k,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,7
+SK-1190,AI/agentic,Noise / Ambiguous,Agentic AI,Technical Concepts,Alias merged,Agentic AI,7
+SK-1191,AIP,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,7
+SK-1193,ARM/Bicep,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound term; split proposal needs review,7
+SK-1194,AUM,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Finance metric, not a skill",7
+SK-1195,AVD,Noise / Ambiguous,Azure Virtual Desktop (AVD),Platforms & Infrastructure,Normalized / reclassified,Cloud desktop service,7
+SK-1196,Apple,Generic / Nontechnical,,Noise / Ambiguous,Removed - not a skill,"Company name, not a skill",7
+SK-1197,BEV,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,7
+SK-1198,BFSI,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Industry term, not a skill",7
+SK-1199,BW,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,7
+SK-1201,Banner,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (Ellucian Banner vs generic word),7
+SK-1205,CBS,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,7
+SK-1209,CentOS,Noise / Ambiguous,CentOS,Platforms & Infrastructure,Normalized / reclassified,Linux distribution,7
+SK-1213,Cognito,Noise / Ambiguous,Amazon Cognito,Platforms & Infrastructure,Normalized / reclassified,AWS identity service,7
+SK-1214,Controlling,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,7
+SK-1215,Cube,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (Cube.dev vs generic),7
+SK-1216,DFIR,Noise / Ambiguous,Digital Forensics and Incident Response (DFIR),Technical Practices,Normalized / reclassified,Incident response practice,7
+SK-1219,EMS,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,7
+SK-1220,Einstein,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (Salesforce Einstein vs name),7
+SK-1222,GEO,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous abbreviation,7
+SK-1223,GWAPT,Noise / Ambiguous,GWAPT,Certifications,Normalized / reclassified,GIAC certification,7
+SK-1224,HSRP/VRRP,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,7
+SK-1225,IL6,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Classification level, not a skill",7
+SK-1226,Infoblox,Noise / Ambiguous,Infoblox,Platforms & Infrastructure,Normalized / reclassified,DNS/DHCP platform,7
+SK-1227,JCL,Noise / Ambiguous,JCL,Programming Languages,Normalized / reclassified,Job Control Language,7
+SK-1229,JIRA/Confluence,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,7
+SK-1230,Java/Kotlin,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,7
+SK-1231,K5,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Fragment,7
+SK-1233,LTM,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,7
+SK-1234,Lakehouse/Warehouse,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,7
+SK-1235,LangChain/LangGraph,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,7
+SK-1238,LoRA/QLoRA,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,7
+SK-1239,MLAG,Noise / Ambiguous,MLAG,Technical Concepts,Normalized / reclassified,Networking concept,7
+SK-1240,NATS,Noise / Ambiguous,NATS,Platforms & Infrastructure,Normalized / reclassified,Messaging system,7
+SK-1243,O2C,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (order-to-cash vs other),7
+SK-1246,Orion,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (SolarWinds Orion vs other),7
+SK-1247,Otter,Noise / Ambiguous,Otter.ai,Software & Tools,Alias merged,Otter.ai transcription tool,7
+SK-1248,P3,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Fragment,7
+SK-1254,Publisher,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Job-description fragment,7
+SK-1256,RSpec,Noise / Ambiguous,RSpec,Frameworks & Libraries,Normalized / reclassified,Ruby test framework,7
+SK-1259,SFDC,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,7
+SK-1260,SIPR,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Classified network name, not a skill",7
+SK-1261,Salesforce Agentforce,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,7
+SK-1265,Shopify,Generic / Nontechnical,,Noise / Ambiguous,Removed - not a skill,"Company name, not a skill",7
+SK-1270,T4,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Fragment,7
+SK-1271,T5,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Fragment,7
+SK-1273,Toyota,Generic / Nontechnical,,Noise / Ambiguous,Removed - not a skill,"Company name, not a skill",7
+SK-1274,U.S.A,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Text fragment,7
+SK-1275,VLA,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous abbreviation,7
+SK-1280,XP,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (Extreme Programming vs Windows XP),7
+SK-1282,Zephyr,Noise / Ambiguous,Zephyr,Software & Tools,Normalized / reclassified,Test management tool,7
+SK-1289,reports/dashboards,Noise / Ambiguous,Data Visualization,Technical Concepts,Alias merged,Dashboard development is a visualization skill,7
+SK-1292,100/month,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,6
+SK-1293,100M,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,6
+SK-1294,105k,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,6
+SK-1295,175-year,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,6
+SK-1296,25lbs,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,6
+SK-1297,26ai,Noise / Ambiguous,Oracle,Platforms & Infrastructure,Alias merged,Oracle Database version,6
+SK-1298,2nd,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,6
+SK-1299,30-minute,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,6
+SK-1300,300/month,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,6
+SK-1301,3B,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,6
+SK-1302,50-mile,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,6
+SK-1303,5M,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,6
+SK-1304,5pm,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,6
+SK-1305,6-DOF,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,6
+SK-1306,ADRs,Noise / Ambiguous,Architecture Decision Records (ADRs),Technical Practices,Normalized / reclassified,Documentation practice,6
+SK-1307,ARC,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous abbreviation,6
+SK-1309,Agentic SSDLC,Noise / Ambiguous,SDLC,Technical Practices,Alias merged,Agentic variant of SDLC,6
+SK-1312,Atlantis,Software & Tools,,Noise / Ambiguous,Retained - needs review,Ambiguous (Atlantis Terraform tool vs generic word),6
+SK-1313,Autodesk,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Company name, not a skill",6
+SK-1317,Boto3,Noise / Ambiguous,Boto3,Frameworks & Libraries,Normalized / reclassified,AWS SDK for Python,6
+SK-1319,C4I,Noise / Ambiguous,C4ISR,Technical Concepts,Alias merged,Abbreviation of C4ISR,6
+SK-1320,CDAO,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Organization name, not a skill",6
+SK-1324,Certificationsn/aYears,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Text fragment,6
+SK-1325,Christmas,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Irrelevant,6
+SK-1326,Cogito,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Company name, not a skill",6
+SK-1327,D1,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Fragment,6
+SK-1328,DI,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (dependency injection vs data integration),6
+SK-1329,DMVs,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (DMV agency vs SQL Server dynamic management views),6
+SK-1335,EFS,Noise / Ambiguous,Amazon EFS,Platforms & Infrastructure,Normalized / reclassified,AWS file storage,6
+SK-1336,ESG,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Irrelevant,6
+SK-1339,Elasticsearch/OpenSearch,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,6
+SK-1340,Electron,Noise / Ambiguous,Electron,Frameworks & Libraries,Normalized / reclassified,Desktop app framework,6
+SK-1344,GCS,Noise / Ambiguous,Google Cloud Storage,Platforms & Infrastructure,Normalized / reclassified,Cloud storage service,6
+SK-1345,GPOs,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (Group Policy Objects vs other),6
+SK-1346,HEDIS,Noise / Ambiguous,HEDIS,Standards & Compliance,Normalized / reclassified,Healthcare quality measure standard,6
+SK-1347,HIPPA,Noise / Ambiguous,HIPAA,Standards & Compliance,Alias merged,Misspelling of HIPAA,6
+SK-1348,HSA/FSA,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Benefit program term, not a skill",6
+SK-1349,HubSpot,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,6
+SK-1351,ICONIQ,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Company name,6
+SK-1352,IL5,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Classification level, not a skill",6
+SK-1354,ISC2 SSCP,Noise / Ambiguous,ISC2 SSCP,Certifications,Normalized / reclassified,Certification,6
+SK-1359,JavaScript/NodeJS,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,6
+SK-1360,Kimball,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Person name; may refer to Kimball dimensional modeling,6
+SK-1361,Kotlin/Jetpack,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,6
+SK-1362,L4,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (support level vs layer 4),6
+SK-1363,LANs,Noise / Ambiguous,Local Area Networks (LAN),Technical Concepts,Normalized / reclassified,Networking concept,6
+SK-1365,Lambdas,Noise / Ambiguous,Lambda,Platforms & Infrastructure,Alias merged,Plural of Lambda,6
+SK-1366,Lexington,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Location, not a skill",6
+SK-1368,Linear,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (Linear app vs generic word),6
+SK-1369,MD-102,Noise / Ambiguous,MD-102,Certifications,Normalized / reclassified,Microsoft certification,6
+SK-1371,MQ,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (IBM MQ vs message queue),6
+SK-1373,Maestro,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous product name,6
+SK-1374,Medicaid,Generic / Nontechnical,,Noise / Ambiguous,Removed - not a skill,"Government program name, not a skill",6
+SK-1375,Metaview,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Company name, not a skill",6
+SK-1378,NPS,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (Net Promoter Score vs Windows NPS),6
+SK-1381,Nomad,Noise / Ambiguous,HashiCorp Nomad,Platforms & Infrastructure,Normalized / reclassified,Scheduler,6
+SK-1383,OOP/OOD,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,6
+SK-1385,OSS,Noise / Ambiguous,,Generic / Nontechnical,Removed - not a skill,Generic term (open source software),6
+SK-1386,OmniStudio,Noise / Ambiguous,OmniStudio,Software & Tools,Normalized / reclassified,Salesforce low-code tool,6
+SK-1389,OpenAPI/Swagger,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,6
+SK-1391,OpenCV NumPy,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,6
+SK-1392,Orca,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous product name,6
+SK-1394,Paramount,Generic / Nontechnical,,Noise / Ambiguous,Removed - not a skill,"Company name, not a skill",6
+SK-1400,Rain,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Generic word,6
+SK-1401,React/Next.js,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,6
+SK-1402,RequirementU.S,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Text fragment,6
+SK-1403,Romania,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Location, not a skill",6
+SK-1404,Route53,Noise / Ambiguous,Amazon Route 53,Platforms & Infrastructure,Normalized / reclassified,AWS DNS service,6
+SK-1405,RxJava,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,6
+SK-1406,SAGE,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,6
+SK-1407,SSIS/SSRS,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,6
+SK-1410,SfM,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous abbreviation (Structure from Motion vs other),6
+SK-1411,Spark/PySpark,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,6
+SK-1412,Superset,Noise / Ambiguous,Apache Superset,Software & Tools,Normalized / reclassified,BI tool,6
+SK-1413,T3,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Fragment,6
+SK-1417,Unity,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (game engine vs generic word),6
+SK-1418,VLDB,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Conference name,6
+SK-1419,Valhalla,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Generic word or project name,6
+SK-1423,WhatsApp,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"App name, not a skill",6
+SK-1424,Workbench,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Generic word,6
+SK-1425,Zachman,Noise / Ambiguous,Zachman Framework,Standards & Compliance,Normalized / reclassified,Enterprise architecture framework,6
+SK-1427,datamarts,Noise / Ambiguous,Data Marts,Technical Concepts,Alias merged,Data marts,6
+SK-1428,eDiscovery,Noise / Ambiguous,eDiscovery,Technical Concepts,Normalized / reclassified,Legal technology concept,6
+SK-1431,least-privilege/RBAC,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,6
+SK-1437,organizations.Develops,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Text fragment,6
+SK-1438,problems.Mine,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Text fragment,6
+SK-1440,tooling/dashboards,Noise / Ambiguous,,Generic / Nontechnical,Removed - not a skill,Compound generic phrase,6
+SK-1441,triaging,Noise / Ambiguous,triage,Technical Practices,Alias merged,Verb form of triage,6
+SK-1442,100B+,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,5
+SK-1443,125K,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,5
+SK-1444,135K,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,5
+SK-1445,192K,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,5
+SK-1446,200/month,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,5
+SK-1447,2018-and,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,5
+SK-1448,210K,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,5
+SK-1449,3.x,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,5
+SK-1450,350K,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,5
+SK-1451,400M,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,5
+SK-1452,4pm,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,5
+SK-1453,50/month,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,5
+SK-1454,50lbs,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,5
+SK-1455,5x,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,5
+SK-1457,9am,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Numeric/salary/schedule/version or file-extension fragment,5
+SK-1458,ACSP,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,5
+SK-1459,ADO.NET,Noise / Ambiguous,ADO.NET,Frameworks & Libraries,Normalized / reclassified,.NET data access library,5
+SK-1462,ALB/NLB,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound of AWS load balancers; split review,5
+SK-1467,BEC,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,5
+SK-1468,BOMs,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,5
+SK-1469,BW/4HANA,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound term; split proposal needs review,5
+SK-1470,Blackstone,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Company name, not a skill",5
+SK-1474,CSM,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,5
+SK-1476,Cache,Noise / Ambiguous,caching,Technical Practices,Alias merged,Caching practice,5
+SK-1481,DCL,Noise / Ambiguous,DCL,Technical Concepts,Normalized / reclassified,SQL sublanguage,5
+SK-1483,DNN,Noise / Ambiguous,Deep Neural Networks (DNNs),Technical Concepts,Normalized / reclassified,Neural network concept,5
+SK-1486,Diode,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,5
+SK-1488,Dockerfiles,Noise / Ambiguous,Docker,Platforms & Infrastructure,Alias merged,Docker configuration files,5
+SK-1489,EKS/Kubernetes,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,5
+SK-1490,ELK/OpenSearch,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,5
+SK-1491,ETO,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,5
+SK-1497,Firepower,Noise / Ambiguous,Cisco Firepower,Platforms & Infrastructure,Normalized / reclassified,Security platform,5
+SK-1498,Foundry,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (Palantir Foundry vs generic),5
+SK-1499,GCFE,Noise / Ambiguous,GCFE,Certifications,Normalized / reclassified,GIAC certification,5
+SK-1500,GDAL,Noise / Ambiguous,GDAL,Frameworks & Libraries,Normalized / reclassified,Geospatial library,5
+SK-1501,GPT-3,Noise / Ambiguous,GPT,Technical Concepts,Alias merged,Model version of GPT,5
+SK-1502,Git/Bitbucket,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,5
+SK-1503,GxP,Noise / Ambiguous,GxP,Standards & Compliance,Normalized / reclassified,Regulatory practice standards,5
+SK-1504,HBSS,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (McAfee HBSS vs other),5
+SK-1507,HLS,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous abbreviation,5
+SK-1508,HSPD-12,Noise / Ambiguous,HSPD-12,Standards & Compliance,Normalized / reclassified,Federal standard,5
+SK-1510,IAT/IAM,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,5
+SK-1512,IBP,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (SAP IBP vs other),5
+SK-1513,IC4,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous abbreviation,5
+SK-1517,IVF,Generic / Nontechnical,,Noise / Ambiguous,Removed - not a skill,Irrelevant to IT skill extraction,5
+SK-1520,JWICS,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Classified network name, not a skill",5
+SK-1521,KServe,Noise / Ambiguous,KServe,Platforms & Infrastructure,Normalized / reclassified,Model serving on Kubernetes,5
+SK-1522,KYC,Noise / Ambiguous,KYC,Standards & Compliance,Normalized / reclassified,Regulatory compliance process,5
+SK-1524,Kubernetes/OpenShift,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,5
+SK-1525,Kustomize,Noise / Ambiguous,Kustomize,Software & Tools,Normalized / reclassified,Kubernetes config tool,5
+SK-1526,Kyverno,Noise / Ambiguous,Kyverno,Software & Tools,Normalized / reclassified,Kubernetes policy tool,5
+SK-1528,LWCs,Noise / Ambiguous,LWC,Frameworks & Libraries,Alias merged,Plural of LWC,5
+SK-1529,LaunchDarkly,Noise / Ambiguous,LaunchDarkly,Software & Tools,Normalized / reclassified,Feature flag tool,5
+SK-1530,Linkerd,Noise / Ambiguous,Linkerd,Platforms & Infrastructure,Normalized / reclassified,Service mesh,5
+SK-1531,Logstash,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,5
+SK-1532,MDG,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous (SAP Master Data Governance vs other),5
+SK-1534,MQTT,Noise / Ambiguous,MQTT,Technical Concepts,Normalized / reclassified,IoT protocol,5
+SK-1536,MVC/MVM,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,5
+SK-1537,Mandarin,Generic / Nontechnical,,Generic / Nontechnical,Removed - not a skill,Language proficiency; generic nontechnical,5
+SK-1540,Medicare,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Government program name, not a skill",5
+SK-1548,P2,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Fragment,5
+SK-1549,P4,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Fragment,5
+SK-1550,PBR,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous abbreviation,5
+SK-1551,PCE,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous abbreviation,5
+SK-1552,PTP,Noise / Ambiguous,Precision Time Protocol (PTP),Technical Concepts,Normalized / reclassified,Time protocol,5
+SK-1554,Peloton,Generic / Nontechnical,,Noise / Ambiguous,Removed - not a skill,"Company name, not a skill",5
+SK-1555,Protobuf,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,5
+SK-1559,Repos,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,5
+SK-1560,SAST/DAST,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,5
+SK-1563,SIEM/EDR,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,5
+SK-1564,SIT/UAT,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound of two test types; needs split review,5
+SK-1565,SLI/SLO,Noise / Ambiguous,SLIs/SLOs,Technical Practices,Alias merged,Reliability practice (SRE),5
+SK-1566,SLMs,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous or insufficient context in job-description evidence; not confidently classifiable,5
+SK-1567,SLO/SLI,Noise / Ambiguous,SLIs/SLOs,Technical Practices,Alias merged,Reliability practice (SRE),5
+SK-1568,SLOs/SLIs,Noise / Ambiguous,SLIs/SLOs,Technical Practices,Alias merged,Reliability practice (SRE),5
+SK-1569,SPM,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Ambiguous abbreviation,5
+SK-1570,SQS/SNS,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,5
+SK-1573,SecDevOps,Noise / Ambiguous,DevSecOps,Technical Practices,Alias merged,Synonym of DevSecOps,5
+SK-1574,Shipt,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Company name, not a skill",5
+SK-1576,Spanner,Noise / Ambiguous,Google Cloud Spanner,Platforms & Infrastructure,Normalized / reclassified,Cloud database,5
+SK-1577,StateStreet.com/careers,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,URL fragment,5
+SK-1578,Superhuman,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"Company name, not a skill",5
+SK-1580,Surveillance,Noise / Ambiguous,,Generic / Nontechnical,Removed - not a skill,Generic word,5
+SK-1581,Swagger/OpenAPI,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,5
+SK-1582,Swift/SwiftUI,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,5
+SK-1583,TLS/SSL,Noise / Ambiguous,TLS,Technical Concepts,Alias merged,Same protocol family,5
+SK-1584,TSQL,Noise / Ambiguous,T-SQL,Programming Languages,Normalized / reclassified,Microsoft SQL dialect,5
+SK-1585,Telegram,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,"App name, not a skill",5
+SK-1586,Terraform/CloudFormation,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,5
+SK-1588,TypeScript/React,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,5
+SK-1590,UIKit/SwiftUI,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,5
+SK-1591,V1,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Version fragment,5
+SK-1592,VB.NET,Noise / Ambiguous,VB.NET,Programming Languages,Normalized / reclassified,Programming language,5
+SK-1594,WM/EWM,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,5
+SK-1595,WSUS,Noise / Ambiguous,WSUS,Software & Tools,Normalized / reclassified,Windows Server Update Services,5
+SK-1599,Zero,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Generic word,5
+SK-1600,blueprinting,Noise / Ambiguous,,Generic / Nontechnical,Removed - not a skill,Generic word,5
+SK-1602,eeoc.gov,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,URL fragment,5
+SK-1603,onshore/offshore,Noise / Ambiguous,,Noise / Ambiguous,Removed - not a skill,Text fragment,5
+SK-1604,refactors,Noise / Ambiguous,refactoring,Technical Practices,Alias merged,Plural/verb form of refactoring,5
+SK-1605,resilient,Noise / Ambiguous,,Generic / Nontechnical,Removed - not a skill,"Adjective, not a skill",5
+SK-1606,review/refactoring,Noise / Ambiguous,,Noise / Ambiguous,Retained - needs review,Compound; split review,5
+SK-1607,scikit,Noise / Ambiguous,scikit-learn,Frameworks & Libraries,Alias merged,Abbreviation of scikit-learn,5
