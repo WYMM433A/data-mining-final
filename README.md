@@ -32,9 +32,9 @@ that's the next phase.
 |---|---|---|
 | Data collection | Done | 10,188 raw rows, 8,882 distinct job IDs, 8 job families |
 | Cleaning & deduplication | Done | 8,879 postings retained, 6,458 unique description groups |
-| Skill dictionary | Done | 419 mining skills (423 total), 6 categories |
-| Skill extraction | Done | validated at Precision 89.8% / Recall 97.0% / **F1 93.3%** on 120 sampled postings |
-| Job-Skill Matrix | Done | description-level **6,125 rows × 391 columns** (main view), listing-level 8,363 × 391 (duplicate-effect check view) |
+| Skill dictionary | Done | 440 mining skills (444 total), 6 categories |
+| Skill extraction | Done | validated at Precision 89.8% / Recall 97.0% / **F1 93.3%** on 120 sampled postings (scored against an earlier, smaller dictionary — see GETTING_STARTED.md) |
+| Job-Skill Matrix | Done | description-level **6,135 rows × 412 columns** (main view), listing-level 8,373 × 412 (duplicate-effect check view) |
 | RQ1–RQ4 analyses, dashboard | **Not started** | next step for whoever picks this up |
 
 ## Where to start if you're picking up the analysis work
@@ -42,7 +42,7 @@ that's the next phase.
 Use the matrix directly — it's already deduplicated, filtered, and uses canonical skill names as columns:
 
 - `outputs/09_job_skill_matrix/job_skill_matrix_description_level.csv` — **main analysis view**, one row
-  per unique job posting (reposts collapsed), 391 binary skill columns. Use this for association rules,
+  per unique job posting (reposts collapsed), 412 binary skill columns. Use this for association rules,
   similarity, clustering, and the classifier.
 - `outputs/09_job_skill_matrix/job_skill_matrix_listing_level.csv` — **check view**, one row per
   individual posting (reposts included). Run your main analyses on this too and report whether results
@@ -51,7 +51,7 @@ Use the matrix directly — it's already deduplicated, filtered, and uses canoni
   category, status) if you need to look up or group skills by category.
 - `outputs/09_job_skill_matrix/matrix_summary.txt` — quick stats on both matrix views.
 
-Both views share the exact same 391 columns, so they're directly comparable.
+Both views share the exact same 412 columns, so they're directly comparable.
 
 ## Repository layout
 

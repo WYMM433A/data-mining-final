@@ -19,10 +19,10 @@ Steps 5.1–5.10 (collection through the job-skill matrix) are **done**. The res
 | Step 5.4 — deduplication | Done (extended beyond the original plan) | 6,458 unique description groups after an added Step 4b pass; see the Step 5.4 note |
 | Step 5.5 — job family from title | Done | 8 families + `other`, rules in `resources/title_family_rules.csv` |
 | Step 5.6 — text cleaning | Done | boilerplate and repeated company templates removed, protected sentences logged |
-| Step 5.7 — skill dictionary | Done, by a different method than planned | **419 mining skills** (423 total incl. 4 excluded) in `outputs/09_job_skill_matrix/skill_shortlist_final.csv`; see the Step 5.7 note |
+| Step 5.7 — skill dictionary | Done, by a different method than planned | **440 mining skills** (444 total incl. 4 excluded) in `outputs/09_job_skill_matrix/skill_shortlist_final.csv`; see the Step 5.7 note |
 | Step 5.8 — extraction | Done | `outputs/06_skill_extraction_v2/` |
 | Step 5.9 — validation | Done | Precision 89.8%, Recall 97.0%, **F1 93.3%** on 120 postings — clears the 85% target; see the Step 5.9 note on rescoring |
-| Step 5.10 — job-skill matrix | Done | description-level **6,125 rows × 391 columns** (main view), listing-level 8,363 rows × 391 columns (check view) |
+| Step 5.10 — job-skill matrix | Done | description-level **6,135 rows × 412 columns** (main view), listing-level 8,373 rows × 412 columns (check view) |
 | Step 5.11 and RQ1–RQ4 (Section 5.11, Section 6) | **Not started** | This is the next work: descriptive stats, then association rules, similarity, clustering, and the decision tree |
 
 **Start here for RQ1–RQ4 work:** `outputs/09_job_skill_matrix/job_skill_matrix_description_level.csv` (main analysis view) and `_listing_level.csv` (duplicate-effect check), both already filtered and using canonical skill names as columns.
@@ -214,7 +214,7 @@ Generated files are grouped by the step that creates them. Later scripts read in
 | `jobs.csv` | `outputs/04_text_cleaning_and_groups/jobs_desc.csv` (one row per unique description, **use this for mining**) and `jobs_listing.csv` (one row per posting, has `job_id`) | `description_clean` keeps skill/qualification-bearing sentences; `description_similarity` strips all repeated templates for similarity work |
 | `skills.csv` | `outputs/09_job_skill_matrix/skill_shortlist_final.csv` (dictionary: `canonical_skill`, `category`, `mining_status`, `family_adjacent`, `parent`, `reason`) + `outputs/06_skill_extraction_v2/skills_summary.csv` (real counts: `n_descriptions`, `n_listings`, `share_of_descriptions`) | No `skill_id`; `canonical_skill` is the key everywhere |
 | `job_skills.csv` | `outputs/06_skill_extraction_v2/job_skill_groups.csv` (description-group level) and `job_skill_listing.csv` (listing level, has `job_id`) | Both have `canonical_skill`, `category`, `mining_status`, `match_alias`, and an `evidence` snippet — the link-table design is unchanged, only the name and the description/listing split |
-| `job_skill_matrix.csv` | `outputs/09_job_skill_matrix/job_skill_matrix_description_level.csv` (main view) and `_listing_level.csv` (check view), plus matching `.npz` sparse versions, `matrix_columns_*.json`, `matrix_summary.txt` | Both views share the exact same 391 columns, computed once from the description-level population, so they are directly comparable |
+| `job_skill_matrix.csv` | `outputs/09_job_skill_matrix/job_skill_matrix_description_level.csv` (main view) and `_listing_level.csv` (check view), plus matching `.npz` sparse versions, `matrix_columns_*.json`, `matrix_summary.txt` | Both views share the exact same 412 columns, computed once from the description-level population, so they are directly comparable |
 
 Everything else in this section (why three files, not one flat table; `job_id`/`skill_id`-style keys) is unchanged in the real data — only the file names differ from the original plan.
 
@@ -300,17 +300,17 @@ Your test run showed why: in 100 postings, 7 repeated an earlier description fro
 - **Ambiguous names** need rules: R, Go, C, Rust, Swift, Spark, Excel (verb), Oracle. Use exact-case matching and context.
 - **Why dictionary-based:** simple, explainable, and every extracted skill can be traced to evidence. It is the right start for a one-month project.
 
-**Status: Done, by a different method than the seed-list approach above.** Instead of starting from O\*NET/ESCO seed lists, this project started from an existing LLM-assisted cleaned dictionary (964 candidate skills, in `skill_extraction/` — kept for provenance), audited it against real job text, and scoped it down to a hand-curated mining dictionary: **`outputs/09_job_skill_matrix/skill_shortlist_final.csv` — 423 total skills, 419 marked `mining_status = include`** (4 excluded after evidence review: `Statistics`, `alerting`, `guardrails`, `playbooks`). Categories (6 used, out of the project's 10-category taxonomy; Certifications and Standards & Compliance excluded by scope decision):
+**Status: Done, by a different method than the seed-list approach above.** Instead of starting from O\*NET/ESCO seed lists, this project started from an existing LLM-assisted cleaned dictionary (964 candidate skills, in `skill_extraction/` — kept for provenance), audited it against real job text, and scoped it down to a hand-curated mining dictionary: **`outputs/09_job_skill_matrix/skill_shortlist_final.csv` — 444 total skills, 440 marked `mining_status = include`** (4 excluded after evidence review: `Statistics`, `alerting`, `guardrails`, `playbooks`). A later cross-check against an external technology taxonomy (checking ~280 candidate names against real posting text) added 21 more confirmed-real skills (e.g. `Active Directory`, `Azure SQL`, `React Native`, `jQuery`). Categories (6 used, out of the project's 10-category taxonomy; Certifications and Standards & Compliance excluded by scope decision):
 
   | Category | Count |
   |---|---|
-  | Software & Tools | 99 |
-  | Platforms & Infrastructure | 97 |
-  | Technical Concepts | 67 |
-  | Frameworks & Libraries | 65 |
+  | Platforms & Infrastructure | 108 |
+  | Software & Tools | 100 |
+  | Frameworks & Libraries | 72 |
+  | Technical Concepts | 69 |
   | Technical Practices | 53 |
   | Programming Languages | 38 |
-  | **Total (include)** | **419** |
+  | **Total (include)** | **440** |
 
   Ambiguous names (R, C, Oracle, Snowflake, Chef, Puppet, RAG, MCP, and 23 more — 29 total) use **context-cue matching** (a nearby related word must also be present) instead of plain substring search, going further than the plan's "exact-case matching" for these specific terms.
 
@@ -325,7 +325,7 @@ For every description: normalize text, search each skill and alias with word bou
 - Log the main errors, fix the dictionary, rerun once, and report before/after numbers.
 - **Why:** if extraction is wrong, every rule, cluster, and classifier is built on wrong data.
 
-**Status: Done, target met.** `scripts/07_make_validation_sample_v2.py` built the 120-posting stratified sample (`outputs/07_validation_sample/`). Two independent annotation rounds (not two people as planned, but equivalent independent checks): round 1 found and fixed a stale-metadata scoring bug and the compound-overlap bugs above; round 2 scored **Precision 89.8%, Recall 97.0%, F1 93.3%** — clears the 85% target. One decision made during this step: ground truth counts "any genuine mention" rather than only "required" skills, after confirming that distinction (not real extraction errors) was the dominant source of apparent precision loss. **Open item:** the dictionary has grown since this validation round (419 vs. the 372 skills it was scored against) — a fresh validation pass would give a fully current number; treat 93.3% as representative, not literally current. **Confirmed, documented limitation:** `Artificial Intelligence (AI)` precision has a real ceiling from ambiguous real-world usage (company branding like "Shield AI", vague business language) — independently reconfirmed by both annotation rounds, not cheaply fixable with more rules.
+**Status: Done, target met.** `scripts/07_make_validation_sample_v2.py` built the 120-posting stratified sample (`outputs/07_validation_sample/`). Two independent annotation rounds (not two people as planned, but equivalent independent checks): round 1 found and fixed a stale-metadata scoring bug and the compound-overlap bugs above; round 2 scored **Precision 89.8%, Recall 97.0%, F1 93.3%** — clears the 85% target. One decision made during this step: ground truth counts "any genuine mention" rather than only "required" skills, after confirming that distinction (not real extraction errors) was the dominant source of apparent precision loss. **Open item:** the dictionary has grown since this validation round (440 vs. the 372 skills it was scored against) — a fresh validation pass would give a fully current number; treat 93.3% as representative, not literally current. **Confirmed, documented limitation:** `Artificial Intelligence (AI)` precision has a real ceiling from ambiguous real-world usage (company branding like "Shield AI", vague business language) — independently reconfirmed by both annotation rounds, not cheaply fixable with more rules.
 
 ### Step 5.10 — Build the job-skill matrix (Member 3)
 - From `job_skills.csv`, create one row per job and one 0/1 column per skill.
@@ -333,7 +333,7 @@ For every description: normalize text, search each skill and alias with word bou
 - **Filter rows:** jobs with fewer than 3 skills are kept in the data but excluded from clustering and classification.
 - **Check:** matrix dimensions and sparsity (share of zeros). Expect hundreds of columns that are mostly zero. This is normal.
 
-**Status: Done, column filter changed from the plan.** `scripts/09_build_matrix_v2.py` → `outputs/09_job_skill_matrix/job_skill_matrix_description_level.csv` (main view, **6,125 rows × 391 columns**) and `_listing_level.csv` (check view, 8,363 rows × 391 columns) — both views share exactly the same 391 columns, computed once from the description-level population so the two views stay directly comparable. **Actual column filter:** the planned 1–2% relative-share floor was replaced with a low **absolute** floor (≥15 occurrences) — the relative floor was cutting real, hand-curated skills (e.g. PHP, Django, ChatGPT) that happened to be rarer but were already confirmed genuine by evidence review, so a relative floor was double-penalizing them. The ≤60% ceiling was kept but never actually triggered (the most common skill, `Artificial Intelligence (AI)`, tops out around 51%). Row filter (≥3 skills, `job_family != other`) matches the plan. 28 dictionary skills didn't clear the 15-occurrence floor (real but too rare to use as matrix columns, not an error).
+**Status: Done, column filter changed from the plan.** `scripts/09_build_matrix_v2.py` → `outputs/09_job_skill_matrix/job_skill_matrix_description_level.csv` (main view, **6,135 rows × 412 columns**) and `_listing_level.csv` (check view, 8,373 rows × 412 columns) — both views share exactly the same 412 columns, computed once from the description-level population so the two views stay directly comparable. **Actual column filter:** the planned 1–2% relative-share floor was replaced with a low **absolute** floor (≥15 occurrences) — the relative floor was cutting real, hand-curated skills (e.g. PHP, Django, ChatGPT) that happened to be rarer but were already confirmed genuine by evidence review, so a relative floor was double-penalizing them. The ≤60% ceiling was kept but never actually triggered (the most common skill, `Artificial Intelligence (AI)`, tops out around 51%). Row filter (≥3 skills, `job_family != other`) matches the plan.
 
 ### Step 5.11 — Descriptive analysis (Member 3, with Member 1)
 Use the basic statistics from Lectures 3–4 where they answer a real question:
@@ -351,7 +351,7 @@ Outputs feed the dashboard overview page and the data-quality report.
 
 ## 6. The data-mining methods in detail
 
-**Status: not started.** Input is ready at `outputs/09_job_skill_matrix/job_skill_matrix_description_level.csv` (main view, 6,125 × 391) and `_listing_level.csv` (check view, 8,363 × 391) — both already use canonical skill names as columns and share the same column set, so no further preprocessing is required before beginning RQ1.
+**Status: not started.** Input is ready at `outputs/09_job_skill_matrix/job_skill_matrix_description_level.csv` (main view, 6,135 × 412) and `_listing_level.csv` (check view, 8,373 × 412) — both already use canonical skill names as columns and share the same column set, so no further preprocessing is required before beginning RQ1.
 
 ### 6.1 Association rules (RQ1) — Owner: Member 2
 
@@ -634,7 +634,7 @@ The syllabus follows **Han, Kamber & Pei, *Data Mining: Concepts and Techniques*
 
 **Skills**
 - [x] Dictionary documented, with aliases and ambiguous-term rules
-- [x] Extraction validated on about 120 postings; precision, recall, F1 reported; one fix round done (rescoring against the current 419-skill dictionary is still open, see Step 5.9)
+- [x] Extraction validated on about 120 postings; precision, recall, F1 reported; one fix round done (rescoring against the current 440-skill dictionary is still open, see Step 5.9)
 - [x] Matrix built with documented frequency filters
 
 **Analysis**

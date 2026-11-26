@@ -1,10 +1,10 @@
 === description_level view ===
 Input rows: 6458
 After excluding 'other' family: 6296
-After >=3 raw mining-eligible skills: 6130
-Final matrix rows: 6125
-Skill columns: 391
-Density: 3.6920%
+After >=3 raw mining-eligible skills: 6138
+Final matrix rows: 6135
+Skill columns: 412
+Density: 3.5349%
 Median skills per row: 13.0
 Rows per family:
 job_family
@@ -13,18 +13,18 @@ cloud_devops     1033
 cyber_network     721
 data_bi           817
 database_data     852
-enterprise_it     268
+enterprise_it     275
 qa_testing        406
-software         1037
+software         1040
 Top 20 skills:
-Artificial_Intelligence_(AI)    3125
+Artificial_Intelligence_(AI)    3126
 Python                          3037
 SQL                             2254
 AWS                             2087
 CI-CD                           1839
 Azure                           1474
 Machine_Learning                1449
-Agile                           1398
+Agile                           1399
 Data_Visualization              1354
 Kubernetes                      1226
 Linux                           1015
@@ -36,15 +36,15 @@ Java                             877
 orchestration                    825
 Data_Quality                     812
 Docker                           808
-Incident_Response                784
+Data_Science                     784
 
 === listing_level view ===
 Input rows: 8879
 After excluding 'other' family: 8712
-After >=3 raw mining-eligible skills: 8368
-Final matrix rows: 8363
-Skill columns: 391
-Density: 3.5877%
+After >=3 raw mining-eligible skills: 8376
+Final matrix rows: 8373
+Skill columns: 412
+Density: 3.4335%
 Median skills per row: 13.0
 Rows per family:
 job_family
@@ -53,18 +53,18 @@ cloud_devops     1333
 cyber_network     951
 data_bi           960
 database_data    1233
-enterprise_it     657
+enterprise_it     664
 qa_testing        483
-software         1412
+software         1415
 Top 20 skills:
-Artificial_Intelligence_(AI)    4449
+Artificial_Intelligence_(AI)    4450
 Python                          4145
 SQL                             2855
 AWS                             2797
 CI-CD                           2382
 Azure                           2114
 Machine_Learning                2026
-Agile                           1895
+Agile                           1896
 Data_Visualization              1691
 Kubernetes                      1593
 DevOps                          1264

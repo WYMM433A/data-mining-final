@@ -62,8 +62,8 @@ authentication,Technical Concepts,include,False,416,518,0.0644
 Oracle,Platforms & Infrastructure,include,False,412,494,0.0638
 Jira,Software & Tools,include,False,408,461,0.0632
 IAM,Technical Concepts,include,False,406,512,0.0629
-runbooks,Technical Practices,include,False,387,517,0.0599
 DNS,Technical Concepts,include,False,387,497,0.0599
+runbooks,Technical Practices,include,False,387,517,0.0599
 GitLab,Software & Tools,include,False,385,488,0.0596
 Snowflake,Platforms & Infrastructure,include,False,368,475,0.057
 provisioning,Technical Practices,include,False,367,546,0.0568
@@ -83,12 +83,12 @@ Configuration Management,Technical Practices,include,False,320,373,0.0496
 TensorFlow,Frameworks & Libraries,include,False,311,402,0.0482
 Computer Vision,Technical Concepts,include,False,310,346,0.048
 segmentation,Technical Concepts,include,False,308,333,0.0477
-VPNs,Technical Concepts,include,False,305,359,0.0472
 patching,Technical Practices,include,False,305,371,0.0472
+VPNs,Technical Concepts,include,False,305,359,0.0472
 SRE,Technical Practices,include,False,303,359,0.0469
 Kafka,Platforms & Infrastructure,include,False,302,388,0.0468
-Network Security,Technical Concepts,include,False,301,347,0.0466
 Deep Learning,Technical Concepts,include,False,301,354,0.0466
+Network Security,Technical Concepts,include,False,301,347,0.0466
 Data Integration,Technical Practices,include,False,301,455,0.0466
 Cisco,Platforms & Infrastructure,include,False,300,346,0.0465
 ingestion,Technical Practices,include,False,298,522,0.0461
@@ -106,15 +106,15 @@ SIEM,Technical Concepts,include,False,273,377,0.0423
 Selenium,Frameworks & Libraries,include,False,269,326,0.0417
 CSS,Programming Languages,include,False,267,342,0.0413
 telemetry,Technical Concepts,include,False,263,298,0.0407
-TCP/IP,Technical Concepts,include,False,260,351,0.0403
 dbt,Frameworks & Libraries,include,False,260,311,0.0403
+TCP/IP,Technical Concepts,include,False,260,351,0.0403
 Node.js,Frameworks & Libraries,include,False,259,386,0.0401
 Playwright,Frameworks & Libraries,include,False,257,303,0.0398
 DevSecOps,Technical Practices,include,False,255,341,0.0395
-MySQL,Platforms & Infrastructure,include,False,254,305,0.0393
 System Design,Technical Concepts,include,False,254,330,0.0393
-SAP,Platforms & Infrastructure,include,False,244,576,0.0378
+MySQL,Platforms & Infrastructure,include,False,254,305,0.0393
 guardrails,Technical Practices,exclude,False,244,375,0.0378
+SAP,Platforms & Infrastructure,include,False,244,576,0.0378
 Prometheus,Software & Tools,include,False,240,275,0.0372
 CloudFormation,Platforms & Infrastructure,include,False,230,299,0.0356
 NoSQL,Technical Concepts,include,False,229,299,0.0355
@@ -127,6 +127,7 @@ Angular,Frameworks & Libraries,include,False,203,249,0.0314
 robotics,Technical Concepts,include,False,203,214,0.0314
 EKS,Platforms & Infrastructure,include,False,202,271,0.0313
 EC2,Platforms & Infrastructure,include,False,201,265,0.0311
+Active Directory,Platforms & Infrastructure,include,False,200,232,0.031
 Lambda,Platforms & Infrastructure,include,False,199,266,0.0308
 playbooks,Technical Practices,exclude,False,198,314,0.0307
 Datadog,Software & Tools,include,False,197,239,0.0305
@@ -136,8 +137,8 @@ Fine-Tuning,Technical Practices,include,False,194,311,0.03
 Prompt Engineering,Technical Practices,include,False,194,274,0.03
 SLIs/SLOs,Technical Practices,include,False,192,235,0.0297
 BGP,Technical Concepts,include,False,186,219,0.0288
-lakehouse,Technical Concepts,include,False,185,332,0.0286
 VPC,Platforms & Infrastructure,include,False,185,254,0.0286
+lakehouse,Technical Concepts,include,False,185,332,0.0286
 .NET,Frameworks & Libraries,include,False,184,201,0.0285
 VMware,Platforms & Infrastructure,include,False,183,199,0.0283
 DAX,Programming Languages,include,False,182,261,0.0282
@@ -153,8 +154,8 @@ Redshift,Platforms & Infrastructure,include,False,165,206,0.0255
 EDR,Technical Concepts,include,False,163,243,0.0252
 PL/SQL,Programming Languages,include,False,158,171,0.0245
 HTTP,Technical Concepts,include,False,157,228,0.0243
-Helm,Platforms & Infrastructure,include,False,156,175,0.0242
 OSPF,Technical Concepts,include,False,156,185,0.0242
+Helm,Platforms & Infrastructure,include,False,156,175,0.0242
 Backup and Recovery,Technical Practices,include,False,149,158,0.0231
 Scala,Programming Languages,include,False,148,264,0.0229
 Hadoop,Platforms & Infrastructure,include,False,148,168,0.0229
@@ -165,25 +166,25 @@ Cursor,Software & Tools,include,False,142,228,0.022
 API Testing,Technical Practices,include,False,142,175,0.022
 Redis,Platforms & Infrastructure,include,False,141,182,0.0218
 Integration Testing,Technical Practices,include,False,140,213,0.0217
-Power Query,Software & Tools,include,False,138,212,0.0214
 GraphQL,Technical Concepts,include,False,138,165,0.0214
+Power Query,Software & Tools,include,False,138,212,0.0214
 T-SQL,Programming Languages,include,False,136,141,0.0211
 Model Evaluation,Technical Practices,include,False,135,182,0.0209
-OpenAI,Software & Tools,include,False,134,236,0.0207
-GitOps,Technical Practices,include,False,134,218,0.0207
-Data Migration,Technical Practices,include,False,134,243,0.0207
 Load Balancing,Technical Concepts,include,False,134,160,0.0207
+Data Migration,Technical Practices,include,False,134,243,0.0207
+GitOps,Technical Practices,include,False,134,218,0.0207
+OpenAI,Software & Tools,include,False,134,236,0.0207
+Microsoft Fabric,Platforms & Infrastructure,include,False,133,166,0.0206
+Postman,Software & Tools,include,False,133,156,0.0206
+Cypress,Frameworks & Libraries,include,False,133,155,0.0206
 BigQuery,Platforms & Infrastructure,include,False,133,223,0.0206
 VLANs,Technical Concepts,include,False,133,141,0.0206
-Postman,Software & Tools,include,False,133,156,0.0206
-Microsoft Fabric,Platforms & Infrastructure,include,False,133,166,0.0206
-Cypress,Frameworks & Libraries,include,False,133,155,0.0206
 C,Programming Languages,include,False,132,177,0.0204
 LangChain,Frameworks & Libraries,include,False,132,229,0.0204
 ECS,Platforms & Infrastructure,include,False,130,175,0.0201
+Swift,Programming Languages,include,False,129,174,0.02
 GitHub Copilot,Software & Tools,include,False,129,166,0.02
 CloudWatch,Platforms & Infrastructure,include,False,129,147,0.02
-Swift,Programming Languages,include,False,129,174,0.02
 PowerPoint,Software & Tools,include,False,128,270,0.0198
 Regression Testing,Technical Practices,include,False,127,208,0.0197
 Looker,Software & Tools,include,False,126,145,0.0195
@@ -198,38 +199,39 @@ Release Management,Technical Practices,include,False,118,148,0.0183
 Performance Testing,Technical Practices,include,False,115,140,0.0178
 Pandas,Frameworks & Libraries,include,False,115,165,0.0178
 Elasticsearch,Platforms & Infrastructure,include,False,114,155,0.0177
-MCP,Technical Concepts,include,False,111,190,0.0172
 Puppet,Platforms & Infrastructure,include,False,111,123,0.0172
+MCP,Technical Concepts,include,False,111,190,0.0172
 MongoDB,Platforms & Infrastructure,include,False,108,156,0.0167
 Network Monitoring,Technical Practices,include,False,107,132,0.0166
 PySpark,Frameworks & Libraries,include,False,106,179,0.0164
-Rust,Programming Languages,include,False,105,138,0.0163
 Feature Engineering,Technical Practices,include,False,105,147,0.0163
+Rust,Programming Languages,include,False,105,138,0.0163
+Azure SQL,Platforms & Infrastructure,include,False,103,107,0.0159
 Bitbucket,Software & Tools,include,False,103,115,0.0159
 LWC,Frameworks & Libraries,include,False,102,171,0.0158
 CLI,Technical Concepts,include,False,101,127,0.0156
-serverless,Technical Concepts,include,False,99,146,0.0153
 RBAC,Technical Concepts,include,False,99,124,0.0153
-Azure Data Factory,Platforms & Infrastructure,include,False,95,209,0.0147
+serverless,Technical Concepts,include,False,99,146,0.0153
 Aurora,Platforms & Infrastructure,include,False,95,119,0.0147
-OCI,Platforms & Infrastructure,include,False,95,132,0.0147
+Azure Data Factory,Platforms & Infrastructure,include,False,95,209,0.0147
 DynamoDB,Platforms & Infrastructure,include,False,95,111,0.0147
+OCI,Platforms & Infrastructure,include,False,95,132,0.0147
 Vue,Frameworks & Libraries,include,False,94,153,0.0146
 Spring Boot,Frameworks & Libraries,include,False,93,110,0.0144
-XML,Technical Concepts,include,False,89,103,0.0138
 JUnit,Frameworks & Libraries,include,False,89,107,0.0138
+XML,Technical Concepts,include,False,89,103,0.0138
 ARM,Technical Concepts,include,False,88,139,0.0136
 Workday,Platforms & Infrastructure,include,False,88,241,0.0136
 ServiceNow,Platforms & Infrastructure,include,False,88,129,0.0136
-NumPy,Frameworks & Libraries,include,False,87,131,0.0135
 CUDA,Frameworks & Libraries,include,False,87,107,0.0135
+NumPy,Frameworks & Libraries,include,False,87,131,0.0135
 SSRS,Software & Tools,include,False,86,103,0.0133
 Spring,Frameworks & Libraries,include,False,86,102,0.0133
-SSO,Technical Concepts,include,False,85,94,0.0132
-SOQL,Programming Languages,include,False,85,103,0.0132
 S/4HANA,Platforms & Infrastructure,include,False,85,237,0.0132
 JMeter,Software & Tools,include,False,85,98,0.0132
+SSO,Technical Concepts,include,False,85,94,0.0132
 OpenShift,Platforms & Infrastructure,include,False,85,123,0.0132
+SOQL,Programming Languages,include,False,85,103,0.0132
 LangGraph,Frameworks & Libraries,include,False,84,153,0.013
 OpenCV,Frameworks & Libraries,include,False,83,86,0.0129
 MFA,Technical Concepts,include,False,82,124,0.0127
@@ -237,14 +239,15 @@ Hugging Face,Frameworks & Libraries,include,False,82,104,0.0127
 SAS,Programming Languages,include,False,81,98,0.0125
 SharePoint,Software & Tools,include,False,81,98,0.0125
 AWS Glue,Platforms & Infrastructure,include,False,80,90,0.0124
-Bedrock,Platforms & Infrastructure,include,False,78,97,0.0121
 Cucumber,Software & Tools,include,False,78,94,0.0121
 Perl,Programming Languages,include,False,78,97,0.0121
+Bedrock,Platforms & Infrastructure,include,False,78,97,0.0121
 Gradle,Software & Tools,include,False,76,98,0.0118
 Data Cleaning,Technical Practices,include,False,75,79,0.0116
-Chef,Platforms & Infrastructure,include,False,74,93,0.0115
 SDK,Technical Concepts,include,False,74,94,0.0115
+Chef,Platforms & Infrastructure,include,False,74,93,0.0115
 OpenTelemetry,Software & Tools,include,False,74,79,0.0115
+React Native,Frameworks & Libraries,include,False,74,126,0.0115
 Redux,Frameworks & Libraries,include,False,73,87,0.0113
 AKS,Platforms & Infrastructure,include,False,73,97,0.0113
 TLS,Technical Concepts,include,False,72,96,0.0111
@@ -252,46 +255,49 @@ Ruby,Programming Languages,include,False,72,88,0.0111
 Informatica,Software & Tools,include,False,70,90,0.0108
 FastAPI,Frameworks & Libraries,include,False,69,78,0.0107
 Delta Lake,Platforms & Infrastructure,include,False,69,151,0.0107
-Next.js,Frameworks & Libraries,include,False,69,92,0.0107
+Predictive Analytics,Technical Concepts,include,False,69,75,0.0107
 Jest,Frameworks & Libraries,include,False,69,79,0.0107
+Next.js,Frameworks & Libraries,include,False,69,92,0.0107
 Apache Hive,Platforms & Infrastructure,include,False,68,73,0.0105
-Agentforce,Platforms & Infrastructure,include,False,66,103,0.0102
+Jetpack,Frameworks & Libraries,include,False,66,76,0.0102
 Codex,Software & Tools,include,False,66,104,0.0102
+Agentforce,Platforms & Infrastructure,include,False,66,103,0.0102
 Visualforce,Programming Languages,include,False,65,75,0.0101
 Qlik,Software & Tools,include,False,64,78,0.0099
 RabbitMQ,Platforms & Infrastructure,include,False,64,78,0.0099
 TensorRT,Frameworks & Libraries,include,False,63,66,0.0098
-Database Performance Tuning,Technical Practices,include,False,63,67,0.0098
 Fortinet,Platforms & Infrastructure,include,False,63,67,0.0098
+Database Performance Tuning,Technical Practices,include,False,63,67,0.0098
 SQS,Platforms & Infrastructure,include,False,61,80,0.0094
 OpenSearch,Platforms & Infrastructure,include,False,61,93,0.0094
-Django,Frameworks & Libraries,include,False,60,87,0.0093
-ELK Stack,Software & Tools,include,False,60,72,0.0093
-RHEL,Platforms & Infrastructure,include,False,60,68,0.0093
 npm,Software & Tools,include,False,60,74,0.0093
+Django,Frameworks & Libraries,include,False,60,87,0.0093
+RHEL,Platforms & Infrastructure,include,False,60,68,0.0093
+ELK Stack,Software & Tools,include,False,60,72,0.0093
 LlamaIndex,Frameworks & Libraries,include,False,59,81,0.0091
 Transformers,Frameworks & Libraries,include,False,58,96,0.009
 PaaS,Technical Concepts,include,False,58,73,0.009
 DB2,Platforms & Infrastructure,include,False,58,65,0.009
+SageMaker,Platforms & Infrastructure,include,False,57,66,0.0088
 Intune,Platforms & Infrastructure,include,False,57,65,0.0088
 Azure Synapse Analytics,Platforms & Infrastructure,include,False,57,78,0.0088
 YAML,Programming Languages,include,False,57,72,0.0088
-SageMaker,Platforms & Infrastructure,include,False,57,66,0.0088
 ChatGPT,Software & Tools,include,False,56,91,0.0087
-TestNG,Frameworks & Libraries,include,False,55,62,0.0085
 Power Automate,Software & Tools,include,False,55,58,0.0085
+TestNG,Frameworks & Libraries,include,False,55,62,0.0085
 Gemini,Software & Tools,include,False,54,68,0.0084
 Pulumi,Platforms & Infrastructure,include,False,54,73,0.0084
 CrowdStrike,Platforms & Infrastructure,include,False,53,73,0.0082
+Business Intelligence (BI),Technical Concepts,include,False,52,58,0.0081
 Fivetran,Software & Tools,include,False,51,65,0.0079
 Ray,Frameworks & Libraries,include,False,50,94,0.0077
 SolarWinds,Software & Tools,include,False,50,58,0.0077
 Podman,Platforms & Infrastructure,include,False,50,57,0.0077
-Network Automation,Technical Practices,include,False,49,51,0.0076
+ONNX,Frameworks & Libraries,include,False,49,51,0.0076
 Wireshark,Software & Tools,include,False,49,65,0.0076
 Appium,Frameworks & Libraries,include,False,49,55,0.0076
 MLflow,Software & Tools,include,False,49,53,0.0076
-ONNX,Frameworks & Libraries,include,False,49,51,0.0076
+Network Automation,Technical Practices,include,False,49,51,0.0076
 Pinecone,Platforms & Infrastructure,include,False,48,120,0.0074
 Vertex AI,Platforms & Infrastructure,include,False,48,52,0.0074
 GKE,Platforms & Infrastructure,include,False,47,64,0.0073
@@ -299,121 +305,136 @@ Rails,Frameworks & Libraries,include,False,47,57,0.0073
 MATLAB,Programming Languages,include,False,46,58,0.0071
 Pytest,Frameworks & Libraries,include,False,45,55,0.007
 MuleSoft,Software & Tools,include,False,45,66,0.007
-JFrog Artifactory,Software & Tools,include,False,44,62,0.0068
 Flask,Frameworks & Libraries,include,False,44,65,0.0068
-Visio,Software & Tools,include,False,42,145,0.0065
+JFrog Artifactory,Software & Tools,include,False,44,62,0.0068
 Kinesis,Platforms & Infrastructure,include,False,42,47,0.0065
 Flutter,Frameworks & Libraries,include,False,42,47,0.0065
 Dynatrace,Software & Tools,include,False,42,42,0.0065
+Visio,Software & Tools,include,False,42,145,0.0065
 Oracle RMAN,Software & Tools,include,False,41,71,0.0063
 IaaS,Technical Concepts,include,False,40,47,0.0062
+SNS,Platforms & Infrastructure,include,False,40,50,0.0062
 Xcode,Software & Tools,include,False,39,41,0.006
 Figma,Software & Tools,include,False,39,54,0.006
-Event-Driven Architecture,Technical Concepts,include,False,38,42,0.0059
 Kibana,Software & Tools,include,False,38,53,0.0059
+Event-Driven Architecture,Technical Concepts,include,False,38,42,0.0059
 Istio,Platforms & Infrastructure,include,False,37,47,0.0057
 Tenable,Software & Tools,include,False,37,40,0.0057
 Ceph,Platforms & Infrastructure,include,False,36,42,0.0056
-Okta,Platforms & Infrastructure,include,False,35,49,0.0054
-PHP,Programming Languages,include,False,35,36,0.0054
-HPC,Technical Concepts,include,False,35,35,0.0054
 Nessus,Software & Tools,include,False,35,37,0.0054
+PHP,Programming Languages,include,False,35,36,0.0054
 Maven,Software & Tools,include,False,35,57,0.0054
+Okta,Platforms & Infrastructure,include,False,35,49,0.0054
+HPC,Technical Concepts,include,False,35,35,0.0054
+k6,Software & Tools,include,False,34,36,0.0053
+Weaviate,Platforms & Infrastructure,include,False,34,106,0.0053
 Webpack,Software & Tools,include,False,34,46,0.0053
 Dagster,Frameworks & Libraries,include,False,34,39,0.0053
-Weaviate,Platforms & Infrastructure,include,False,34,106,0.0053
-k6,Software & Tools,include,False,34,36,0.0053
-Copado,Software & Tools,include,False,33,38,0.0051
-Toad,Software & Tools,include,False,33,34,0.0051
+SAP HANA,Platforms & Infrastructure,include,False,34,41,0.0053
 Experiment Tracking,Technical Practices,include,False,33,35,0.0051
 Llama,Software & Tools,include,False,33,100,0.0051
-Batch Processing,Technical Practices,include,False,32,34,0.005
-CircleCI,Software & Tools,include,False,32,38,0.005
+Copado,Software & Tools,include,False,33,38,0.0051
+Toad,Software & Tools,include,False,33,34,0.0051
 Keras,Frameworks & Libraries,include,False,32,38,0.005
-Alteryx,Software & Tools,include,False,32,46,0.005
+Batch Processing,Technical Practices,include,False,32,34,0.005
 Ubuntu,Platforms & Infrastructure,include,False,32,44,0.005
 Terragrunt,Software & Tools,include,False,32,43,0.005
-Vite,Software & Tools,include,False,31,43,0.0048
+Visual Studio,Software & Tools,include,False,32,33,0.005
+CircleCI,Software & Tools,include,False,32,38,0.005
+Alteryx,Software & Tools,include,False,32,46,0.005
+Azure Synapse,Platforms & Infrastructure,include,False,31,50,0.0048
+KQL,Programming Languages,include,False,31,32,0.0048
 NiFi,Software & Tools,include,False,31,38,0.0048
 Objective-C,Programming Languages,include,False,31,51,0.0048
-KQL,Programming Languages,include,False,31,32,0.0048
+Vite,Software & Tools,include,False,31,43,0.0048
 Seaborn,Frameworks & Libraries,include,False,30,31,0.0046
-Apache Cassandra,Platforms & Infrastructure,include,False,30,30,0.0046
 Wireless Networking,Technical Concepts,include,False,30,32,0.0046
-Trino,Platforms & Infrastructure,include,False,30,30,0.0046
+Apache Cassandra,Platforms & Infrastructure,include,False,30,30,0.0046
 Karate,Software & Tools,include,False,30,39,0.0046
+Trino,Platforms & Infrastructure,include,False,30,30,0.0046
 Bootstrap,Frameworks & Libraries,include,False,30,47,0.0046
-Athena,Platforms & Infrastructure,include,False,29,36,0.0045
-Flink,Frameworks & Libraries,include,False,29,41,0.0045
 SonarQube,Software & Tools,include,False,29,40,0.0045
-Matplotlib,Frameworks & Libraries,include,False,29,31,0.0045
+Flink,Frameworks & Libraries,include,False,29,41,0.0045
 ActiveMQ,Platforms & Infrastructure,include,False,29,30,0.0045
-OneLake,Platforms & Infrastructure,include,False,28,34,0.0043
-KMS,Platforms & Infrastructure,include,False,28,30,0.0043
+Athena,Platforms & Infrastructure,include,False,29,36,0.0045
+Matplotlib,Frameworks & Libraries,include,False,29,31,0.0045
+Ruby on Rails,Frameworks & Libraries,include,False,29,34,0.0045
 Groovy,Programming Languages,include,False,28,35,0.0043
 Power Apps,Software & Tools,include,False,28,29,0.0043
+OneLake,Platforms & Infrastructure,include,False,28,34,0.0043
+KMS,Platforms & Infrastructure,include,False,28,30,0.0043
 Sentry,Software & Tools,include,False,28,33,0.0043
-JAX,Frameworks & Libraries,include,False,27,30,0.0042
 New Relic,Software & Tools,include,False,27,28,0.0042
-ASP.NET,Frameworks & Libraries,include,False,26,29,0.004
+JAX,Frameworks & Libraries,include,False,27,30,0.0042
+Azure Functions,Platforms & Infrastructure,include,False,26,28,0.004
 SPSS,Software & Tools,include,False,26,27,0.004
+ASP.NET,Frameworks & Libraries,include,False,26,29,0.004
+Nginx,Platforms & Infrastructure,include,False,25,29,0.0039
 LangSmith,Software & Tools,include,False,25,30,0.0039
 Zustand,Frameworks & Libraries,include,False,25,27,0.0039
-VBA,Programming Languages,include,False,25,31,0.0039
-Nginx,Platforms & Infrastructure,include,False,25,29,0.0039
 Nutanix,Platforms & Infrastructure,include,False,25,26,0.0039
 ACAS,Software & Tools,include,False,25,27,0.0039
+AWS CDK,Platforms & Infrastructure,include,False,25,31,0.0039
+VBA,Programming Languages,include,False,25,31,0.0039
 Storybook,Software & Tools,include,False,24,25,0.0037
-Rancher,Platforms & Infrastructure,include,False,23,28,0.0036
-AutoGen,Frameworks & Libraries,include,False,23,24,0.0036
 pgvector,Platforms & Infrastructure,include,False,23,32,0.0036
-Jupyter,Software & Tools,include,False,22,25,0.0034
+AutoGen,Frameworks & Libraries,include,False,23,24,0.0036
+Rancher,Platforms & Infrastructure,include,False,23,28,0.0036
 Zscaler,Platforms & Infrastructure,include,False,22,24,0.0034
+Jupyter,Software & Tools,include,False,22,25,0.0034
+SAP Fiori,Platforms & Infrastructure,include,False,22,33,0.0034
+Gearset,Software & Tools,include,False,21,23,0.0033
 SSMS,Software & Tools,include,False,21,22,0.0033
 Boomi,Software & Tools,include,False,21,53,0.0033
 XGBoost,Frameworks & Libraries,include,False,21,28,0.0033
 Nagios,Software & Tools,include,False,21,28,0.0033
-Gearset,Software & Tools,include,False,21,23,0.0033
+ggplot2,Frameworks & Libraries,include,False,20,21,0.0031
+jQuery,Frameworks & Libraries,include,False,20,37,0.0031
 TestRail,Software & Tools,include,False,20,20,0.0031
 HashiCorp Vault,Platforms & Infrastructure,include,False,20,24,0.0031
+Entity Framework,Frameworks & Libraries,include,False,20,21,0.0031
 ClickHouse,Platforms & Infrastructure,include,False,20,22,0.0031
-ggplot2,Frameworks & Libraries,include,False,20,21,0.0031
-OpenTofu,Platforms & Infrastructure,include,False,19,20,0.0029
 Talend,Software & Tools,include,False,19,20,0.0029
+OpenTofu,Platforms & Infrastructure,include,False,19,20,0.0029
 PagerDuty,Software & Tools,include,False,19,22,0.0029
-Dart,Programming Languages,include,False,18,21,0.0028
-Collibra,Software & Tools,include,False,18,25,0.0028
 SciPy,Frameworks & Libraries,include,False,18,20,0.0028
+Dart,Programming Languages,include,False,18,21,0.0028
+SAP ECC,Platforms & Infrastructure,include,False,18,19,0.0028
+Collibra,Software & Tools,include,False,18,25,0.0028
+AWS ECS,Platforms & Infrastructure,include,False,18,21,0.0028
+Keycloak,Software & Tools,include,False,17,17,0.0026
 Gatling,Software & Tools,include,False,17,17,0.0026
 Prefect,Frameworks & Libraries,include,False,17,23,0.0026
-Keycloak,Software & Tools,include,False,17,17,0.0026
 Xray,Software & Tools,include,False,17,28,0.0026
-RxJS,Frameworks & Libraries,include,False,16,17,0.0025
-Hibernate,Frameworks & Libraries,include,False,16,19,0.0025
+Material UI,Frameworks & Libraries,include,False,16,18,0.0025
 Cloudflare,Platforms & Infrastructure,include,False,16,18,0.0025
-PL/pgSQL,Programming Languages,include,False,15,15,0.0023
+Robot Framework,Frameworks & Libraries,include,False,16,18,0.0025
+RxJS,Frameworks & Libraries,include,False,16,17,0.0025
+SAP FI,Platforms & Infrastructure,include,False,16,17,0.0025
+Hibernate,Frameworks & Libraries,include,False,16,19,0.0025
 Fortify,Software & Tools,include,False,15,15,0.0023
 Notion,Software & Tools,include,False,15,25,0.0023
-ABAP,Programming Languages,include,False,14,17,0.0022
+PL/pgSQL,Programming Languages,include,False,15,15,0.0023
 Domo,Software & Tools,include,False,14,16,0.0022
+Amplitude,Software & Tools,include,False,14,18,0.0022
+ABAP,Programming Languages,include,False,14,17,0.0022
 Salesforce Flow,Platforms & Infrastructure,include,False,14,14,0.0022
 Kubeflow,Software & Tools,include,False,14,18,0.0022
-Metabase,Software & Tools,include,False,14,15,0.0022
-Amplitude,Software & Tools,include,False,14,18,0.0022
 MicroStrategy,Software & Tools,include,False,14,17,0.0022
 NUnit,Frameworks & Libraries,include,False,14,16,0.0022
+Metabase,Software & Tools,include,False,14,15,0.0022
 Apache Iceberg,Platforms & Infrastructure,include,False,13,13,0.002
-Crossplane,Platforms & Infrastructure,include,False,12,15,0.0019
 Alation,Software & Tools,include,False,12,12,0.0019
 K9s,Software & Tools,include,False,12,12,0.0019
+Crossplane,Platforms & Infrastructure,include,False,12,15,0.0019
 Streamlit,Frameworks & Libraries,include,False,11,13,0.0017
 Apache Superset,Software & Tools,include,False,11,15,0.0017
-Svelte,Frameworks & Libraries,include,False,10,10,0.0015
-Packer,Software & Tools,include,False,10,11,0.0015
-Neo4j,Platforms & Infrastructure,include,False,10,30,0.0015
 Eclipse,Software & Tools,include,False,10,13,0.0015
-SOAP API,Technical Concepts,include,False,10,13,0.0015
+Svelte,Frameworks & Libraries,include,False,10,10,0.0015
+Neo4j,Platforms & Infrastructure,include,False,10,30,0.0015
 Pydantic,Frameworks & Libraries,include,False,10,18,0.0015
+SOAP API,Technical Concepts,include,False,10,13,0.0015
+Packer,Software & Tools,include,False,10,11,0.0015
 Mixpanel,Software & Tools,include,False,9,9,0.0014
 spaCy,Frameworks & Libraries,include,False,9,12,0.0014
 Word2vec,Technical Concepts,include,False,7,7,0.0011

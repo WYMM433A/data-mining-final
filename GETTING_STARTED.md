@@ -12,7 +12,7 @@ walkthrough in between those two.
 ## 1. The big picture
 
 We scraped ~10,000 US IT job postings from LinkedIn, cleaned the text, built a dictionary of
-**419 canonical technical skills**, extracted which skills appear in which posting, validated
+**440 canonical technical skills**, extracted which skills appear in which posting, validated
 that extraction against human judgment, and turned the result into a **Job × Skill matrix** —
 one row per job posting, one 0/1 column per skill. That matrix is the input to four analyses
 (association rules, similarity, clustering, and a decision-tree classifier) that haven't been
@@ -52,10 +52,12 @@ chain helps explain why the final files look the way they do.
    fixed real problems found along the way (duplicate entries, a split `AWS`/`Amazon Web
    Services`, ambiguous abbreviations, generic words like "cloud" or "testing" masquerading as
    skills), and added skills that were missing but clearly present in the text (e.g. `Data
-   Quality`, `Prompt Engineering`, `Incident Response`). Landed on **419 skills across 6
-   categories** (Programming Languages, Frameworks & Libraries, Platforms & Infrastructure,
-   Software & Tools, Technical Concepts, Technical Practices).
-6. **Extraction** — scanned every unique description for each of the 419 skills and their known
+   Quality`, `Prompt Engineering`, `Incident Response`). A later cross-check against an external
+   technology taxonomy added 21 more confirmed-real skills (e.g. `Active Directory`, `Azure SQL`,
+   `React Native`). Landed on **440 skills across 6 categories** (Programming Languages,
+   Frameworks & Libraries, Platforms & Infrastructure, Software & Tools, Technical Concepts,
+   Technical Practices).
+6. **Extraction** — scanned every unique description for each of the 440 skills and their known
    aliases (e.g. "K8s" → `Kubernetes`), using word-boundary matching plus extra rules for
    ambiguous terms (a bare "R" or "Go" needs surrounding context to count) and a few negative
    checks (e.g. `Artificial Intelligence (AI)` doesn't count a hiring-disclosure boilerplate
@@ -88,28 +90,28 @@ One row per unique job posting (reposts already collapsed). Columns:
 - `job_family` — one of `ai_ml`, `cloud_devops`, `cyber_network`, `data_bi`, `database_data`,
   `enterprise_it`, `qa_testing`, `software` — **this is your RQ4 classification target.** Never
   use it as a feature for clustering/rules/similarity, only as a label to check results against.
-- **391 skill columns**, each 0 or 1 (e.g. `Python`, `AWS`, `Docker`, `Machine_Learning`). Spaces
+- **412 skill columns**, each 0 or 1 (e.g. `Python`, `AWS`, `Docker`, `Machine_Learning`). Spaces
   and slashes in skill names were replaced with `_` and `-` so they're valid column names.
 
 **Concrete example — row 1 of the file is job `4487789285`, titled "Data Scientist, Mid"
 (`ai_ml` family), with 15 skills turned on:** `Artificial Intelligence (AI)`, `Data Analytics`,
 `Data Quality`, `Data Science`, `Data Visualization`, `Databricks`, `ETL/ELT`, `Machine
 Learning`, `Power BI`, `PySpark`, `Python`, `Qlik`, `SQL`, `Spark`, `Tableau` — everything else is
-0 for that row. That's the shape of every row: a sparse 0/1 vector over 391 possible skills.
+0 for that row. That's the shape of every row: a sparse 0/1 vector over 412 possible skills.
 
-**6,125 rows × 391 columns, density ~3.7%** — meaning on average each posting has about 14–15 of
-the 391 skills marked, and the rest are 0. That sparsity is expected and normal for this kind of
+**6,135 rows × 412 columns, density ~3.5%** — meaning on average each posting has about 13–14 of
+the 412 skills marked, and the rest are 0. That sparsity is expected and normal for this kind of
 data (see `matrix_summary.txt` for exact stats).
 
 ### `job_skill_matrix_listing_level.csv` — the "did deduplication matter?" check view
-Same 391 columns, same structure, but **one row per individual posting including reposts**
-(8,363 rows). The project plan asks you to run your main analyses on this too and report whether
+Same 412 columns, same structure, but **one row per individual posting including reposts**
+(8,373 rows). The project plan asks you to run your main analyses on this too and report whether
 results change — it exists specifically for that comparison, not as a second primary dataset.
 
 ### `skill_shortlist_final.csv` — the skill dictionary
 Look up a skill's **category** here when you need to group columns (e.g. "show me only
 Programming Languages skills"). Columns: `canonical_skill`, `category`, `total_doc_freq`
-(how often it appeared, aggregate), `mining_status` (`include` = one of the 391 matrix columns),
+(how often it appeared, aggregate), `mining_status` (`include` = one of the 412 matrix columns),
 `family_adjacent`, `parent`. Example:
 
 | canonical_skill | category | mining_status |
@@ -118,14 +120,14 @@ Programming Languages skills"). Columns: `canonical_skill`, `category`, `total_d
 | AWS | Platforms & Infrastructure | include |
 | Docker | Platforms & Infrastructure | include |
 
-Category breakdown of the 419 skills actually used in mining:
+Category breakdown of the 440 skills actually used in mining:
 
 | Category | Count |
 |---|---|
-| Software & Tools | 99 |
-| Platforms & Infrastructure | 97 |
-| Technical Concepts | 67 |
-| Frameworks & Libraries | 65 |
+| Platforms & Infrastructure | 108 |
+| Software & Tools | 100 |
+| Frameworks & Libraries | 72 |
+| Technical Concepts | 69 |
 | Technical Practices | 53 |
 | Programming Languages | 38 |
 
@@ -159,7 +161,7 @@ family. Check this first if you just want a sanity check before loading the full
 ## 4. What to open next, by research question
 
 All four analyses start the same way: load `job_skill_matrix_description_level.csv`, set aside
-`job_id` / `description_group_id` / `job_family` as metadata (never as features), and use the 391
+`job_id` / `description_group_id` / `job_family` as metadata (never as features), and use the 412
 skill columns as your binary feature matrix.
 
 ```python
@@ -168,7 +170,7 @@ import pandas as pd
 df = pd.read_csv("outputs/09_job_skill_matrix/job_skill_matrix_description_level.csv")
 meta_cols = ["job_id", "description_group_id", "job_family"]
 skill_cols = [c for c in df.columns if c not in meta_cols]
-X = df[skill_cols]          # 6,125 x 391 binary matrix — your actual feature data
+X = df[skill_cols]          # 6,135 x 412 binary matrix — your actual feature data
 labels = df["job_family"]   # only for RQ4 evaluation, never a feature
 ```
 
@@ -192,7 +194,7 @@ results change — that's the dedup-sensitivity check the project plan asks for.
 
 ## 5. Things worth knowing before you dig in
 
-- **The two matrix views share the exact same 391 columns**, computed once from the
+- **The two matrix views share the exact same 412 columns**, computed once from the
   deduplicated population — they're directly comparable, by design.
 - **The dictionary is hand-curated and evidence-checked**, not a generic off-the-shelf skill
   list. Every merge, split, or addition was checked against real posting text first. If something
@@ -203,8 +205,9 @@ results change — that's the dedup-sensitivity check the project plan asks for.
   skill in the matrix (appears in ~51% of postings) and some of those hits are real false
   positives from company branding ("Shield AI") or vague marketing language — confirmed by two
   independent validation rounds, not something to chase further.
-- **Validation (93.3% F1) was scored against an earlier, slightly smaller dictionary** (372
-  skills vs. the current 419) — treat it as representative of overall pipeline quality, not a
-  literal up-to-the-minute number.
+- **Validation (93.3% F1) was scored against an earlier, smaller dictionary** (372 skills vs. the
+  current 440 — the dictionary has grown twice since, once from an evidence-based category audit
+  and once from an external technology-taxonomy cross-check) — treat it as representative of
+  overall pipeline quality, not a literal up-to-the-minute number.
 - **Nothing in `outputs/` is meant to be hand-edited.** If a number looks wrong, the fix belongs
   in the script that generates that file, followed by rerunning it — not a manual CSV edit.

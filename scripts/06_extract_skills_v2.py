@@ -213,6 +213,9 @@ SUPPRESS_WHEN_PART_OF = {
     "DevOps": re.compile(r"\bAzure\s+DevOps\b", re.I),
     "Spring": re.compile(r"\bSpring\s+Boot\b", re.I),
     "Artificial Intelligence (AI)": re.compile(r"\bVertex\s+AI\b", re.I),
+    # "Visual Studio Code" is a different, much more common, lightweight editor -
+    # not the full "Visual Studio" IDE. 18 of 48 raw mentions were this compound.
+    "Visual Studio": re.compile(r"\bVisual\s+Studio\s+Code\b", re.I),
 }
 
 
