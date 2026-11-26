@@ -14,9 +14,12 @@ skill requirements.
 | RQ3 | Do postings form recurring skill-based profiles when titles are ignored? |
 | RQ4 | How well do conventional job titles represent the actual skill requirements? |
 
+**New to this repo? Start with [GETTING_STARTED.md](./GETTING_STARTED.md)** — a walkthrough of
+what's been done, how to read the data files, and exactly what to open next for RQ1–4.
+
 The full plan — methods, owners, timeline, dashboard design, report outline, study references —
-is in [IT_Job_Market_Project_Plan_v2.md](./IT_Job_Market_Project_Plan_v2.md). **Read that file first**;
-this README is only a quick entry point and a current-status summary.
+is in [IT_Job_Market_Project_Plan_v2.md](./IT_Job_Market_Project_Plan_v2.md). This README is only
+a quick entry point and a current-status summary.
 
 ## Current status
 
